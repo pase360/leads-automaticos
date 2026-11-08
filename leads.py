@@ -18,8 +18,8 @@ ODOO_USER = os.environ.get('ODOO_USER', '').strip()
 ODOO_KEY = os.environ.get('ODOO_KEY', '').strip()
 ODOO_ETAPA = os.environ.get('ODOO_ETAPA', '').strip()
 ODOO_EMPRESA = os.environ.get('ODOO_EMPRESA', '').strip()
-CALLMEBOT_KEY = os.environ.get('CALLMEBOT_KEY', '').strip()
-WHATSAPP_TELEFONO = os.environ.get('WHATSAPP_TELEFONO', '').strip()
+TELEGRAM_TOKEN = os.environ.get('TELEGRAM_TOKEN', '').strip()
+TELEGRAM_CHAT_ID = os.environ.get('TELEGRAM_CHAT_ID', '').strip()
 DRY_RUN = os.environ.get('DRY_RUN', '0') == '1'
 
 CIUDAD = 'Córdoba, Argentina'
@@ -419,14 +419,14 @@ class Odoo:
 
 
 def avisar(texto):
-    if not WHATSAPP_TELEFONO or not CALLMEBOT_KEY:
+    if not TELEGRAM_TOKEN or not TELEGRAM_CHAT_ID:
         return
     try:
-        url = 'https://api.callmebot.com/whatsapp.php?' + urllib.parse.urlencode(
-            {'phone': WHATSAPP_TELEFONO, 'text': texto, 'apikey': CALLMEBOT_KEY})
-        http_get(url, 20)
+        datos = urllib.parse.urlencode({'chat_id': TELEGRAM_CHAT_ID, 'text': texto}).encode('utf-8')
+        req = urllib.request.Request('https://api.telegram.org/bot' + TELEGRAM_TOKEN + '/sendMessage', data=datos)
+        urllib.request.urlopen(req, timeout=20).read()
     except Exception as e:
-        print('No se pudo enviar el aviso de WhatsApp: %s' % e)
+        print('No se pudo enviar el aviso de Telegram: %s' % e)
 
 
 def principal():
