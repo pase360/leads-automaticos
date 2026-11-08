@@ -2,17 +2,20 @@ name: Generar leads
 
 on:
   schedule:
-    - cron: '0 11 * * *'   # 11:00 UTC = 08:00 en Argentina
+    - cron: '0 11 * * *'
   workflow_dispatch:
     inputs:
       prueba:
         description: 'Modo prueba (true = no carga nada en Odoo)'
         default: 'true'
 
+permissions:
+  contents: write
+
 jobs:
   leads:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -21,10 +24,20 @@ jobs:
       - name: Generar y cargar leads
         run: python leads.py
         env:
-          GEOAPIFY_KEY: ${{ secrets.GEOAPIFY_KEY }}
+          SERPER_KEY: ${{ secrets.SERPER_KEY }}
           ODOO_URL: ${{ secrets.ODOO_URL }}
           ODOO_DB: ${{ secrets.ODOO_DB }}
           ODOO_USER: ${{ secrets.ODOO_USER }}
           ODOO_KEY: ${{ secrets.ODOO_KEY }}
           ODOO_ETAPA: ${{ secrets.ODOO_ETAPA }}
+          ODOO_EMPRESA: ${{ secrets.ODOO_EMPRESA }}
+          CALLMEBOT_KEY: ${{ secrets.CALLMEBOT_KEY }}
+          WHATSAPP_TELEFONO: ${{ secrets.WHATSAPP_TELEFONO }}
           DRY_RUN: ${{ github.event.inputs.prueba == 'true' && '1' || '0' }}
+      - name: Guardar historial
+        if: always()
+        run: |
+          git config user.name 'leads-bot'
+          git config user.email 'leads-bot@users.noreply.github.com'
+          git add historial.txt || true
+          git diff --cached --quiet || (git commit -m 'Actualizar historial' && git push)
