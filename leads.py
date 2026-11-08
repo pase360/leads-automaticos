@@ -14,8 +14,8 @@ ODOO_URL = os.environ.get('ODOO_URL', '').strip().rstrip('/')
 ODOO_DB = os.environ.get('ODOO_DB', '').strip()
 ODOO_USER = os.environ.get('ODOO_USER', '').strip()
 ODOO_KEY = os.environ.get('ODOO_KEY', '').strip()
-ODOO_ETAPA = os.environ.get('ODOO_ETAPA', '').strip() # ID de etapa de CRM o flujo
-ODOO_EMPRESA = os.environ.get('ODOO_EMPRESA', '').strip() # ID de tu empresa en Odoo
+ODOO_ETAPA = os.environ.get('ODOO_ETAPA', '').strip() 
+ODOO_EMPRESA = os.environ.get('ODOO_EMPRESA', '').strip() 
 DRY_RUN = os.environ.get('DRY_RUN', '0') == '1'
 
 # Configuración geográfica de búsqueda (Córdoba, Argentina)
@@ -43,37 +43,39 @@ def norm(s):
     return re.sub('[ ]+', ' ', s.lower().strip())
 
 def obtener_datos_osm():
-    """Consulta la API pública y gratuita de Overpass para traer comercios reales"""
-    url = "https://overpass-api.de"
-    
+    """Consulta la API pública de Overpass de forma segura usando GET limpio"""
     condiciones = ""
     for rubro_osm in RUBROS_OSM.values():
         condiciones += f'  node["shop"="{rubro_osm}"]({LAT_MIN},{LON_MIN},{LAT_MAX},{LON_MAX});\n'
         condiciones += f'  node["amenity"="{rubro_osm}"]({LAT_MIN},{LON_MIN},{LAT_MAX},{LON_MAX});\n'
     
-    query = f"""
-    [out:json][timeout:30];
-    (
-    {condiciones}
-    );
-    out body;
-    """
+    query = f"[out:json][timeout:30];\n(\n{condiciones});\nout body;"
     
-    data = urllib.parse.urlencode({'data': query}).encode('utf-8')
-    req = urllib.request.Request(url, data=data, headers={'User-Agent': 'ExtractorLeadsOdoo/2.0'})
+    # Formatear la URL con el query string directo (Evita el error 405)
+    url_base = "https://overpass-api.de"
+    url_completa = f"{url_base}?data={urllib.parse.quote(query)}"
+    
+    # User-Agent real para evitar bloqueos de servidores públicos
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+    }
+    
+    req = urllib.request.Request(url_completa, headers=headers)
     
     try:
+        print("Consultando el mapa de Córdoba...")
         with urllib.request.urlopen(req) as response:
             resultado = json.loads(response.read().decode('utf-8'))
             return resultado.get('elements', [])
     except Exception as e:
-        print(f"Error al obtener datos públicos: {e}")
+        print(f"Error al obtener datos públicos del mapa: {e}")
         return []
 
 def subir_a_odoo(leads):
     """Conecta con Odoo vía XML-RPC e inserta los leads reales"""
     if not all([ODOO_URL, ODOO_DB, ODOO_USER, ODOO_KEY]):
-        print("Faltan configurar variables de entorno de Odoo. Abortando subida.")
+        print("\n[!] ALERTA: Faltan configurar variables de entorno de Odoo.")
+        print("Los datos se obtuvieron bien, pero no se pueden subir a Odoo sin credenciales.")
         return
 
     print(f"Conectando a Odoo en {ODOO_URL}...")
@@ -81,7 +83,7 @@ def subir_a_odoo(leads):
         common = xmlrpc.client.ServerProxy(f'{ODOO_URL}/xmlrpc/2/common')
         uid = common.authenticate(ODOO_DB, ODOO_USER, ODOO_KEY, {})
         if not uid:
-            print("Error de autenticación en Odoo. Verificá usuario y contraseña/API Key.")
+            print("Error de autenticación en Odoo. Verificá base de datos, usuario o API Key.")
             return
         
         models = xmlrpc.client.ServerProxy(f'{ODOO_URL}/xmlrpc/2/object')
@@ -89,38 +91,36 @@ def subir_a_odoo(leads):
         print(f"Error en la conexión XML-RPC con Odoo: {e}")
         return
 
+    print(f"Subiendo {len(leads)} leads a Odoo...")
     for lead in leads:
-        # Mapeo de campos para Odoo (modelo res.partner o crm.lead según necesites)
-        # En este caso se asume la creación de Iniciativas/Oportunidades (crm.lead)
         payload = {
             'name': f"{lead['nombre']} - {lead['rubro']}",
             'partner_name': lead['nombre'],
             'street': lead['direccion'],
             'city': 'Córdoba',
             'phone': lead['telefono'],
-            'description': f"Coordenadas geográficas reales: {lead['coordenadas']}",
+            'description': f"Coordenadas reales de OpenStreetMap: {lead['coordenadas']}",
         }
         
-        # Asignar Etapa y Empresa si están definidas en tus variables de entorno
         if ODOO_ETAPA:
             payload['stage_id'] = int(ODOO_ETAPA)
         if ODOO_EMPRESA:
             payload['company_id'] = int(ODOO_EMPRESA)
 
         if DRY_RUN:
-            print(f"[DRY_RUN] Se crearía en Odoo: {payload['name']} | Tel: {payload['phone']}")
+            print(f"[DRY_RUN] Simulación: {payload['name']} | Dirección: {payload['street']} | Tel: {payload['phone']}")
         else:
             try:
                 lead_id = models.execute_kw(ODOO_DB, uid, ODOO_KEY, 'crm.lead', 'create', [payload])
-                print(f"Lead creado exitosamente en Odoo con ID: {lead_id}")
-                time.sleep(0.5) # Pausa leve para evitar saturar el servidor
+                print(f"Creado con éxito -> ID: {lead_id} ({lead['nombre']})")
+                time.sleep(0.3)
             except Exception as e:
-                print(f"Error al insertar el lead {lead['nombre']} en Odoo: {e}")
+                print(f"No se pudo insertar {lead['nombre']}: {e}")
 
 def procesar_leads():
     elementos = obtener_datos_osm()
     if not elementos:
-        print("No se recuperaron comercios del mapa.")
+        print("No se pudieron recuperar comercios del mapa.")
         return
 
     leads_reales = []
@@ -135,7 +135,6 @@ def procesar_leads():
         altura = tags.get('addr:housenumber', '')
         direccion = f"{calle} {altura}".strip() if calle else "Dirección no especificada"
         
-        # Extrae el teléfono si está cargado por el dueño del local en el mapa
         telefono = tags.get('phone', tags.get('contact:phone', 'Sin teléfono registrado'))
         
         tipo_comercio = tags.get('shop', tags.get('amenity', 'Otros'))
@@ -149,7 +148,7 @@ def procesar_leads():
             'coordenadas': f"{el.get('lat')}, {el.get('lon')}"
         })
 
-    print(f"Se procesaron {len(leads_reales)} comercios reales listos para procesar.")
+    print(f"¡Éxito! Se encontraron {len(leads_reales)} comercios reales en Córdoba.")
     subir_a_odoo(leads_reales)
 
 if __name__ == "__main__":
