@@ -1,4 +1,4 @@
-# Genera 50 leads por corrida (45 comercios + 5 instituciones) y los carga en Odoo.
+ Genera 50 leads por corrida (45 comercios + 5 instituciones) y los carga en Odoo.
 # Solo usa la libreria estandar de Python: no hay nada que instalar.
 import json
 import os
@@ -10,7 +10,7 @@ import unicodedata
 import urllib.error
 import urllib.parse
 import urllib.request
-
+ 
 # ---------- Configuracion (las claves vienen de los Secrets de GitHub) ----------
 GEOAPIFY_KEY = os.environ.get('GEOAPIFY_KEY', '').strip()
 ODOO_URL = os.environ.get('ODOO_URL', '').strip().rstrip('/')
@@ -18,19 +18,20 @@ ODOO_DB = os.environ.get('ODOO_DB', '').strip()
 ODOO_USER = os.environ.get('ODOO_USER', '').strip()
 ODOO_KEY = os.environ.get('ODOO_KEY', '').strip()
 ODOO_ETAPA = os.environ.get('ODOO_ETAPA', '').strip()
+ODOO_EMPRESA = os.environ.get('ODOO_EMPRESA', '').strip()  # opcional: nombre exacto de la empresa
 DRY_RUN = os.environ.get('DRY_RUN', '0') == '1'
-
+ 
 CIUDAD = 'Córdoba, Argentina'
 CENTRO = (-31.4201, -64.1888)  # latitud, longitud del centro de la ciudad
 CARACTERISTICA = '351'  # caracteristica telefonica de la ciudad
 TOTAL_COMERCIOS = 45
 TOTAL_INSTITUCIONES = 5
 MAX_COMBOS = 120  # cuantas combinaciones barrio + rubro como maximo se consultan
-
+ 
 BARRIOS = ['Alberdi', 'Nueva Córdoba', 'Centro', 'General Paz', 'Güemes', 'Cofico',
            'San Vicente', 'Alta Córdoba', 'Observatorio', 'Cerro de las Rosas',
            'Villa Cabrera', 'Jardín', 'Urca', 'Pueyrredón', 'Alto Alberdi', 'Providencia']
-
+ 
 # [nombre del rubro, categoria de Geoapify]. Si alguna categoria no existe, el script la saltea y avisa.
 RUBROS = [
     ['Carnicería', 'commercial.food_and_drink.butcher'],
@@ -46,26 +47,26 @@ RUBROS = [
     ['Florería', 'commercial.florist'],
     ['Óptica', 'commercial.health_and_beauty.optician'],
 ]
-
+ 
 PALABRAS_INSTITUCION = ['sindicato', 'asociacion', 'colegio', 'camara', 'federacion',
                         'mutual', 'cooperativa', 'universidad', 'club', 'gremio', 'union']
-
-
+ 
+ 
 # ---------- Utilidades ----------
 def norm(s):
     s = unicodedata.normalize('NFKD', s or '')
     s = ''.join(c for c in s if not unicodedata.combining(c))
     return re.sub('[ ]+', ' ', s.lower().strip())
-
-
+ 
+ 
 def http_get(url, timeout=15):
     req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'})
     with urllib.request.urlopen(req, timeout=timeout) as r:
         data = r.read(600000)
         charset = r.headers.get_content_charset() or 'utf-8'
     return data.decode(charset, errors='ignore')
-
-
+ 
+ 
 def geo(path, params):
     p = dict(params)
     p['apiKey'] = GEOAPIFY_KEY
@@ -82,21 +83,21 @@ def geo(path, params):
         except Exception:
             time.sleep(1)
     return {'_error': 0}
-
-
+ 
+ 
 class Vistos:
     # Recuerda lo ya cargado (en Odoo) y lo elegido en esta corrida, para no repetir.
-
+ 
     def __init__(self):
         self.claves = set()
         self.tels = set()
         self.mails = set()
-
+ 
     @staticmethod
     def _tel(t):
         d = re.sub('[^0-9]', '', t or '')
         return d[-8:] if len(d) >= 8 else ''
-
+ 
     def dup(self, l):
         if norm(l.get('nombre')) + '|' + norm(l.get('direccion')) in self.claves:
             return True
@@ -105,7 +106,7 @@ class Vistos:
             return True
         m = (l.get('email') or '').lower()
         return bool(m and m in self.mails)
-
+ 
     def add(self, l):
         self.claves.add(norm(l.get('nombre')) + '|' + norm(l.get('direccion')))
         t = self._tel(l.get('telefono'))
@@ -114,8 +115,8 @@ class Vistos:
         m = (l.get('email') or '').lower()
         if m:
             self.mails.add(m)
-
-
+ 
+ 
 # ---------- Geoapify ----------
 def sacar(pr, claves):
     c = pr.get('contact') or {}
@@ -125,8 +126,8 @@ def sacar(pr, claves):
         if v:
             return str(v)
     return ''
-
-
+ 
+ 
 def clasificar(datos, rubro, barrio, etiqueta):
     con, sin = [], []
     for f in (datos.get('features') or []):
@@ -146,19 +147,19 @@ def clasificar(datos, rubro, barrio, etiqueta):
         }
         (con if (l['telefono'] or l['email']) else sin).append(l)
     return con, sin
-
-
+ 
+ 
 _coords = {}
-
-
+ 
+ 
 def coordenadas(barrio):
     if barrio not in _coords:
         d = geo('/v1/geocode/search', {'text': barrio + ', ' + CIUDAD, 'limit': 1, 'format': 'json'})
         res = d.get('results') or []
         _coords[barrio] = (res[0].get('lat'), res[0].get('lon')) if res else CENTRO
     return _coords[barrio]
-
-
+ 
+ 
 # ---------- Rescate de contactos desde la web ----------
 def extraer_contacto(html, nombre, tiene_web):
     html = (html or '')[:400000]
@@ -188,8 +189,8 @@ def extraer_contacto(html, nombre, tiene_web):
         mail = e
         break
     return tel, mail
-
-
+ 
+ 
 def rescatar(pendientes, faltan, vistos):
     cand = [p for p in pendientes if not vistos.dup(p)]
     random.shuffle(cand)
@@ -215,8 +216,8 @@ def rescatar(pendientes, faltan, vistos):
                 logrados.append(p)
         time.sleep(1)
     return logrados
-
-
+ 
+ 
 # ---------- Armado de la lista ----------
 def buscar_comercios(vistos):
     combos = [(b, r) for b in BARRIOS for r in RUBROS]
@@ -256,8 +257,8 @@ def buscar_comercios(vistos):
         print('Comercios rescatados leyendo webs o buscando en internet: %d' % len(rescatados))
         elegidos.extend(rescatados)
     return elegidos
-
-
+ 
+ 
 def buscar_instituciones(vistos):
     base = {'categories': 'office.association,office.company',
             'filter': 'circle:%s,%s,10000' % (CENTRO[1], CENTRO[0]), 'limit': 50}
@@ -271,11 +272,11 @@ def buscar_instituciones(vistos):
         con, sin = clasificar(d, 'Institución', CIUDAD.split(',')[0], 'GENERADORES')
         if con or sin:
             break
-
+ 
     def prioridad(l):
         n = norm(l['nombre'])
         return 0 if any(w in n for w in PALABRAS_INSTITUCION) else 1
-
+ 
     random.shuffle(con)
     con = [l for l in con if not vistos.dup(l)]
     con.sort(key=prioridad)
@@ -291,15 +292,25 @@ def buscar_instituciones(vistos):
         elegidos.extend(rescatar(sin, TOTAL_INSTITUCIONES - len(elegidos), vistos))
     print('Instituciones: %d' % len(elegidos))
     return elegidos
-
-
+ 
+ 
 # ---------- Odoo ----------
 class Odoo:
     def __init__(self):
         self.uid = self.rpc('common', 'authenticate', [ODOO_DB, ODOO_USER, ODOO_KEY, {}])
         if not self.uid:
             raise RuntimeError('Odoo rechazó el acceso. Revisá ODOO_DB, ODOO_USER y ODOO_KEY.')
-
+        self.company = None
+        self.ctx = {}
+        if ODOO_EMPRESA:
+            r = self.ejecutar('res.company', 'search_read', [[['name', '=', ODOO_EMPRESA]]], {'fields': ['id'], 'limit': 1})
+            if not r:
+                todas = self.ejecutar('res.company', 'search_read', [[]], {'fields': ['name']})
+                raise RuntimeError('No existe la empresa «%s». Las empresas a las que tiene acceso el usuario son: %s' % (ODOO_EMPRESA, ', '.join(x['name'] for x in todas)))
+            self.company = r[0]['id']
+            self.ctx = {'allowed_company_ids': [self.company]}
+            print('Empresa de Odoo: %s' % ODOO_EMPRESA)
+ 
     def rpc(self, service, method, args):
         cuerpo = {'jsonrpc': '2.0', 'method': 'call', 'params': {'service': service, 'method': method, 'args': args}, 'id': 1}
         req = urllib.request.Request(ODOO_URL + '/jsonrpc', data=json.dumps(cuerpo).encode('utf-8'),
@@ -309,27 +320,33 @@ class Odoo:
         if res.get('error'):
             raise RuntimeError('Error de Odoo: ' + str((res['error'].get('data') or {}).get('message') or res['error'].get('message')))
         return res.get('result')
-
+ 
     def ejecutar(self, modelo, metodo, args, kwargs=None):
-        return self.rpc('object', 'execute_kw', [ODOO_DB, self.uid, ODOO_KEY, modelo, metodo, args, kwargs or {}])
-
+        kw = dict(kwargs or {})
+        if self.ctx and modelo != 'res.company':
+            ctx = dict(kw.get('context') or {})
+            ctx.update(self.ctx)
+            kw['context'] = ctx
+        return self.rpc('object', 'execute_kw', [ODOO_DB, self.uid, ODOO_KEY, modelo, metodo, args, kw])
+ 
     def etapa_id(self):
         r = self.ejecutar('crm.stage', 'search_read', [[['name', '=', ODOO_ETAPA]]], {'fields': ['id'], 'limit': 1})
         if not r:
             todas = self.ejecutar('crm.stage', 'search_read', [[]], {'fields': ['name']})
             raise RuntimeError('No existe la etapa «%s». Las etapas que hay son: %s' % (ODOO_ETAPA, ', '.join(x['name'] for x in todas)))
         return r[0]['id']
-
+ 
     def tag_id(self, nombre):
         r = self.ejecutar('crm.tag', 'search_read', [[['name', '=', nombre]]], {'fields': ['id'], 'limit': 1})
         if r:
             return r[0]['id']
         return self.ejecutar('crm.tag', 'create', [{'name': nombre}])
-
+ 
     def cargar_vistos(self, vistos):
         offset = 0
         while True:
-            filas = self.ejecutar('crm.lead', 'search_read', [[]], {
+            dominio = [['company_id', '=', self.company]] if self.company else []
+            filas = self.ejecutar('crm.lead', 'search_read', [dominio], {
                 'fields': ['name', 'street', 'phone', 'email_from'], 'limit': 2000, 'offset': offset,
                 'context': {'active_test': False}})
             for f in filas:
@@ -339,7 +356,7 @@ class Odoo:
                 break
             offset += 2000
         print('Leads que ya existen en Odoo: %d' % len(vistos.claves))
-
+ 
     def crear_lead(self, l, stage, tag):
         vals = {
             'name': l['nombre'],
@@ -352,9 +369,11 @@ class Odoo:
             'type': 'opportunity',
             'description': 'Rubro: ' + (l.get('rubro') or '') + ' | Barrio: ' + (l.get('barrio') or ''),
         }
+        if self.company:
+            vals['company_id'] = self.company
         return self.ejecutar('crm.lead', 'create', [vals])
-
-
+ 
+ 
 def main():
     if not GEOAPIFY_KEY:
         sys.exit('Falta el secreto GEOAPIFY_KEY.')
@@ -367,10 +386,10 @@ def main():
         sys.exit('Faltan secretos de Odoo (ODOO_URL, ODOO_DB, ODOO_USER, ODOO_KEY, ODOO_ETAPA).')
     else:
         print('AVISO: sin datos de Odoo, no se puede evitar repetir leads ya cargados.')
-
+ 
     leads = buscar_comercios(vistos) + buscar_instituciones(vistos)
     print('Total de leads armados: %d' % len(leads))
-
+ 
     cargados, errores = 0, 0
     if DRY_RUN:
         print('PRUEBA: no se carga nada en Odoo. Estos son los leads:')
@@ -386,7 +405,7 @@ def main():
             except Exception as e:
                 errores += 1
                 print('ERROR al cargar %s: %s' % (l['nombre'], e))
-
+ 
     resumen = 'Leads armados: %d | cargados en Odoo: %d | errores: %d | modo prueba: %s' % (len(leads), cargados, errores, 'sí' if DRY_RUN else 'no')
     print(resumen)
     ruta = os.environ.get('GITHUB_STEP_SUMMARY')
@@ -395,7 +414,8 @@ def main():
             f.write('### Resultado' + chr(10) + resumen + chr(10))
     if not DRY_RUN and cargados == 0:
         sys.exit('No se cargó ningún lead.')
-
-
+ 
+ 
 if __name__ == '__main__':
     main()
+ 
