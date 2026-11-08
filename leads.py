@@ -1,5 +1,3 @@
- Genera 50 leads por corrida (45 comercios + 5 instituciones) y los carga en Odoo.
-# Solo usa la libreria estandar de Python: no hay nada que instalar.
 import json
 import os
 import random
@@ -11,28 +9,26 @@ import urllib.error
 import urllib.parse
 import urllib.request
  
-# ---------- Configuracion (las claves vienen de los Secrets de GitHub) ----------
 GEOAPIFY_KEY = os.environ.get('GEOAPIFY_KEY', '').strip()
 ODOO_URL = os.environ.get('ODOO_URL', '').strip().rstrip('/')
 ODOO_DB = os.environ.get('ODOO_DB', '').strip()
 ODOO_USER = os.environ.get('ODOO_USER', '').strip()
 ODOO_KEY = os.environ.get('ODOO_KEY', '').strip()
 ODOO_ETAPA = os.environ.get('ODOO_ETAPA', '').strip()
-ODOO_EMPRESA = os.environ.get('ODOO_EMPRESA', '').strip()  # opcional: nombre exacto de la empresa
+ODOO_EMPRESA = os.environ.get('ODOO_EMPRESA', '').strip()
 DRY_RUN = os.environ.get('DRY_RUN', '0') == '1'
  
 CIUDAD = 'Córdoba, Argentina'
-CENTRO = (-31.4201, -64.1888)  # latitud, longitud del centro de la ciudad
-CARACTERISTICA = '351'  # caracteristica telefonica de la ciudad
+CENTRO = (-31.4201, -64.1888)
+CARACTERISTICA = '351'
 TOTAL_COMERCIOS = 45
 TOTAL_INSTITUCIONES = 5
-MAX_COMBOS = 120  # cuantas combinaciones barrio + rubro como maximo se consultan
+MAX_COMBOS = 120
  
 BARRIOS = ['Alberdi', 'Nueva Córdoba', 'Centro', 'General Paz', 'Güemes', 'Cofico',
            'San Vicente', 'Alta Córdoba', 'Observatorio', 'Cerro de las Rosas',
            'Villa Cabrera', 'Jardín', 'Urca', 'Pueyrredón', 'Alto Alberdi', 'Providencia']
  
-# [nombre del rubro, categoria de Geoapify]. Si alguna categoria no existe, el script la saltea y avisa.
 RUBROS = [
     ['Carnicería', 'commercial.food_and_drink.butcher'],
     ['Panadería', 'commercial.food_and_drink.bakery'],
@@ -51,13 +47,10 @@ RUBROS = [
 PALABRAS_INSTITUCION = ['sindicato', 'asociacion', 'colegio', 'camara', 'federacion',
                         'mutual', 'cooperativa', 'universidad', 'club', 'gremio', 'union']
  
- 
-# ---------- Utilidades ----------
 def norm(s):
     s = unicodedata.normalize('NFKD', s or '')
     s = ''.join(c for c in s if not unicodedata.combining(c))
     return re.sub('[ ]+', ' ', s.lower().strip())
- 
  
 def http_get(url, timeout=15):
     req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'})
@@ -65,7 +58,6 @@ def http_get(url, timeout=15):
         data = r.read(600000)
         charset = r.headers.get_content_charset() or 'utf-8'
     return data.decode(charset, errors='ignore')
- 
  
 def geo(path, params):
     p = dict(params)
@@ -84,9 +76,7 @@ def geo(path, params):
             time.sleep(1)
     return {'_error': 0}
  
- 
 class Vistos:
-    # Recuerda lo ya cargado (en Odoo) y lo elegido en esta corrida, para no repetir.
  
     def __init__(self):
         self.claves = set()
@@ -116,8 +106,6 @@ class Vistos:
         if m:
             self.mails.add(m)
  
- 
-# ---------- Geoapify ----------
 def sacar(pr, claves):
     c = pr.get('contact') or {}
     raw = (pr.get('datasource') or {}).get('raw') or {}
@@ -126,7 +114,6 @@ def sacar(pr, claves):
         if v:
             return str(v)
     return ''
- 
  
 def clasificar(datos, rubro, barrio, etiqueta):
     con, sin = [], []
@@ -148,9 +135,7 @@ def clasificar(datos, rubro, barrio, etiqueta):
         (con if (l['telefono'] or l['email']) else sin).append(l)
     return con, sin
  
- 
 _coords = {}
- 
  
 def coordenadas(barrio):
     if barrio not in _coords:
@@ -159,8 +144,6 @@ def coordenadas(barrio):
         _coords[barrio] = (res[0].get('lat'), res[0].get('lon')) if res else CENTRO
     return _coords[barrio]
  
- 
-# ---------- Rescate de contactos desde la web ----------
 def extraer_contacto(html, nombre, tiene_web):
     html = (html or '')[:400000]
     if not tiene_web:
@@ -190,7 +173,6 @@ def extraer_contacto(html, nombre, tiene_web):
         break
     return tel, mail
  
- 
 def rescatar(pendientes, faltan, vistos):
     cand = [p for p in pendientes if not vistos.dup(p)]
     random.shuffle(cand)
@@ -217,8 +199,6 @@ def rescatar(pendientes, faltan, vistos):
         time.sleep(1)
     return logrados
  
- 
-# ---------- Armado de la lista ----------
 def buscar_comercios(vistos):
     combos = [(b, r) for b in BARRIOS for r in RUBROS]
     random.shuffle(combos)
@@ -258,7 +238,6 @@ def buscar_comercios(vistos):
         elegidos.extend(rescatados)
     return elegidos
  
- 
 def buscar_instituciones(vistos):
     base = {'categories': 'office.association,office.company',
             'filter': 'circle:%s,%s,10000' % (CENTRO[1], CENTRO[0]), 'limit': 50}
@@ -293,8 +272,6 @@ def buscar_instituciones(vistos):
     print('Instituciones: %d' % len(elegidos))
     return elegidos
  
- 
-# ---------- Odoo ----------
 class Odoo:
     def __init__(self):
         self.uid = self.rpc('common', 'authenticate', [ODOO_DB, ODOO_USER, ODOO_KEY, {}])
@@ -373,7 +350,6 @@ class Odoo:
             vals['company_id'] = self.company
         return self.ejecutar('crm.lead', 'create', [vals])
  
- 
 def main():
     if not GEOAPIFY_KEY:
         sys.exit('Falta el secreto GEOAPIFY_KEY.')
@@ -414,7 +390,6 @@ def main():
             f.write('### Resultado' + chr(10) + resumen + chr(10))
     if not DRY_RUN and cargados == 0:
         sys.exit('No se cargó ningún lead.')
- 
  
 if __name__ == '__main__':
     main()
