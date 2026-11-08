@@ -31,6 +31,9 @@ MAX_BUSQUEDAS_COMERCIOS = 24
 MAX_BUSQUEDAS_INSTITUCIONES = 8
 POR_BUSQUEDA = 4
 HISTORIAL = 'historial.txt'
+USO = 'serper_uso.txt'
+CREDITOS_SERPER = 2500
+AVISO_DESDE = 2000
 
 BARRIOS = [
     'Alberdi', 'Alto Alberdi', 'Alta Córdoba', 'Alto Verde', 'Altamira', 'Argüello', 'Ayacucho',
@@ -130,6 +133,19 @@ def guardar_historial(leads):
         for l in leads:
             for e in Vistos.entradas(l):
                 f.write(e + chr(10))
+
+
+def leer_uso():
+    try:
+        with open(USO, encoding='utf-8') as f:
+            return int(f.read().strip() or 0)
+    except Exception:
+        return 0
+
+
+def guardar_uso(n):
+    with open(USO, 'w', encoding='utf-8') as f:
+        f.write(str(n) + chr(10))
 
 
 def normalizar_celular(raw, seguro=False):
@@ -473,6 +489,12 @@ def principal():
         len(leads), len(comercios), len(instituciones), con_cel, con_mail, len(cargados), errores, gastadas[0])
     if DRY_RUN:
         resumen += ' (modo prueba)'
+    else:
+        total = leer_uso() + gastadas[0]
+        guardar_uso(total)
+        resumen += ' Serper usadas en total: %d de %d.' % (total, CREDITOS_SERPER)
+        if total >= AVISO_DESDE:
+            resumen += ' ATENCIÓN: quedan pocos créditos de Serper. Revisá el saldo en serper.dev.'
     print(resumen)
     ruta = os.environ.get('GITHUB_STEP_SUMMARY')
     if ruta:
