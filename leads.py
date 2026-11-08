@@ -345,7 +345,7 @@ def buscar_instituciones(vistos):
         if len(elegidos) >= TOTAL_INSTITUCIONES:
             break
         d = serper_maps('%s en %s' % (t, CIUDAD))
-        nuevos = procesar(d.get('places') or [], 'Institución: ' + t, CIUDAD.split(',')[0], 'GENERADORES', vistos, 2)
+        nuevos = procesar(d.get('places') or [], 'Institución: ' + t, CIUDAD.split(',')[0], 'GENERADOR', vistos, 2)
         elegidos.extend(nuevos)
         print('%s: %d leads con celular o mail' % (t, len(nuevos)))
     return elegidos[:TOTAL_INSTITUCIONES]
@@ -472,7 +472,7 @@ def principal():
             print('- [%s] %s | cel: %s | mail: %s | %s' % (l['etiqueta'], l['nombre'], l.get('telefono') or '-', l.get('email') or '-', l['direccion']))
     else:
         stage = odoo.etapa_id()
-        tags = {'COMERCIO': odoo.tag_id('COMERCIO'), 'GENERADORES': odoo.tag_id('GENERADORES')}
+        tags = {'COMERCIO': odoo.tag_id('COMERCIO'), 'GENERADOR': odoo.tag_id('GENERADOR')}
         for l in leads:
             try:
                 odoo.crear_lead(l, stage, tags[l['etiqueta']])
