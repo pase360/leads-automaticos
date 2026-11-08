@@ -28,7 +28,7 @@ PREFIJOS_CELULAR = '678'
 TOTAL_COMERCIOS = 45
 TOTAL_INSTITUCIONES = 5
 MAX_BUSQUEDAS_COMERCIOS = 24
-MAX_BUSQUEDAS_INSTITUCIONES = 8
+MAX_BUSQUEDAS_INSTITUCIONES = 10
 POR_BUSQUEDA = 4
 HISTORIAL = 'historial.txt'
 USO = 'serper_uso.txt'
@@ -60,10 +60,18 @@ RUBROS = [
 ]
 
 INSTITUCIONES = [
-    'sindicato', 'asociación de profesionales', 'colegio de profesionales', 'cámara empresarial',
-    'mutual', 'cooperativa', 'federación', 'gremio', 'clínica privada', 'call center',
-    'concesionaria', 'club social', 'universidad privada',
+    'sindicato', 'gremio', 'asociación de profesionales', 'colegio de abogados', 'colegio de médicos',
+    'colegio de ingenieros', 'colegio de contadores', 'colegio profesional', 'cámara empresarial',
+    'mutual', 'cooperativa', 'federación', 'obra social', 'club deportivo', 'club social',
+    'asociación de empleados', 'asociación civil', 'centro de jubilados',
 ]
+
+PALABRAS_INSTITUCION = ['sindicato', 'gremio', 'asociacion', 'colegio de', 'colegio profesional', 'camara',
+                        'federacion', 'confederacion', 'mutual', 'cooperativa', 'club', 'union', 'universidad',
+                        'instituto', 'obra social', 'fundacion', 'sociedad', 'consejo', 'circulo',
+                        'organizacion', 'jubilados', 'centro de empleados']
+
+EMPRESAS_GRANDES = []
 
 PALABRAS_MAIL = ['ventas', 'comercial', 'administracion', 'admin', 'gerencia', 'contacto',
                  'info', 'consultas', 'hola']
@@ -222,7 +230,6 @@ def leer_sitio(web):
     if not web.startswith('http'):
         web = 'http://' + web
     base = http_leer(web)
-    textos = [base]
     host = urllib.parse.urlparse(web).netloc
     enlaces = []
     for h in re.findall(r'href=.([^ >]+)', base):
@@ -233,9 +240,26 @@ def leer_sitio(web):
             u = urllib.parse.urljoin(web, h)
             if urllib.parse.urlparse(u).netloc == host and u != web and u not in enlaces:
                 enlaces.append(u)
+    paginas = [(base, False)]
     for u in enlaces[:2]:
-        textos.append(http_leer(u))
-    return ' '.join(textos)
+        paginas.append((http_leer(u), True))
+    return paginas
+
+
+def elegir_mail(mails, web):
+    if not mails:
+        return ''
+    host = urllib.parse.urlparse(web if web.startswith('http') else 'http://' + web).netloc.lower()
+    host = host.replace('www.', '')
+    marca = host.split('.')[0]
+
+    def clave(item):
+        m, contacto = item
+        local, _, dominio = m.lower().partition('@')
+        propio = 0 if (dominio == host or (len(marca) >= 4 and (marca in local or marca in dominio))) else 1
+        return (puntaje_mail(m), propio, 0 if contacto else 1)
+
+    return sorted(mails, key=clave)[0][0]
 
 
 def enriquecer(l):
@@ -246,13 +270,13 @@ def enriquecer(l):
             cands.append(n)
         mails = []
         if l.get('web'):
-            c2, m2 = extraer(leer_sitio(l['web']))
-            cands.extend(c2)
-            mails.extend(m2)
+            for texto, es_contacto in leer_sitio(l['web']):
+                c2, m2 = extraer(texto)
+                cands.extend(c2)
+                mails.extend((m, es_contacto) for m in m2)
         cands.sort(key=lambda x: 0 if x[1] else 1)
-        mails = sorted(dict.fromkeys(mails), key=puntaje_mail)
         cel = cands[0] if cands else ('', False)
-        return (cel[0], cel[1], mails[0] if mails else '')
+        return (cel[0], cel[1], elegir_mail(mails, l.get('web') or ''))
     except Exception:
         return ('', False, '')
 
@@ -284,7 +308,12 @@ def nombre_invalido(n):
     return len(x) < 3 or x in BARRIOS_NORM or x in ('cordoba', 'cordoba capital', 'argentina')
 
 
-def procesar(lugares, rubro, barrio, etiqueta, vistos, maximo):
+def es_institucion(l):
+    t = norm(l.get('nombre', '') + ' ' + l.get('categoria', ''))
+    return any(w in t for w in PALABRAS_INSTITUCION)
+
+
+def procesar(lugares, rubro, barrio, etiqueta, vistos, maximo, filtrar=True):
     cand = []
     for p in lugares:
         nombre = (p.get('title') or p.get('name') or '').strip()
@@ -295,10 +324,13 @@ def procesar(lugares, rubro, barrio, etiqueta, vistos, maximo):
             'direccion': (p.get('address') or '').strip(),
             'web': (p.get('website') or '').strip(),
             'maps_tel': p.get('phoneNumber') or p.get('phone') or '',
+            'categoria': str(p.get('category') or p.get('type') or ''),
             'rubro': rubro,
             'barrio': barrio,
             'etiqueta': etiqueta,
         }
+        if etiqueta == 'GENERADOR' and filtrar and not es_institucion(l):
+            continue
         if vistos.dup(l):
             continue
         cand.append(l)
@@ -341,6 +373,13 @@ def buscar_instituciones(vistos):
     tipos = list(INSTITUCIONES)
     random.shuffle(tipos)
     elegidos = []
+    manuales = list(EMPRESAS_GRANDES)
+    random.shuffle(manuales)
+    for nombre in manuales[:2]:
+        d = serper_maps('%s %s' % (nombre, CIUDAD))
+        nuevos = procesar((d.get('places') or [])[:3], 'Empresa grande', CIUDAD.split(',')[0], 'GENERADOR', vistos, 1, False)
+        elegidos.extend(nuevos)
+        print('%s: %d leads con celular o mail' % (nombre, len(nuevos)))
     for t in tipos[:MAX_BUSQUEDAS_INSTITUCIONES]:
         if len(elegidos) >= TOTAL_INSTITUCIONES:
             break
