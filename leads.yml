@@ -1,0 +1,30 @@
+name: Generar leads
+
+on:
+  schedule:
+    - cron: '0 11 * * *'   # 11:00 UTC = 08:00 en Argentina
+  workflow_dispatch:
+    inputs:
+      prueba:
+        description: 'Modo prueba (true = no carga nada en Odoo)'
+        default: 'true'
+
+jobs:
+  leads:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Generar y cargar leads
+        run: python leads.py
+        env:
+          GEOAPIFY_KEY: ${{ secrets.GEOAPIFY_KEY }}
+          ODOO_URL: ${{ secrets.ODOO_URL }}
+          ODOO_DB: ${{ secrets.ODOO_DB }}
+          ODOO_USER: ${{ secrets.ODOO_USER }}
+          ODOO_KEY: ${{ secrets.ODOO_KEY }}
+          ODOO_ETAPA: ${{ secrets.ODOO_ETAPA }}
+          DRY_RUN: ${{ github.event.inputs.prueba == 'true' && '1' || '0' }}
