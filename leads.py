@@ -136,16 +136,11 @@ def procesar_elemento_osm(el, rubro_es, etiqueta):
 
 def buscar_comercios(vistos):
     condiciones = ""
-    for rubro_osm in RUBROS_OSM.values():
-        condiciones += f'  node["shop"="{rubro_osm}"]({LAT_MIN},{LON_MIN},{LAT_MAX},{LON_MAX});
-'
-        condiciones += f'  node["amenity"="{rubro_osm}"]({LAT_MIN},{LON_MIN},{LAT_MAX},{LON_MAX});
-'
+    for r_osm in RUBROS_OSM.values():
+        condiciones += f'  node["shop"="{r_osm}"]({LAT_MIN},{LON_MIN},{LAT_MAX},{LON_MAX});\n'
+        condiciones += f'  node["amenity"="{r_osm}"]({LAT_MIN},{LON_MIN},{LAT_MAX},{LON_MAX});\n'
     
-    query = f"[out:json][timeout:30];
-(
-{condiciones});
-out body;"
+    query = f"[out:json][timeout:30];\n(\n{condiciones});\nout body;"
     elementos = consultar_mapa(query)
     
     candidatos = []
@@ -210,6 +205,7 @@ def buscar_instituciones(vistos):
 # ---------- Odoo ----------
 class Odoo:
     def __init__(self):
+        # Usamos el JSON-RPC nativo para interactuar con Odoo de la misma forma que el original
         self.uid = self.rpc('common', 'authenticate', [ODOO_DB, ODOO_USER, ODOO_KEY, {}])
         if not self.uid:
             raise RuntimeError('Odoo rechazó el acceso. Revisá ODOO_DB, ODOO_USER y ODOO_KEY.')
