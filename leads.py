@@ -1,3 +1,4 @@
+import datetime
 import json
 import os
 import random
@@ -21,6 +22,8 @@ ODOO_EMPRESA = os.environ.get('ODOO_EMPRESA', '').strip()
 TELEGRAM_TOKEN = os.environ.get('TELEGRAM_TOKEN', '').strip()
 TELEGRAM_CHAT_ID = os.environ.get('TELEGRAM_CHAT_ID', '').strip()
 DRY_RUN = os.environ.get('DRY_RUN', '0') == '1'
+EVENTO = os.environ.get('EVENTO', '').strip()
+ULTIMA = 'ultima_corrida.txt'
 
 CIUDAD = 'Córdoba, Argentina'
 CARACTERISTICA = '351'
@@ -76,6 +79,9 @@ EMPRESAS_GRANDES = []
 PALABRAS_MAIL = ['ventas', 'comercial', 'administracion', 'admin', 'gerencia', 'contacto',
                  'info', 'consultas', 'hola']
 COMILLAS = chr(34) + chr(39)
+DOMINIOS_PLATAFORMA = ['linktr.ee', 'linktree.com', 'beacons.ai', 'bio.link', 'carrd.co', 'facebook.com', 'instagram.com',
+                       'wix.com', 'wixsite.com', 'squarespace.com', 'godaddy.com', 'wordpress.com', 'google.com',
+                       'tiendanube.com', 'mercadolibre.com', 'mercadoshops.com', 'cloudflare.com', 'sentry.io']
 
 
 def norm(s):
@@ -143,6 +149,19 @@ def guardar_historial(leads):
                 f.write(e + chr(10))
 
 
+def hoy_argentina():
+    zona = datetime.timezone(datetime.timedelta(hours=-3))
+    return datetime.datetime.now(zona).strftime('%Y-%m-%d')
+
+
+def ya_corrio_hoy():
+    try:
+        with open(ULTIMA, encoding='utf-8') as f:
+            return f.read().strip() == hoy_argentina()
+    except Exception:
+        return False
+
+
 def leer_uso():
     try:
         with open(USO, encoding='utf-8') as f:
@@ -193,7 +212,10 @@ def mail_valido(e):
         return False
     malos = ['sentry', 'wixpress', 'example', 'schema.org', 'noreply', 'no-reply', 'donotreply',
              'webmaster', 'postmaster', 'duckduckgo', 'domain.com', 'tuemail', 'email@']
-    return not any(x in el for x in malos)
+    if any(x in el for x in malos):
+        return False
+    dominio = el.split('@')[-1]
+    return not any(dominio == d or dominio.endswith('.' + d) for d in DOMINIOS_PLATAFORMA)
 
 
 P_WA = [r'wa[.]me/([+]?[0-9]{10,14})', r'api[.]whatsapp[.]com/send[?]phone=([0-9]{10,14})',
@@ -485,6 +507,9 @@ def avisar(texto):
 
 
 def principal():
+    if EVENTO == 'schedule' and not DRY_RUN and ya_corrio_hoy():
+        print('Hoy ya se cargaron los leads: no se repite.')
+        return
     if not SERPER_KEY:
         sys.exit('Falta el secreto SERPER_KEY.')
     vistos = Vistos()
@@ -521,6 +546,8 @@ def principal():
                 print('ERROR al cargar %s: %s' % (l['nombre'], e))
         if cargados:
             guardar_historial(cargados)
+            with open(ULTIMA, 'w', encoding='utf-8') as f:
+                f.write(hoy_argentina() + chr(10))
 
     con_cel = len([l for l in leads if l.get('telefono')])
     con_mail = len([l for l in leads if l.get('email')])
