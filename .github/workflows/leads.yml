@@ -2,7 +2,9 @@ name: Generar leads
 
 on:
   schedule:
-    - cron: '7 17 * * *'
+    - cron: '17 11 * * *'
+    - cron: '47 12 * * *'
+    - cron: '17 14 * * *'
   workflow_dispatch:
     inputs:
       prueba:
@@ -33,11 +35,12 @@ jobs:
           ODOO_EMPRESA: ${{ secrets.ODOO_EMPRESA }}
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          EVENTO: ${{ github.event_name }}
           DRY_RUN: ${{ github.event.inputs.prueba == 'true' && '1' || '0' }}
       - name: Guardar historial
         if: always()
         run: |
           git config user.name 'leads-bot'
           git config user.email 'leads-bot@users.noreply.github.com'
-          git add historial.txt serper_uso.txt || true
+          git add historial.txt serper_uso.txt ultima_corrida.txt || true
           git diff --cached --quiet || (git commit -m 'Actualizar historial' && git push)
