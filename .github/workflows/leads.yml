@@ -2,7 +2,7 @@ name: Generar leads
 
 on:
   schedule:
-    - cron: '0 11 * * *'
+    - cron: '7 17 * * *'
   workflow_dispatch:
     inputs:
       prueba:
