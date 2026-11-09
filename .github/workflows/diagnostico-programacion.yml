@@ -1,0 +1,19 @@
+name: Diagnostico de programacion
+
+on:
+  schedule:
+    - cron: '7,22,37,52 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  diagnostico:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Confirmar disparo automatico
+        run: |
+          echo "Evento: ${{ github.event_name }}"
+          echo "UTC: $(date -u)"
+          echo "Rama: ${{ github.ref }}"
