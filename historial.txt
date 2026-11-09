@@ -119,3 +119,119 @@ t:98378945
 m:afiliaciones@amepcba.org
 k:astropay atencion|av. colon 74, x5002 cordoba, argentina
 t:30950469
+k:ferretex soluciones - valle escondido|av. republica de china 1150 loc 28, x5023 cordoba, argentina
+t:18131515
+k:ferreteria la solucion - ferreteria recta martinolli|av. recta martinolli 8484, x5147 cordoba, argentina
+t:18933114
+k:ferre-cor|av. donato alvarez 9436, villa cornu, x5022ihn cordoba, argentina
+t:17656028
+k:ferreteria la cruz|linco 9275, x5018 cordoba, argentina
+t:15217609
+k:floreria cande|soldado ruiz 2749, x5000hve cordoba, argentina
+t:13141664
+k:center flowers s.a.|rodriguez del busto 4031, x5008 cordoba, argentina
+t:13962040
+k:del cerro floreria|av. rafael nunez 3792, x5009 cfr, cordoba, argentina
+t:16610607
+k:grupo majo internacional|jeronimo luis de cabrera 333, x5000gvg cordoba, argentina
+t:16801492
+k:farmacias general paz guinazu|av. juan b justo 9309, x5000 cordoba, argentina
+t:92937336
+m:info@farmaciageneralpaz.com
+k:artecueros calzados - fabrica de zapatos|andalucia 1972, x5014 cordoba, argentina
+t:13215203
+m:info@artecueroscalzados.com
+k:narcisa - nueva cordoba|buenos aires 790, x5000imp cordoba, argentina
+t:16215954
+k:narcisa - recta martinolli|av. recta martinolli 6817, x5000 cordoba, argentina
+t:16215845
+k:calzados jimenez|av. las malvinas 2693, x5012 cordoba, argentina
+t:17881331
+k:la gran feria (minorista y mayorista de articulos polirubro)|san martin 145, x5000iwc cordoba, argentina
+t:13858870
+m:lagranferiaventas@gmail.com
+k:jugueteria pluto s - outlet o'higgins|bernardo o'higgins 3571, x5000igs cordoba, argentina
+t:18019558
+m:agustin@distribuidoraplutos.com
+k:jugueteria droopy|tristan malbran 4109 loc 1 y 2, x5009 cordoba, argentina
+t:16892647
+k:tivan | manga, comics y figuras de accion|
+t:17678788
+k:limpieza de tapizados - servicar|malagueno 3070, x5014ddp cordoba, argentina
+t:14591867
+m:lucasbriccaciraldi@gmail.com
+k:autocentro centro de servicios - lavadero shell|bernardo o'higgins 3185, x5003 cordoba, argentina
+t:18592505
+k:lavautos alvear|julio a. roca 331, x5000 cordoba, argentina
+t:17376003
+k:inwash | autolavadero|av. velez sarsfield 1734, x5000 cordoba, argentina
+t:13058445
+k:flores kioto|cordoba, av. maipu 113, x5000ibc cordoba, argentina
+t:16019670
+m:victoriahlvarez@gmail.com
+k:6 soles vivero|bedoya 597, esquina, juan antonio lavalleja, x5000kbg cordoba, argentina
+t:17899658
+k:altamira - floreria de diseno|angel fausto avalos 755, x5010amc cordoba, argentina
+t:18611061
+k:flores soledad|diag. ica 1103, x5001csw cordoba, argentina
+m:info@floressoledad.com.ar
+k:mariana moretti|blvr. chacabuco 465, x5000iie cordoba, argentina
+t:12893089
+m:info@marianamoretti.com.ar
+k:mora estetica|obispo trejo 417, 2189 cordoba, argentina
+t:16822112
+k:centro de medicina estetica y nutricion|x5004eyg cordoba ar, domingo f. sarmiento 805, x5004 eyg, argentina
+t:12470069
+k:zia|av. hipolito yrigoyen 175, x5000 cordoba, argentina
+t:18677856
+k:mercadinho|talleres 832, x5000 cordoba, argentina
+t:16158541
+k:distrimay - barrio jardin|av. pablo ricchieri 3055, x5014 cordoba, argentina
+t:16771110
+k:quinoto|ingeniero rogelio nores martinez 2897, x5016 cordoba, argentina
+t:12458947
+k:napoles distribuidora|av. cdad. de valparaiso 3025, x5000 cordoba, argentina
+t:17043382
+k:floreria betel|av. colon 2337, x5000 cordoba, argentina
+t:14804948
+m:floreriabetel@hotmail.com
+k:floreria aranjuez|av. san martin 588, x5152 villa carlos paz, cordoba, argentina
+t:41649108
+k:floreria flor de lis|venta y media 4380, x5003 cordoba, argentina
+t:16566247
+k:sil diet|miguel de unamuno 1964, crisol norte, 5014 cordoba, argentina
+t:17661015
+k:nutridiet, dietetica y distribuidora mayorista|mercado norte, oncativo 50 puesto 79,80 y 81, x5001 cordoba, argentina
+t:18143930
+k:bcl libros|manuel esteban pizarro 2095, x5009 cordoba, argentina
+t:16811641
+m:ventas@bcllibros.com.ar
+k:humano villa de las rosas|los molles 94, x5885 villa de las rosas, cordoba, argentina
+t:56322997
+k:mavics libreria|gdor. jose esteban bustos 1983, x5009 cordoba, argentina
+t:18605678
+k:mama buho artesanias|av. champaqui s/n, x5885 villa de las rosas, cordoba, argentina
+t:17540524
+k:compro oro - azzurro gioielli|galeria paseo nuevo mundo, av. sta. fe 3673 local 17 s, c1425bgl cdad. autonoma de buenos aires, argentina
+t:27500686
+m:azzurrojoyas@gmail.com
+k:argento trade|domingo zipoli 975, x5000 cordoba, argentina
+t:16860481
+m:info@argentotrade.com.ar
+k:la plateria nueva cordoba|obispo salguero 549, x5000 cordoba, argentina
+t:74753829
+k:colegio profesional de biologos de la provincia de cordoba|salta 239, x5022aie cordoba, argentina
+t:13741286
+m:colegio.biologos.cordoba@gmail.com
+k:colegio de arquitectos de la provincia de cordoba capc|francisco n de laprida 40, x5000 cordoba, argentina
+t:12233563
+m:info@colarqr6.com.ar
+k:asociacion civil hombre nuevo|av. velez sarsfield 79, x5000jja cordoba, argentina
+t:18171593
+m:administracion@hombrenuevo.org.ar
+k:soles|cordoba ar, ferroviarios 1332, x5014 akp, cordoba, argentina
+t:13871275
+m:info@soles.org.ar
+k:ciec - colegio de ingenieros especialistas de cordoba|jujuy 441, x5022fmi cordoba, argentina
+t:12585406
+m:ciec@ciec.com.ar
