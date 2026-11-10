@@ -195,5 +195,7 @@ Entrar con usuario y contraseña a "GENERAR QR" (https://www.pase360.online/gene
 
 - 2026-11-10: ¿En qué se diferencian exactamente los planes Básico, Medio y Premium para comercios aparte del precio? → Mientras más alto es tu plan de suscripción, mejor es tu posicionamiento dentro de tu rubro en la página de comercios adheridos, así conseguis una mejor visibilidad por parte de los usuarios
 
+- 2026-11-10: ¿Qué medios de pago están habilitados para los comercios? → Puedes pagar con débito a travez de mercado pago, la misma página de suscripción te redirigirá para hacer el pago
+
 ## Respuestas aprendidas
 (Vacío: el agente agrega acá las respuestas que le da la empresa, con fecha.)
