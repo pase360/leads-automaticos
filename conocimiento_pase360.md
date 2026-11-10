@@ -191,5 +191,7 @@ Entrar con usuario y contraseña a "GENERAR QR" (https://www.pase360.online/gene
 ## Precios de los planes (con fecha)
 (Vacío: el agente completa esta sección cuando la empresa responda, con fecha.)
 
+- 2026-11-10: ¿Cuáles son los precios actuales de los planes para comercios en Pase 360? → Los precios son: básico $ 30000 por seis meses, medio $ 40000 por seis meses y premium $ 50000 por seis meses
+
 ## Respuestas aprendidas
 (Vacío: el agente agrega acá las respuestas que le da la empresa, con fecha.)
