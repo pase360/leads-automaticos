@@ -235,3 +235,116 @@ m:info@soles.org.ar
 k:ciec - colegio de ingenieros especialistas de cordoba|jujuy 441, x5022fmi cordoba, argentina
 t:12585406
 m:ciec@ciec.com.ar
+k:halo estilistas urca|emilio lamarca 4173 local 21, x5000 cordoba, argentina
+t:17452180
+k:roberto caballero|3660 esq. maturana urca x5009hpd, menendez pidal 3660, cordoba, argentina
+t:16001767
+k:capitan barber urca|menendez pidal 3997, x5009 cordoba, argentina
+t:18117168
+k:salones chelsea|menendez pidal 3836, x5009 cordoba, argentina
+t:13418367
+k:i-wash autolavado|av. monsenor pablo cabrera 4962, x5008 cordoba, argentina
+t:16220340
+k:gasparutti center|paso de los andes 956, x5000 mut, cordoba, argentina
+t:15195206
+k:cochera y lavadero de autos big bang|av. duarte quiros 2359, x5010 cordoba, argentina
+t:17524895
+k:quikwash cars & bikes|av. los alamos, los eucaliptus esq, x5151 la calera, cordoba, argentina
+t:16450674
+k:rotiseria calola|miguel de sesse 2889, x5014cfe cordoba, argentina
+t:17341659
+k:rotiseria j&x|5019, cordoba, argentina
+t:16631824
+k:venencio rotiseria|c. gabriel tomasini 5700, x5147 cordoba, argentina
+t:16866119
+k:la revolucion empanaderia|transito caceres de allende 433, x5000 cordoba, argentina
+t:17449192
+k:speedwash funes|av. medicos de funes 1685, s2132 funes, santa fe, argentina
+t:12523013
+m:info@speedwash.com.ar
+k:inwash | autolavadero|ruta nacional 60, av. hipolito irigoyen y, x5200 dean funes, cordoba, argentina
+t:16111375
+k:lavadero de camiones- dean funes - mario rodriguez|rn60 km 825, dean funes, cordoba, argentina
+t:25646671
+k:lubricentro repuestos servicentro|saenz pena 199, x5200 dean funes, cordoba, argentina
+t:21401368
+k:perfumes cor|blvd. san juan 838, x5000avf cordoba, argentina
+t:74431973
+m:emanuel_strumia@hotmail.com
+k:leduft|obispo salguero 561, x5000iak cordoba, argentina
+t:13800300
+m:tu@correo.com
+k:stillessence limpieza|cuyo 1675, x5008 cordoba, argentina
+t:17619021
+m:info@stillessence.com.ar
+k:perfumarte cordoba|27 de abril 292, x5000aej cordoba, argentina
+t:18632262
+k:the thompsons|jardin, mal paso 3295, x5016fim cordoba, argentina
+t:18622665
+k:la casa del kioskero|o'higgins 3151, x5000 cordoba, argentina
+t:17260688
+k:"la esquina"|jose javier diaz 1650, x5000 cordoba, argentina
+t:18168551
+k:kiosco 24/7 route 66|gral o'higgins 3060, x5000 cordoba, argentina
+t:15191622
+k:doncella gym|av. j. m. de pueyrredon 1784, x5010feq cordoba, argentina
+t:16742266
+k:kano sport|av. j. m. de pueyrredon 2519, x5010fel x5010fel x5010fel, cordoba, argentina
+t:10392530
+k:gimnacio pueyrredon|av. j. m. de pueyrredon 2375, x5010fej cordoba, argentina
+t:16416534
+k:crystal joyas - rex|galeria gran rex centro, gral. paz 174 loc 34, x5000jlo cordoba, argentina
+t:17536756
+m:consultas@crystaljoyas.com.ar
+k:amauta joyeria|galeria paseo de la ciudad, 9 de julio 257 local 15/17, x5000epr cordoba, argentina
+t:13079407
+k:agatha chrys joyeria - acjoyas mayorista|gral. paz 120, x5000 cordoba, argentina
+t:17640059
+k:esfera joyas|complejo capitalinas, humberto primo 630 torre capitalinas, piso 10 oficina 04, x5000fan cordoba, argentina
+t:17518105
+k:lava autos los 3 hnos|observatorio, av. j. m. de pueyrredon 1072, x5010 cordoba, argentina
+t:17542422
+k:hg autospa|julio a. roca 1339, x5010 cordoba, argentina
+t:17344812
+k:lavaderodeautosbuenosmuchachos|julio a. roca, x5000 cordoba, argentina
+t:13453250
+k:lavadero fenix|av. j. m. de pueyrredon 515, x5000bsc x5000bsc, cordoba, argentina
+t:18085888
+k:la granja del centro | dietetica mayorista|av. juan b justo 8620 b°, x5000 cordoba, argentina
+t:18634363
+m:ventas@lagranjadelcentro.com.ar
+k:dietetica rincon bonito|av. ricardo rojas 9113, x5018 cordoba, argentina
+t:18502550
+k:grandiet paseo rivera local 145|enrique bodereau 7175 local 145, x5018 cordoba, argentina
+t:17680733
+k:alta gama pinturerias|av. j. m. de pueyrredon 1000, x5000 cordoba, argentina
+t:17334066
+k:leroma – ɢᴇʟᴀᴛᴏ ᴅ' ᴇᴄᴄᴇʟʟᴇɴᴢᴀ [nueva cordoba]|av. hipolito yrigoyen 123, x5000 cordoba, argentina
+t:18148220
+m:tu@email.com
+k:leroma – ɢᴇʟᴀᴛᴏ ᴅ' ᴇᴄᴄᴇʟʟᴇɴᴢᴀ [gauss]|av. carlos f. gauss 5619, x5021 fgk, cordoba, argentina
+t:16594321
+m:hola@leroma.com.ar
+k:grido helado|av. gral. mosconi 707 x5001cbg, x5000 cordoba, argentina
+t:16648816
+k:wollen – ꜱᴡɪꜱꜱ ɪᴄᴇ ᴄʀᴇᴀᴍ [marques de sobremonte]|diego celiz de quiroga 310, x5008 cordoba, argentina
+t:18112689
+k:los amigos bazar|av. velez sarsfield 3597, x5016 cordoba, argentina
+t:16810359
+k:mola bazar|av. pablo ricchieri 2721, x5000 cordoba, argentina
+t:18108936
+k:club telefonos|av. fernando fader 4535, x5000 cordoba, argentina
+t:13197907
+m:clubtelefonoscba@gmail.com
+k:nuestras raices campo social|31°27'40.9"s 64°13'59.2"w, argentina
+t:16368048
+m:info@nuestrasraicescamposocial.com
+k:fedecom | federacion comercial de cordoba (fede.com.)|catamarca 1230, x5004flp cordoba, argentina
+t:12292040
+m:fedecom@fedecom.org.ar
+k:federacion regional de automovilismo deportivo de cordoba|dr. manuel lucero 449, x5001 ani, cordoba, argentina
+t:12550613
+m:fedeautocor@hotmail.com
+k:colegio profesional de maestros mayores de obra y tecnicos en ingenieria y arquitectura de cordoba|centro norte, jujuy 423, x5000 kai, cordoba, argentina
+t:17066332
+m:colegioprovincial@tecnicoscba.org.ar
