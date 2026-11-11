@@ -11,7 +11,7 @@ Pase 360 es una plataforma de beneficios que conecta comercios con consumidores.
 Sitio web: https://www.pase360.online
 
 ## Quién es quién
-- **Comercio adherido**: negocio que ofrece un beneficio (descuento, 2x1, etc.) a quienes presenten un QR válido. Aparece en la lista de Comercios Adheridos.
+- **Comercio adherido**: negocio que ofrece un beneficio (descuento, 2x1, etc.) a quienes presenten un QR válido. Aparece en la pagina de Comercios Adheridos.
 - **Generador de beneficios (promotor)**: sindicato, gremio, institución, empresa, cooperativa, central de taxi o remis, colegio profesional, club, etc. Emite QR para que sus afiliados, empleados o miembros accedan a los beneficios de los comercios.
 - **Beneficiario / usuario**: persona que recibe un QR del generador y lo usa en los comercios.
 
@@ -41,6 +41,7 @@ Sitio web: https://www.pase360.online
 - El manual de comercios dice que la suscripción es semestral con renovación automática y que se guía a una página de pago segura.
 - Estas dos cosas no coinciden del todo. Si el cliente pregunta cuándo y cómo se paga, el agente NO debe afirmar nada: debe consultar a la empresa.
 - Precios de los planes: PENDIENTE (ver sección "Precios de los planes").
+- lo que debe tomar el agente es que la suscripción tiene un costo semestral, con renovación automatica
 
 ## Requisitos para adherirse
 - Correo electrónico válido y de uso frecuente (ahí llega el enlace de activación).
@@ -61,7 +62,7 @@ Sitio web: https://www.pase360.online
 6. **Firma**: tildar la aceptación, escribir nombre y apellido y DNI del firmante, y firmar en pantalla con el dedo o el mouse (o, si no puede, escribir el nombre completo). Después tocar "Finalizar adhesión". El firmante debe estar autorizado a representar al comercio.
 7. **Activación**: cuando se aprueba el alta, llega un correo con el botón "Activar cuenta". Ahí se crea la contraseña. Después se ingresa con "Iniciar sesión" y se llega a Mi Panel Pase 360.
 - Si hay varias sucursales, cada una hace su propia adhesión y plan.
-- La adhesión queda sujeta a aprobación de Pase 360.
+- La adhesión queda sujeta a aprobación de Pase 360, si te llega el mail para activar la cuenta, tu suscripción fue aceptada 
 
 ## Mi Panel Pase 360 (comercio)
 - **Mi Historial de QR**: QR generados y validados.
@@ -148,21 +149,23 @@ Entrar con usuario y contraseña a "GENERAR QR" (https://www.pase360.online/gene
 
 **Generación masiva (con Excel)**
 1. Descargar el modelo de Excel desde la misma pantalla, completarlo y subirlo con "Elegir archivo".
-2. El Excel lleva estas columnas: nombre, DNI, número de afiliado o legajo y email. Todas las líneas deben tener todos los datos, reales y completos. Si una línea está incompleta, hay que borrarla antes de subir el archivo. (POR CONFIRMAR: una versión de la pantalla indica que el email es opcional. Si preguntan, consultar a la empresa.)
+2. El Excel lleva estas columnas: nombre, DNI, número de afiliado o legajo y email. Todas las líneas deben tener todos los datos, reales y completos. Si una línea está incompleta, hay que borrarla antes de subir el archivo. (POR CONFIRMAR: una versión de la pantalla indica que el email es opcional. Si preguntan, consultar a la empresa.), responder siempre que el email es obligatorio
 3. Tocar "Generar QR": el sistema genera un QR por cada línea y muestra el avance ("Lote 1 de 1, generando QR 1 de 3...").
-4. Al terminar, el sistema asigna a cada beneficiario su QR y se los envía automáticamente. También se descarga solo, en la computadora del generador, un Excel de respaldo con nombre, email, DNI, número de afiliado, número de QR y el link a la imagen del QR.
+4. Al terminar, el sistema asigna a cada beneficiario su QR y los envía automáticamente al página Mis Qr, donde cada afiliado puede ingresar a travez de la app de pase 360 con su DNI y numero de afiliado y ver todos sus QR disponibles sin usar. También se descarga solo, en la computadora del generador, un Excel de respaldo con nombre, email, DNI, número de afiliado, número de QR y el link a la imagen del QR.
 5. Ese Excel sirve para reenviar el link del QR si el beneficiario lo pierde o no le llega.
+6. estos QR generados masivamente o individualmente son los únicos que se cobran 
 
 **Combo (5 QR para un mismo beneficiario)**
 - Se usa con el cuadro "Generar combo": se ingresa DNI y número de afiliado o legajo y se toca "Generar combo".
 - Requisito: el beneficiario tiene que haber recibido al menos un QR por generación masiva durante el mes en curso. Si no, el sistema no deja generar el combo.
 - Los 5 QR del combo quedan bonificados (no se facturan) y el beneficiario los puede usar.
+el agente debe explicar bien esto de la generación masiva y de combos, no solo limitarse a responder que se cobran los QR generados.-
 
 ## Cómo consulta el beneficiario sus QR
 1. Entrar a https://www.pase360.online/mis-qr
 2. Ingresar su DNI y su número de afiliado o legajo.
 3. Tocar "Buscar mis QR".
-4. Aparecen sus QR activos para usar. Desde esa página también puede ver los comercios adheridos.
+4. Aparecen sus QR activos para usar. Desde esa app también puede entrar a la página de los comercios adheridos y ver sus benficios
 
 ## Sobre los QR
 - Son al portador. Cuando el generador los genera, cada QR queda **asignado a un beneficiario** para que éste lo vea en Mis QR (con su DNI y número de afiliado o legajo).
@@ -183,7 +186,7 @@ Entrar con usuario y contraseña a "GENERAR QR" (https://www.pase360.online/gene
 
 ## Preguntas frecuentes rápidas
 - **¿Tiene costo para el comercio?** Hay planes Básico, Medio y Premium. Sobre cuándo se cobra, ver "Costo y pago (POR CONFIRMAR)". No dar precios sin confirmar.
-- **¿Tiene costo para el generador?** Sin abono fijo: solo se paga por QR generado.
+- **¿Tiene costo para el generador?** Sin abono fijo: solo se paga por QR generado individualmente o por generación masiva, los combos son gratis.
 - **¿Necesita tarjeta el generador?** Sí, para registrar el cobro mensual.
 - **¿Puede el comercio cambiar su beneficio?** Sí, desde Editar información en su panel.
 - **¿Cómo sabe el comercio que un QR es bueno?** Lo valida en Validar QR y tiene que decir VÁLIDO.
