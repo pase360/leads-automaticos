@@ -204,3 +204,5 @@ el agente debe explicar bien esto de la generación masiva y de combos, no solo 
 (Vacío: el agente agrega acá las respuestas que le da la empresa, con fecha.)
 
 - 2026-11-11: ¿Cuál es el costo por QR para instituciones o generadores de beneficios y cómo funciona la bonificación? → El valor por QR es de $ 1000. Este cargo se aplica únicamente a los QR individuales o generados masivamente. Una vez cubierto esto, el generador puede emitir una cantidad ilimitada de combos bonificados para cada beneficiario sin costo adicional.
+
+- 2026-11-11: ¿Qué tiempo de vencimiento tienen los QR emitidos para los beneficiarios? → Los QR entregados vencen el último día del mes en el que fueron generado, si el QR es ta vencido, al momento de validarlo te dirá QR vencido
