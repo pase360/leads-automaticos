@@ -348,3 +348,115 @@ m:fedeautocor@hotmail.com
 k:colegio profesional de maestros mayores de obra y tecnicos en ingenieria y arquitectura de cordoba|centro norte, jujuy 423, x5000 kai, cordoba, argentina
 t:17066332
 m:colegioprovincial@tecnicoscba.org.ar
+k:pizzeria popular – ʀɪɴᴄᴏɴ ɴᴜᴇsᴛʀᴏ | recta martinolli|av. recta martinolli 8611, x5021hzi cordoba, argentina
+t:12544666
+m:comercial@grupo-popular.com
+k:coqui's|tomas garzon 7242, x5021eof cordoba, argentina
+t:17047584
+k:rotiseria arguello|tte. gral. donato alvarez 6895, x5022 cordoba, argentina
+t:17642996
+k:comida los nogales|av. ricardo rojas 7773, x5147 cordoba, argentina
+t:12155171
+k:ferreteria los boulevares|blvd. de los alemanes 3765, x5147 cordoba, argentina
+t:15583003
+m:info@grupomarson.com.ar
+k:calzados de trabajo|gabriel alvarez de toledo 7047, x5147 cordoba, argentina
+t:18126826
+k:buen paso calzados|blvd. de los alemanes 5485, x5147 cordoba, argentina
+t:15597831
+k:venta polirrubro tomi.g|blvd. de los alemanes 4180, x5147 cordoba, argentina
+t:18577756
+k:flores del sol|bv elias yofre 1297, x5016 cordoba, argentina
+t:12120132
+k:floreria el jardin de margarita|av. velez sarsfield 3467, x5016gdf cordoba, argentina
+t:17066075
+k:lafloreria|av. recta martinolli 8462, x5021hzu cordoba, argentina
+t:17611092
+k:dalia flower boutique|parana 422, x5000 cordoba, argentina
+t:12186443
+k:body belle - centro de estetica|av. colon 567 departamento 5 a, x5000 cordoba, argentina
+t:16439782
+k:orquideas salon de belleza|suipacha 2354, x5013amb cordoba, argentina
+t:16656523
+k:estetica corps|av. maipu 51 piso 11 oficina 1, x5000bac cordoba, argentina
+t:15065005
+k:spa center|jose maria bedoya 628, x5000 cordoba, argentina
+t:18104765
+k:esencias del boticario®|blvd. rivadavia 4272, x5020 cordoba, argentina
+t:12620008
+m:info@esenciasdelboticario.com.ar
+k:bella maria|blvd. rivadavia 4272, x5020 cordoba, argentina
+t:17030045
+k:el balcon paseo lugones|fray luis beltran s/n - stand 320 5008, cordoba, argentina
+t:16185524
+k:sole natura cosmeticos & perfumeria|manuel isidoro gutierrez 4894, x5009 cordoba, argentina
+t:16419920
+k:optica galileo (opti-ya!) lentes en el acto|belgrano 53, x5000jqa cordoba, argentina
+t:13971308
+m:info@opticagalileo.com.ar
+k:optica vision care|av. recta martinolli 7850 loc 30, x5000 cordoba, argentina
+t:16861996
+m:info@visioncare-cba.com.ar
+k:optica la torre|rosario de sta. fe 310, x5000ach cordoba, argentina
+t:12420656
+k:optica san jeronimo|blvr. chacabuco 19, x5000iia cordoba, argentina
+t:17153851
+k:pako peko|nicolas avellaneda 787 planta alta, x5000 cordoba, argentina
+t:18125448
+m:info@pakopeko.com.ar
+k:flaltia|ituzaingo 211, x5000ije cordoba, argentina
+t:12054399
+k:gubee - ropa de bebes-|av. ricardo rojas 7434 local f, x2021now cordoba, argentina
+t:18638523
+k:eloisa store|dr. angel roffo 2035, x5003 cordoba, argentina
+t:18020323
+k:glups sabattini|av. amadeo sabattini 2612 loc 3, x5014 cordoba, argentina
+t:20838623
+m:ventas@heladosglups.com.ar
+k:fragolato helados|dr. arturo capdevila 1907 25 local 7, x5000 cordoba, argentina
+t:16450007
+k:yogurt fresh|av. velez sarsfield 1696, x5016gcn cordoba, argentina
+t:13462507
+k:deligood|parana 465, x5000 cordoba, argentina
+t:17628205
+k:colormix – ᴘɪɴᴛᴜʀᴇʀɪᴀꜱ [cordoba: av. sabattini 1755] | colormix s.a.|av. amadeo sabattini 1755, x5000 cordoba, argentina
+t:16870857
+m:info@colormix.com.ar
+k:pintureria fragueiro|jeronimo luis de cabrera 703, x5000 cordoba, argentina
+t:16829945
+m:info@fragueiropinturerias.com.ar
+k:nova pintureria|av. juan b justo 2499, x5001gxc cordoba, argentina
+t:18933961
+k:pintureria puntocolor|octavio pinto 3013, x5000 cordoba, argentina
+t:13123457
+k:media naranja no existe mas .. ahora cuenta con otros duenos|av. pueyrredon, guemes 450, x5000 bso, cordoba, argentina
+t:17015869
+k:la frutilla del postre|av. emilio olmos 358, x5000eoq cordoba, argentina
+t:14430971
+k:verduleria la granja|av. ambrosio olmos 670, x5000jgo cordoba, argentina
+t:17685241
+k:verduleria los rodriguez|santa rosa, jose antonio de sucre esquina, x5000esi x5000iuw, cordoba, argentina
+t:17189459
+k:hiromi|pedro antonio inchauspe 127, x5000 cordoba, argentina
+t:16524665
+k:la estancia|villas ciudad de america, calle 31, 5189 cordoba, argentina
+t:16515281
+k:choripan la mecha.|manuel baigorria 99 53, x5016aaa x5016aaa, cordoba, argentina
+t:16177825
+k:verduleria miguelito|esposos curie 1327, x5000 cordoba, argentina
+t:18626625
+k:verduleria noe-ser|ferroviarios 1550, x5014akt cordoba, argentina
+t:16082133
+k:colegio de ingenieros civiles de cordoba|nicolas avellaneda 292, x5000ljf cordoba, argentina
+m:colegio@civiles.org.ar
+k:asociacion civil las omas|cordoba, argentina
+t:16522510
+m:lasomasong@gmail.com
+k:asociacion civil campos blancos|el gateado, argentina 5012, cordoba, argentina
+t:13936452
+k:cacec - camara de comercio exterior de cordoba|av. la voz del interior 8827, x5008 cordoba, argentina
+t:15327115
+m:cacec@cacec.com.ar
+k:caelms - camara empresarial de limpieza y mantenimiento|martin fierro 4116, x5000 cordoba, argentina
+t:18738200
+m:secretaria@caelms.com.ar
