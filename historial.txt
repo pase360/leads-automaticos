@@ -460,3 +460,119 @@ m:cacec@cacec.com.ar
 k:caelms - camara empresarial de limpieza y mantenimiento|martin fierro 4116, x5000 cordoba, argentina
 t:18738200
 m:secretaria@caelms.com.ar
+k:mottatelli|x5145 cordoba, argentina
+t:13266023
+k:andrea franceschini® [guinazu]|el guardamonte 27, x5145 cordoba, argentina
+t:17962155
+k:lonuestrog_v|del gato 18, x5019 cordoba, argentina
+t:17515544
+k:dietetica monte verde|almte. guillermo brown 1417, x5000jwa cordoba, argentina
+t:16249671
+m:monteverdesaludable@gmail.com
+k:saludable dietetica|av. fuerza aerea argentina 2578, x5010 cordoba, argentina
+t:17657002
+k:dietetica mora productos saludables|av. fuerza aerea argentina 2842, x5010 cordoba, argentina
+t:17063464
+k:natural market|blvd. san juan 620, x5000 cordoba, argentina
+t:12252368
+k:parada #17 lava autos|jacinto de altolaguirre 1641, x5012cgg cordoba, argentina
+t:12287242
+k:pachi car wash|nicolas avellaneda 382, x5000 ljh, cordoba, argentina
+t:16588508
+k:la colectora lavadero de autos|colectora externa, lino eneas spilimbergo &, x5008 cordoba, argentina
+t:18732450
+k:luna's detail|rafael antonio de palencia 2954, x5012fel x5012fel, cordoba, argentina
+t:16170434
+k:maria antonieta valle|x5016 cordoba, argentina
+t:17600163
+m:produccion.antonieta@gmail.com
+k:carajillo cafe|molino de torres 6710, cordoba, argentina
+t:16196675
+k:la milkeria|av. ricardo rojas 9200 local 115, x5147 cordoba, argentina
+t:18590329
+k:espacio warcalde|av. jose maria eguia zanon 9251, x5021 cordoba, argentina
+t:18176960
+k:chuii® – helados [villa cabrera]|virgen de la merced 2559, x5009gec cordoba, argentina
+t:12319076
+m:comunicacion@chuii.com.ar
+k:creambury helados y cafe|rondeau 390, x5000avh cordoba, argentina
+t:13873263
+k:arch car detail|fray miguel de mojica 1191, x5008 cordoba, argentina
+t:16546519
+k:lavadero el fantasma|tomas de irobi 375, x5008dad cordoba, argentina
+t:18029068
+k:lavadero de autos|francisco lopez correa 2210, x5008 cordoba, argentina
+t:12529615
+k:pasarela wash and detail|av. cv noroeste 580, x5019aqt cordoba, argentina
+t:18641636
+k:don tomas – verduleria & productos naturales|felix frias 108, x5004 cordoba, argentina
+t:15504245
+k:verduleria "pomelo"|4 de febrero 1815, x5000 cordoba, argentina
+t:16751438
+k:don coco frutas y verduras|david luque 108, x5004akf cordoba, argentina
+t:16543535
+k:verduleria el jardin|gral. paz 447, x5000 cordoba, argentina
+t:16132904
+k:northclub|colectora oeste ramal escobar 48,5, b1625 belen de escobar, provincia de buenos aires, argentina
+t:84311084
+m:northclubescobar@gmail.com
+k:best club - san fernando|luis maria drago, x5016 cordoba, argentina
+t:15185548
+m:info@bestclub.com.ar
+k:strong training|juan p. asborno 1650, b1625 belen de escobar, provincia de buenos aires, argentina
+t:84378204
+k:be plus calistenia - centro de entrenamiento|estrada 1315, b1625 belen de escobar, provincia de buenos aires, argentina
+t:71256334
+k:fresca esquina|av. eva peron 1091, x5149 saldan, cordoba, argentina
+t:17886817
+k:arifrut|av. ricardo rojas 9013, x5018 cordoba, argentina
+t:16249568
+k:la excelente|agrim enrique bodereau 8100, x5018 cordoba, argentina
+t:17515828
+k:la justina frutas y verduras|av. recta martinolli 8754, x5147 hzx, cordoba, argentina
+t:18068814
+k:super ferreteria|polo 52, x5000 cordoba, argentina
+t:13419411
+m:superferreteriacba@gmail.com
+k:lalo gas – ferreteria mayorista|pje. senador regino maders 1459, x5000 cordoba, argentina
+t:16208358
+m:lalogas@hotmail.com
+k:debyferr mayorista ferretero|av. gdor. eufrasio loza 445, x5000 cordoba, argentina
+t:12440856
+m:atencion@debyferr.com.ar
+k:buloneria arac|av. leandro n. alem 2652, x5000 cordoba, argentina
+t:15727619
+m:buloneriaarac@hotmail.com
+k:lucciano's cerro de las rosas|av. hugo wast 4653, x5000 cordoba, argentina
+t:34363996
+m:info@luccianos.com.ar
+k:caseratto tejeda|luis jose de tejeda 4556, x5009cev cordoba, argentina
+t:16334218
+k:cremolatti, valle escondido, cordoba|3517500582, av. republica de china 1456 loc 6, x5003 cordoba, argentina
+t:17500582
+k:gelatto’s cordoba|cnel. agustin olmedo 93 loc 5, x5000 cordoba, argentina
+t:18175262
+k:mecatek|x5008bba, joaquin camano y bazan 4399, x5008bba cordoba, argentina
+t:13298851
+m:ventas@mecatek.com.ar
+k:casa tito autoservicio ferretero|av. fuerza aerea argentina 3118, x5000 cordoba, argentina
+t:17535587
+m:casatito.sas@gmail.com
+k:ragaglia | ferreteria industrial | herramientas | construccion | maquinaria | seguridad industrial | equipos industriales ||david luque 1400, x5004 cordoba, argentina
+t:13411234
+m:ventas@ragagliaferreteriaindustrial.com.ar
+k:ferreteria el sotano|rivadavia 269, x5000 cordoba, argentina
+t:13760123
+k:club atletico las palmas|juan garcia martinez 325, x5002 cordoba, argentina
+t:12466750
+m:info@clublaspalmas.com.ar
+k:club atletico belgrano|arturo orgaz 550, x5000 cordoba, argentina
+t:17362925
+m:filiales@belgrano.com.ar
+k:club social s.t.i.a|blvd. de los alemanes 3701, x5022eoj cordoba, argentina
+t:16658778
+k:sociedad belgrano|av. leandro n. alem 1702, x5012hxp cordoba, argentina
+t:16501628
+k:gremio microelectronica|carlos maria della paolera 6489, x5021ntc cordoba, argentina
+t:16232107
+m:mercadolibre@gremio.store
