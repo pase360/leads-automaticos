@@ -576,3 +576,111 @@ t:16501628
 k:gremio microelectronica|carlos maria della paolera 6489, x5021ntc cordoba, argentina
 t:16232107
 m:mercadolibre@gremio.store
+k:atelier optica cordoba|ladrillo visto, frente a cremolatti, luis jose de tejeda 4380, x5009ces cordoba, argentina
+t:18685644
+m:maria@ejemplo.com
+k:optica lens. argentina|jose manuel estrada 33, x5000bqa x5000bqa, cordoba, argentina
+t:16282121
+m:contacto@lensargentina.com
+k:instituto optico reartes|caseros 39, x5000aca cordoba, argentina
+t:14236243
+m:institutoopticoreartes@hotmail.com
+k:optica flex|av. eva peron 1290, x5018 saldan, cordoba, argentina
+t:12592106
+k:joyeria ruiz & co. compra de oro|galeria london, gral. paz 186, x5000 cordoba, argentina
+t:12541904
+m:info@gmail.com
+k:joyeria camacho|galeria condor, av. colon 350 loc 26, x5022 cordoba, argentina
+t:15732670
+m:camachomayorista@gmail.com
+k:soleil bijouterie - suc. nuevocentro shopping-|av. duarte quiros 1400 s125 shopping nuevo centro, quinta santa ana, x5000amb cordoba, argentina
+t:16806351
+k:mia risuena joyas|independencia 167, x5000 cordoba, argentina
+t:16823583
+k:cordoba shopping|jose antonio de goyechea 2851, x5009cma cordoba, argentina
+t:58172025
+k:ypf|avenida octavio pinto y avenida caraffa, x5000 cordoba, argentina
+t:18793736
+k:electroalem caraffa|av. emilio caraffa 2418, x5000 cordoba, argentina
+t:16880713
+k:moragreen tienda natural|av. emilio caraffa 2576 loc 1, x5009 cordoba, argentina
+t:13452714
+k:tu color pinturerias|sol de mayo 690, x5009 cordoba, argentina
+t:16518414
+k:pintureria color home|av. velez sarsfield 1001, x5000 cordoba, argentina
+t:13924976
+k:delivery paint- pinturas san agustin (suc. santa ana)|rio negro 612, x5000 cordoba, argentina
+t:18762065
+k:colores cordoba pinturerias - fadepa|av. duarte quiros, alberdi 1904, x5002 aoq, cordoba, argentina
+m:fadepa@pinturasfadepa.com.ar
+k:md depilacion|balcarce 451, x5000 cordoba, argentina
+t:12315455
+k:bantu|barrio mariano balcarse, av. fuerza aerea argentina 2459, x5011 dbj, cordoba, argentina
+t:15723217
+k:medadvance|7620 21 786, c7620 balcarce, provincia de buenos aires, argentina
+t:66460194
+k:kiosco bar altos del cerro|av. rafael nunez 3436, x5003 cordoba, argentina
+t:18684272
+k:maxistore.1|luis jose de tejeda 4054 loc 2, x5009 cordoba, argentina
+t:17645678
+k:quiniela, pagofacil, western union, kiosco|av. fernando fader, x5000 cordoba, argentina
+t:13868336
+k:kiosco tio toi|av. recta martinolli 5102, x5147 cordoba, argentina
+t:16812448
+k:verduleria tomatto|x5000jub, ayacucho 36, x5000jub cordoba, argentina
+t:18057856
+k:palta verduleria|av. velez sarsfield 671, x5000 cordoba, argentina
+t:18162871
+k:distribuidora ayacucho|27 de abril 285, x5000aee cordoba, argentina
+t:17584739
+k:aca esta la papa! verduleria y carniceria|obispo trejo 1177, x5000 cordoba, argentina
+t:16536090
+k:lacoste dino alto verde|rodriguez del busto 4086, x5009 cordoba, argentina
+t:18918282
+k:havaianas alto verde|rodriguez del busto 4086, x5000 cordoba, argentina
+t:12122916
+k:custore suc. dino mall alto verde|rodriguez del busto 408, x5000zaa cordoba, argentina
+t:86868478
+k:fc calzados zapateria femenina talles grandes|virgen de la merced 2425, x5009 gea, cordoba, argentina
+t:12374610
+k:taller ropich|yofre, tadeo davila 2980, x5012 cordoba, argentina
+t:17696021
+k:mecanica integral soto|heroes de vilcapugio 2166, x5012 kel, cordoba, argentina
+t:17601116
+k:taller jr|chachapoyas 2326, x5000 cordoba, argentina
+t:16195231
+k:cativa|fulgencio montemayor 1583, x5012 cordoba, argentina
+t:16534850
+k:posta capital|av. fuerza aerea argentina 3408, x5010abc cordoba, argentina
+t:16132642
+m:info@postacapital.com
+k:carniceria y verduleria miguel|felix paz 1138, x5010 cordoba, argentina
+t:13302066
+k:minimercado la esperanza|leon pinelo 1040, x5010 cordoba, argentina
+t:17642658
+k:carnes la republica|maestro vidal 1792, x5003 cordoba, argentina
+t:16435587
+k:mdq bazar & deco|gral. juan jose viamonte 398, x5004auh cordoba, argentina
+t:17671018
+k:bazar color | articulos para el hogar | regalos, deco y accesorios|av. colon 52, x5000 cordoba, argentina
+t:88087818
+k:central store ag|25 de mayo 269, x5019ehe cordoba, argentina
+t:71616703
+k:casa mia bazar y deco|av. 24 de septiembre 1170, x5000 cordoba, argentina
+t:16853644
+k:l04 lavadero - estetica vehicular | carwash - cardetailing|avenida bodereau 9029, x5018 cordoba, argentina
+t:16861997
+k:nfwash|villa allende, c5105 cordoba, argentina
+t:12108922
+k:centro de jubilados y pensionados sarmiento - rivadavia - anexo|sargento cabral 1952, sarmiento, sgto. cabral 1950, x5006cbv cordoba, argentina
+t:17248241
+k:cooperativa de vivienda horizonte|domingo f. sarmiento 251, x5000eye cordoba, argentina
+t:18126303
+m:info@coophorizonte.com.ar
+k:firenze coop|rivadavia 85, x5000 cordoba, argentina
+t:16313169
+m:info@firenzecoop.com.ar
+k:colegio profesional de ciencias bioquimicas de cordoba|dean funes 1339, x5000 cordoba, argentina
+t:17278674
+k:colegio profesional de fonoaudiologia de cordoba|27 de abril 260 pb of. 2, x5000 cordoba, argentina
+t:14242507
