@@ -684,3 +684,119 @@ k:colegio profesional de ciencias bioquimicas de cordoba|dean funes 1339, x5000 
 t:17278674
 k:colegio profesional de fonoaudiologia de cordoba|27 de abril 260 pb of. 2, x5000 cordoba, argentina
 t:14242507
+k:saal amoblamientos|rivadavia 365, x5000 cordoba, argentina
+t:17666377
+m:ventas2@muebles365.com.ar
+k:ariel muebles|cipriano perello 5739, x5020 cordoba, argentina
+t:17669639
+m:consultas@arielmuebles.com.ar
+k:muebleria rusticor|av. castro barros 886, x5000htv cordoba, argentina
+t:18788424
+k:muebles german|la rioja 38, x5000 cordoba, argentina
+t:12410823
+k:hospital veterinario cordoba (privado)|fructuoso rivera 35, x5000boa cordoba, argentina
+t:17033000
+m:hospitalveterinariocba@gmail.com
+k:veterinaria taba-cue fisiatria & ecografia|octavio pinto 2638, x5009 cordoba, argentina
+t:18820371
+k:better vet | veterinaria a domicilio cordoba capital|
+t:16214333
+k:club atletico villa siburu|manuel corvalan 763, x5003 cordoba, argentina
+t:16613724
+k:corradini :: panaderia, pasteleria, rotiseria, cafe al paso y catering|av. fuerza aerea argentina 2966, x5000 cordoba, argentina
+t:18143099
+m:info@corradinipasteleria.com.ar
+k:la casa de los pasteles|menendez pidal 3917, x5009 cordoba, argentina
+t:50476653
+m:cliente@gurusoluciones.com
+k:ana gottardi - pasteleria|comechingones 345, x5003 cordoba, argentina
+t:13986673
+m:contacto@paraeventoscordoba.com.ar
+k:valentina pasteleria gourmet|hipolito vieytes 1683, x5000 cordoba, argentina
+t:17419808
+k:hard rock lavadero|av. recta martinolli 8856, x5000cba cordoba, argentina
+t:12322334
+k:lavadero carwashvalle|puvr sold ramon angel cabrera 6789, x5003 cordoba, argentina
+t:16212741
+k:blue lavadero & cardetail|republica popular china s/n, x5000 cordoba, argentina
+t:18092120
+k:lavadero lf carwash|av. los alamos 633, x5151 la calera, cordoba, argentina
+t:17443313
+k:taller mecanico pga mecanica integral|leon pinelo 972, x5000 cordoba, argentina
+t:15477264
+m:admin@forocomercial.com.ar
+k:bustos e hijos|cnel. agustin olmedo 635, x5000 cordoba, argentina
+t:17019128
+m:tallerbustosehijos@gmail.com
+k:taller mecanico lopresti -automecanica lopresti|capitan manuel oscar bustos 4725 barrio:, x5010 cordoba, argentina
+t:12628720
+k:lopez car service|velez 324, x5003 cordoba, argentina
+t:17678876
+k:amoretto helado artesanal|rondeau 646, x5000 cordoba, argentina
+t:16373730
+k:mia perfumeria castillo|chavarria 1734, b1755 rafael castillo, provincia de buenos aires, argentina
+t:76069023
+m:miaperfumeriagestion@gmail.com
+k:mas perfumerias|ihs, ayacucho 5666, s2011 rosario, santa fe, argentina
+t:12844668
+k:farmacia reverte salud & belleza responsable|cjal. cabiche 319, x5000 cordoba, argentina
+t:16821310
+k:el balcon - villa allende|villa allende, cordoba, argentina
+t:16185908
+k:pan plano barrio jardin|av. pablo ricchieri 3283, x5000 cordoba, argentina
+t:18073857
+m:panplanobarriojardin@panplano.com.ar
+k:confiteria pan de azucar|nestor e. lopez, castulo lopez &, x5016 cordoba, argentina
+t:18552956
+m:admin@pandeazucar.com.ar
+k:la chipa|av. pablo ricchieri 3296, x5008 cordoba, argentina
+t:18516880
+k:armando medialunas - jardin|av. pablo ricchieri 3326, x5000 cordoba, argentina
+t:16763076
+k:millanel cosmetica|augusto lopez, gral. juan b. bustos 505, 5001 cordoba, argentina
+t:44440303
+m:info@millanel.com
+k:aromas oxigenar|cabo contreras 859, x5001hsi cordoba, argentina
+t:13547641
+m:info@aromasoxigenar.com.ar
+k:gianelli distribuidora mayorista - bo gral. bustos|antonio maria gianelli 747, x5001aki cordoba, argentina
+t:16348222
+k:marcas beauty mercado sud - perfumeria|centro, blvd. pres. dr. arturo u. illia 101, x5000fab cordoba, argentina
+t:16453670
+k:rotiseria gaby|angel gallardo 2255, x5008 cordoba, argentina
+t:16628026
+k:rotiseria "sil"|mark twain 4481, x5019 cordoba, argentina
+t:17195049
+k:lomiteria popular|av. hipolito yrigoyen 385, x5000 cordoba, argentina
+t:16345841
+k:studio glam | integral capacitando (anexo fragueiro)|mariano fragueiro 329, x5000 cordoba, argentina
+t:17395258
+m:info@studioglam.com.ar
+k:la romana, estetica|mariano fragueiro 1745, x5003 cordoba, argentina
+t:18059897
+k:sb spa de unas|mariano fragueiro 152, x5000agc cordoba, argentina
+t:62415087
+k:oceanna estetica|diaz de solis 526, x5001gxe x5001gxe, cordoba, argentina
+t:18011241
+k:eri san martin peluqueria|balcarce 451, x5000 cordoba, argentina
+t:16224416
+k:gecko barberia|balcarce 346, x5000 cordoba, argentina
+t:17869882
+k:bg barber club|obispo salguero 180, x5000iad cordoba, argentina
+t:17447788
+k:blond. professional studio|rondeau 568, x5000 cordoba, argentina
+t:16337537
+k:ferreteria alto verde|x5009cxb, bv. los granaderos 2975, x5009cxb cordoba, argentina
+t:13477353
+k:uthgra cordoba|santiago del estero 151, x5000 cordoba, argentina
+t:12380031
+m:info@uthgracba.org.ar
+k:agec | asociacion gremial de empleados de comercio de cordoba (a.g.e.c.)|dean funes 266, x5000 cordoba, argentina
+t:16228532
+k:asociacion nuestra vida|jose reynafe 2053, x5009khc x5009khc, cordoba, argentina
+t:13221536
+m:info@nuestravida.com.ar
+k:asociacion civil orquideofila de cordoba|x5000kpj, justo jose de urquiza 480, x5000kpj cordoba, argentina
+t:16192551
+k:centro de jubilados|boyero 511, x5003 cordoba, argentina
+t:18776346
