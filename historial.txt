@@ -800,3 +800,116 @@ k:asociacion civil orquideofila de cordoba|x5000kpj, justo jose de urquiza 480, 
 t:16192551
 k:centro de jubilados|boyero 511, x5003 cordoba, argentina
 t:18776346
+k:d'amico joyas|av. rafael nunez 3612, x5000 cordoba, argentina
+t:13529191
+m:tunombre@email.com
+k:fabrica de alianzas|25 de mayo 5, x5019eha cordoba, argentina
+t:18591221
+m:fabricadealianzas2@gmail.com
+k:valento joyeria|rivera indarte, pasaje munoz 170 loc 6, x5000 jad, cordoba, argentina
+t:15941254
+k:joyeria y relojeria mateos|ing. olmos 199, x5220 jesus maria, cordoba, argentina
+t:25307910
+k:ferreteria battiston|blvd. bulnes 3954, x5012 cordoba, argentina
+t:16827734
+k:ferreteria corralon lider|fuensalidas meneses 3224 esq montemayor, x5012 cordoba, argentina
+t:16516866
+k:veterinaria nueva cordoba|ituzaingo 755, x5000 cordoba, argentina
+t:15316058
+k:fontenla cordoba|av. rafael nunez 4848, x5009cfo cordoba, argentina
+t:18006468
+k:sierra muebles argentina|av. rafael nunez 4548, x5009cfz cordoba, argentina
+m:contato@sierra.com.br
+k:republica de la carne|urca, jose roque funes 1115 local 2, x5000aaw cordoba, argentina
+t:13906947
+k:esereme|gregorio y. gavier 2010, x5009 ldf, cordoba, argentina
+t:17062488
+k:i fratelli carnes|lino eneas spilimbergo 4230, x5000 cordoba, argentina
+t:16228749
+k:al corte carnes|la cordillera 4667 loc 2, x5009 cordoba, argentina
+t:17014809
+k:prestigio|complejo hola valle, av. republica de china 1150 loc 1, x5003 cordoba, argentina
+t:12417288
+m:consultas@prestigio.com.ar
+k:rex|av. emilio caraffa 1916, x5000 cordoba, argentina
+t:51313377
+k:garin pinturerias|av. carlos f. gauss 5380, x5021fgu cordoba, argentina
+t:16616008
+k:pinturas 2000|av. ramon j. carcano 1297 los algarrobos, x5152aam villa carlos paz, cordoba, argentina
+t:41561890
+k:veterinaria el libertador|congreso 5325, x5017gbk cordoba, argentina
+t:16346800
+k:veterinaria ferreyra|av. de mayo 1057 loc 1, villa libertador, x5017 cordoba, argentina
+t:17856562
+k:optica bien te veo|av. juan b justo 9649 x5019, x5145 cordoba, argentina
+t:16573957
+k:citrico peluqueria y barberia|av. fuerza aerea argentina 1719 planta alta, x5000 cordoba, argentina
+t:00000000
+m:info@citricopeluqueria.com
+k:club atletico barrio parque|aconquija 2302, lagunilla 2227, 5010 cordoba, argentina
+t:14655256
+k:fabianacanelopeluqueria|av. fuerza aerea argentina 1955, x5000 cordoba, argentina
+t:16890665
+k:yoyo peluqueria|av. fuerza aerea argentina 2000, x5010 cordoba, argentina
+t:17621308
+k:panaderia pugliese. suc. rio bamba|av. rio bamba 161, x5002ghc cordoba, argentina
+t:17278351
+m:comercialpanpugliese@gmail.com
+k:perikos|mariano fragueiro 1601, x5000 cordoba, argentina
+t:12589849
+m:administracion@panaderiasperikos.com.ar
+k:taller de pan|av. san martin 114, x5194 villa gral. belgrano, cordoba, argentina
+t:51060376
+k:en el nombre del pan|pedro arata 2250, x5003 cordoba, argentina
+t:12728771
+k:santa calma|deodoro roca, x5000 cordoba, argentina
+t:18522222
+m:info@santacalma.com.ar
+k:el papagayo®|arturo m. bas 69, x5000klb cordoba, argentina
+t:16413655
+m:info@elpapagayo.com.ar
+k:el club de la milanesa - alta cordoba|mariano fragueiro 2020, x5000 cordoba, argentina
+t:12126038
+m:info@elclubdelamilanesa.com
+k:luz de luna bodegon|mariano fragueiro 1580, x5001 cordoba, argentina
+t:18732729
+k:al campo|av. los alamos 557, x5151 la calera, cordoba, argentina
+t:15100037
+m:admin@alcampoalmacen.com
+k:republica de la carne|av. los alamos 1015, x5000 cordoba, argentina
+t:18610898
+k:al norte seleccion de carnes|av. los alamos 529, x5151 la calera, cordoba, argentina
+t:12617848
+k:carniceria el domingo|av. republica de china, x5003 cordoba, argentina
+t:18057193
+k:joyas de cordoba|barrio urca x5009bag cordoba ar, x5009 bag, argentina
+t:17684753
+k:joyas del cerro|gdor. jose esteban bustos 2099, x5009 cordoba, argentina
+t:16879691
+k:n. feraud|hilarion pl. 3822, x5009ixi cordoba, argentina
+t:17263594
+k:aurum joyas & relojes de mirna pereyra orfebre|av. recta martinolli 7212 loc 3, x5147hyv cordoba, argentina
+t:13492460
+k:lavadero max|av. velez sarsfield 4051 loc 34, x5000lmd cordoba, argentina
+t:13178892
+m:contacto@lavaderomax.com
+k:lavadero de autos|lamartine 2807, x5000 cordoba, argentina
+t:17919937
+k:lava autos|mateo de matos neron 566, x5016 cordoba, argentina
+t:18505572
+k:city car wash|x5000 cordoba, argentina
+t:18125389
+k:acai club|balcarce 525, x5006 cordoba, argentina
+t:16609536
+k:asociacion civil cordoba medieval|jose miguel urrutia 525, x5000 cordoba, argentina
+t:17609607
+k:asociacion civil nueva polonia|av. padre antonio maria claret 5602, x5021 cordoba, argentina
+t:13108747
+k:club atletico general paz junior's|av. alvarez de arenales 520, x5004aas cordoba, argentina
+t:14517557
+m:gpjsecretariaok@gmail.com
+k:club atletico talleres (c.a.t.)|avendano y valdivia, x5000 cordoba, argentina
+t:12268833
+k:camara de empresas de seguridad electronica del centro c.e.s.e.c.|av. duarte quiros 3950 b°, x5002 cordoba, argentina
+t:12256186
+m:info@cesec.org.ar
