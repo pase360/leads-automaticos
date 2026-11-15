@@ -208,3 +208,5 @@ el agente debe explicar bien esto de la generación masiva y de combos, no solo 
 - 2026-11-11: ¿Qué tiempo de vencimiento tienen los QR emitidos para los beneficiarios? → Los QR entregados vencen el último día del mes en el que fueron generado, si el QR es ta vencido, al momento de validarlo te dirá QR vencido
 
 - 2026-11-12: ¿Dónde o desde qué tienda/enlace se descarga la app de Pase 360? → Podés descargar la app de manera segura en https://www.pase360.online/descargar-pase-360
+
+- 2026-11-15: ¿Un usuario puede tener ambas funciones (comercio y generador de beneficios) con la misma suscripción/cuenta o debe hacer adhesiones por separado? → Debe adherirse por separado con distinto correo y cada función tendrá sus acceso al portal con distinto usuario y sus respectivas facturas y estadisticas
