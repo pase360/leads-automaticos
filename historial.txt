@@ -913,3 +913,116 @@ t:12268833
 k:camara de empresas de seguridad electronica del centro c.e.s.e.c.|av. duarte quiros 3950 b°, x5002 cordoba, argentina
 t:12256186
 m:info@cesec.org.ar
+k:megaverde|av. armada argentina 397, x5016dfd cordoba, argentina
+t:16697005
+k:abc - libreria jugueteria|ballesteros 912, s2500 canada de gomez, santa fe, argentina
+t:71584866
+m:sitio@abclibrerias.com.ar
+k:libreria mayoristasofia|buenos aires 346, x5022aah cordoba, argentina
+t:15554590
+m:ventasmayoristasofia@gmail.com
+k:el pelado de la canada|av. colon 229, x5000epc cordoba, argentina
+t:13583910
+k:el mundo del libro|obispo trejo 4, x5000iya cordoba, argentina
+t:16085555
+k:el vergel [valle cercano]|jose benito cottolengo 979, x5000 cordoba, argentina
+t:12111218
+k:bali - cafe & resto|bernardo o'higgins 5950 local 24, x5014, x5014 cordoba, argentina
+t:19155071
+k:la capke – ᴄᴏꜰᴇᴇ & ʙʀᴜɴᴄʜ [guemes]|fructuoso rivera 260, x5000 cordoba, argentina
+t:13420260
+k:rio deseado | cafe & bar|rio deseado 1614, x5017 cordoba, argentina
+t:18912438
+k:stockin lavanda|maestro vidal 1496, x5010 cordoba, argentina
+t:16118029
+m:ventasonline@stockinlavanda.com.ar
+k:millanel cosmetica|av. fuerza aerea argentina 3645 loc 8, x5011 cordoba, argentina
+t:13478637
+k:am productos de limpieza y perfumeria.|maestro vidal 1334, x5000 cordoba, argentina
+t:17547753
+k:v&l limpieza y perfumeria|jose iseas 1475, x5000 cordoba, argentina
+t:16540683
+k:giraudo equipamiento suc. cerro|av. rafael nunez 3733, x5009 cordoba, argentina
+t:12040119
+m:ventascerro1@giraudoequipamiento.com
+k:luben – ꜱɪɴ ɢʟᴜᴛᴇɴ [av. gauss]|av. carlos f. gauss 5676, x5021 cordoba, argentina
+t:13254578
+k:ayelen pasteleria|calle rodolfo reyna, bartolome mitre &, la calera, cordoba, argentina
+t:17174775
+k:frida – pasteleria|san ireneo 2849, x5012 cordoba, argentina
+t:15720413
+k:ferniplast san martin 354|san martin 354, x5000iwh cordoba, argentina
+t:13054785
+k:polirrubro san martin | articulos de limpieza, alimentos mascotas, bazar, articulos para celulares.|europa 200, x5000 cordoba, argentina
+t:13183184
+k:bazar&cia san martin -- bazar en san martin|int. alberto m. campos 1983, b1650 san martin, provincia de buenos aires, argentina
+t:30218099
+k:power fitness|x5022abd, chubut 312, x5022abd cordoba, argentina
+t:16245645
+k:kinectic fitness & combat|av. colon 1109, x5000epy cordoba, argentina
+t:14088118
+k:gym de chicas💜|x5003fzb, dr. juan f. cafferata 12, x5003fzb cordoba, argentina
+t:15503203
+k:habito training|dean funes 758, x5000aap cordoba, argentina
+t:16358600
+k:don segundo carnes|jujuy 1585, x5000 kbi, cordoba, argentina
+t:13940962
+m:ventas@pollosindacor.com.ar
+k:london carniceria - alta cordoba|mariano fragueiro 2070, x5000gch cordoba, argentina
+t:18187511
+k:cortes argentinos cba|juan a. sarachaga 654, x5000xxx cordoba, argentina
+t:16450745
+k:mega carnes|mariano fragueiro 3236, x5000 cordoba, argentina
+t:17604926
+k:lavadero los paraisos|av. cornelio saavedra, x5008 cordoba, argentina
+t:17338203
+k:lavadero de autos fontana|bernis 2608, x5000 ixb, cordoba, argentina
+t:12160171
+k:nexo wash - lavadero de autos|eduardo marquina 2377, x5008jga cordoba, argentina
+t:17899897
+k:miss tienda|obispo trejo 309, x5000 cordoba, argentina
+t:13041949
+m:tiendamiss@gmail.com
+k:moda circular cba|sta rosa 137, x5000esc cordoba, argentina
+t:18769406
+m:modacircularcba02@gmail.com
+k:we are zaid sucursal zona norte|av. mahatma gandhi 347, x5004 cordoba, argentina
+t:18575770
+k:kika mayorista|ituzaingo 169 x5000, x5000 cordoba, argentina
+t:18017401
+k:hiper construccion|beltran y, manuel cardenosa, x5008 aji, cordoba, argentina
+t:16503843
+m:info@paseolugones.com.ar
+k:simmons paseo lugones|libertad, joaquin camano y bazan 4495 local 290 hiperconstruccion, x5008 cordoba, argentina
+t:18066791
+m:simmons.paseolugones@gmail.com
+k:valenziana muebles hiperconstruccion|beltran y, manuel cardenosa, cordoba local 270 hiperconstruccion, x5008 cordoba, argentina
+t:16136921
+k:bonadeco muebles|joaquin camano y bazan 4495, x5008bba cordoba, argentina
+t:17067594
+k:el chalchalero - urca|avenida r, menendez pidal 4009, x5009 cordoba, argentina
+t:18057414
+k:pintureria santa rosa|jaime balmes 11, x5001 cordoba, argentina
+t:16631866
+k:pintureria real colores|av. cornelio saavedra 2892, x5008 cordoba, argentina
+t:13394723
+k:pintureria ceyra|av. armada argentina 519, x5016dff cordoba, argentina
+t:16775707
+k:pintura epoxi poxicor|x5008doa, pedro de olmedo 1027, x5008doa cordoba, argentina
+t:17619612
+k:pequena holanda|ruta 25 y rio lujan, escobar, provincia de buenos aires, argentina
+t:57514715
+m:info@pequenaholanda.com.ar
+k:consejo profesional de ciencias economicas de cordoba (cpce – ᴄᴏʀᴅᴏʙᴀ)|buenos aires 865, x5000imq cordoba, argentina
+m:cpcecba@cpcecba.org.ar
+k:centro de jubilados y pensionados san martin|juan baltazar maciel 95, x5000geb cordoba, argentina
+t:18829230
+k:asociacion mutual conexo|juan antonio lavalleja 810, x5000 cordoba, argentina
+t:17615464
+m:consultas@tiendaconexo.com.ar
+k:asociacion mutual carlos mugica|julio a. roca 584, x5000 cordoba, argentina
+t:18937511
+m:mutualcarlosmugica@gmail.com
+k:opdea obra social del personal de direccion|corro 303 local 1 centro, ktg, x5000 cordoba, argentina
+t:57626425
+m:comercial@opdea.org.ar
