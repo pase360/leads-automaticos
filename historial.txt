@@ -1026,3 +1026,109 @@ m:mutualcarlosmugica@gmail.com
 k:opdea obra social del personal de direccion|corro 303 local 1 centro, ktg, x5000 cordoba, argentina
 t:57626425
 m:comercial@opdea.org.ar
+k:ferrecanal sa|gral. lavalle 96, b1646 san fernando, provincia de buenos aires, argentina
+t:28327775
+k:ferreteria ankara|geo, 9 de julio 1415, b1646 san fernando, provincia de buenos aires, argentina
+t:67412946
+k:grido helado|jacinto de altolaguirre 2686, x5000 cordoba, argentina
+t:16513303
+k:cocco gelato heladeria y panaderia artesanal|esquina wilson boyofre sur, blvd. eduardo bulnes 4306, x5013 cordoba, argentina
+t:18809369
+k:libreria mil trazos|crisol 106, x5000 bvd, cordoba, argentina
+t:13033151
+m:miltrazos2020@gmail.com
+k:libreria portaculturas|x5000jqr belgrano 884 | loc. 3-4, x5000jqr cordoba, argentina
+t:17068542
+k:libreria de las artes|av. marcelo t. de alvear 868, x5000kgy cordoba, argentina
+t:13547427
+k:el emporio libros|9 de julio 182, x5000 cordoba, argentina
+t:13862001
+k:el rustico|blvd. de los alemanes 4774, x5147 cordoba, argentina
+t:17570333
+k:el hadito|de los catalanes 4060, cordoba, argentina
+t:17600675
+k:cartof • ʀᴇꜱᴛᴀᴜʀᴀɴᴛ|av. carlos f. gauss 5939, x5021fha cordoba, argentina
+t:18588027
+k:estacion lomo|ingeniero ambrosio taravella 7200, 5000 cordoba, argentina
+t:18012053
+k:capitaine [guemes]|dr. t. achaval rodriguez 242, x5000 cordoba, argentina
+t:12511370
+m:ventas@lecapitaine.com.ar
+k:litoral tienda|dr. t. achaval rodriguez 264, x5000bkf cordoba, argentina
+t:15385648
+k:guemes vintage|dr. t. achaval rodriguez 238, x5000 cordoba, argentina
+t:12586695
+k:tiendacry - ropa de hombre - streetwear|dr. t. achaval rodriguez 213, x5000 cordoba, argentina
+t:16508624
+k:aire de colibri - articulos de limpieza y armonizacion para tus espacios|av. sagrada familia 1235 local 2, x5009 cordoba, argentina
+t:17598923
+m:correo@correo.com
+k:atomiza|san jose de calasanz 58, x5000lhb cordoba, argentina
+t:72559307
+k:perfumeria didy|san martin 495, x5000 cordoba, argentina
+t:13326070
+k:liliana perfumeria|av. leandro n. alem 3293, x5012 cordoba, argentina
+t:16769977
+k:terzo indumentaria|nicolas avellaneda 404, x5000ljj cordoba, argentina
+t:12262505
+m:contacto@terzo.com.ar
+k:natalia indumentaria|duarte quiros 2795, x5002aol cordoba, argentina
+t:15061080
+k:maju|coronel agustin olmedo 116, alberdi, x5000ltd cordoba, argentina
+t:16600594
+k:cabildo uniformes|coronel agustin olmedo, alberdi 284, x5000 ltf, cordoba, argentina
+t:13597637
+k:valenziana muebles guemes|belgrano 899, x5000 cordoba, argentina
+t:16686120
+k:mobelshop muebles y deco|catamarca 85, x5000 eua, cordoba, argentina
+t:15553941
+k:niza interiores|x5000htq cordoba ar, av. castro barros 298, x5000 htq, cordoba, argentina
+t:16981928
+k:peltre - muebles & diseno|av. castro barros 301, x5000htj cordoba, argentina
+t:12119098
+k:panaderia acapulco|av. velez sarsfield 3184, x5016gdp cordoba, argentina
+t:18108087
+k:chocolatta - by andrea - av. velez sarsfield|av. velez sarsfield 3237, x5016 cordoba, argentina
+t:17608867
+k:la celeste – panaderia [sucursal: corro]|miguel calixto del corro 2491, x5016kce cordoba, argentina
+t:13442521
+k:byc insumos panaderia y reposteria|3087, x5016gdb, av. velez sarsfield 3021, x5016gdb cordoba, argentina
+t:17298858
+k:fogon san vicente|san jeronimo 3384, x5006ikp x5006ikp, cordoba, argentina
+t:18919841
+k:bar cafe vicente - since 1968|san alberto 1350, x5006ifl cordoba, argentina
+t:17247226
+k:la familia cafeteria|san jeronimo 3001, x5006 iki, cordoba, argentina
+t:17670952
+k:thegrill|entre rios 2597, x5000 cordoba, argentina
+t:18758995
+k:farmacia alvear - villa belgrano|federico, av. carlos f. gauss 5538, x5000 cordoba, argentina
+t:12043524
+k:farmacia y ortopedia urbana|av. pedro simon laplace 5752 local 1, x5021fpr cordoba, argentina
+t:17074047
+k:svfarma 5|av. recta martinolli 6761, x5000 cordoba, argentina
+m:tienda@svfarma.com.ar
+k:noelia fernandez|pablo neruda 89, x5001 cordoba, argentina
+t:14249511
+m:presidencia@colfacor.org.ar
+k:farmacia silvana martinez|av. eduardo bulnes 2830, pueyrredon, x5013aps cordoba, argentina
+t:14528279
+k:farmacia abierta de 08:00 a 01:00 en cordoba. | av. america|av. de america, 3, centro, 14008 cordoba, espana
+m:info@farmaciaavenidaamerica.es
+k:gretta baronne|av. velez sarsfield 3236, x5016 cordoba, argentina
+t:13998220
+k:cafe colinas|naciones unidas 912, x5016ket cordoba, argentina
+t:16334927
+k:chez cafe y deli – ᴅᴇꜱᴘᴇʀᴛᴀ ᴛᴜꜱ ꜱᴇɴᴛɪᴅᴏꜱ [chez patio olmos]|av. velez sarsfield 361, x5000jjd cordoba, argentina
+t:17162628
+k:el club social club|jose manuel estrada 16, x5011apb cordoba, argentina
+t:16653464
+k:club social|mariano fragueiro 1936, x5001gcf cordoba, argentina
+t:16314423
+k:amet cordoba|av. roque saenz pena 1284, x5000jfh cordoba, argentina
+t:14088141
+m:ametregionalcordoba@gmail.com
+k:apas cordoba (asociacion de productores asesores de seguros de cordoba)|el chaco 729, x5000lxo cordoba, argentina
+t:16008512
+k:cooperativa los andes|x5014 cordoba, argentina
+t:17442146
