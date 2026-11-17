@@ -210,3 +210,5 @@ el agente debe explicar bien esto de la generación masiva y de combos, no solo 
 - 2026-11-12: ¿Dónde o desde qué tienda/enlace se descarga la app de Pase 360? → Podés descargar la app de manera segura en https://www.pase360.online/descargar-pase-360
 
 - 2026-11-15: ¿Un usuario puede tener ambas funciones (comercio y generador de beneficios) con la misma suscripción/cuenta o debe hacer adhesiones por separado? → Debe adherirse por separado con distinto correo y cada función tendrá sus acceso al portal con distinto usuario y sus respectivas facturas y estadisticas
+
+- 2026-11-17: ¿Cuál es la dirección física de Pase 360? → Pase 360 es una plataforma web con domicilio legal en calle Salta N° 1137, Villa del Rosario. No posee oficina de atención al público; las entrevistas se coordinan mediante llamadas o visitas personalizadas de los asesores comerciales.
