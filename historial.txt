@@ -1132,3 +1132,112 @@ k:apas cordoba (asociacion de productores asesores de seguros de cordoba)|el cha
 t:16008512
 k:cooperativa los andes|x5014 cordoba, argentina
 t:17442146
+k:del cora, regalos y mas|huelva 1640 loc 3, x5014 cordoba, argentina
+t:16266787
+k:bull bebidas|del chamame 9115, x5145 cordoba, argentina
+t:17078065
+k:kiosco5mentario|av. juan b justo 8457, cordoba, argentina
+t:16005426
+k:kiosco nadia|x5145 cordoba, argentina
+t:16969205
+k:taller mecanico - hangar mecanica|av. sarmiento 2085, b1625dzh belen de escobar, provincia de buenos aires, argentina
+t:58735178
+k:taller mecanico ps|independencia 269, b1625gze belen de escobar, provincia de buenos aires, argentina
+t:84536784
+k:alineados escobar|esteban echeverria 57, x5125 monte cristo, cordoba, argentina
+t:17029146
+k:taller mecanico antonio|belgrano 1131, b1625ftu belen de escobar, provincia de buenos aires, argentina
+t:84520474
+k:ricardo montanna peluqueria & estetica|27 de abril 315, x5000 cordoba, argentina
+t:15551200
+m:ricardomontannapeluqueria@gmail.com
+k:bulle|av. duarte quiros 525, x5000alk cordoba, argentina
+t:17516300
+m:support@mobirise.com
+k:stvdio.peluqueria|duarte quiros 281, x5022 cordoba, argentina
+t:13498042
+k:gioventy estilistas obispo trejo - nva cordoba|obispo trejo 796, x5000 cordoba, argentina
+t:16131381
+k:ladywen|husares 1746, x5014icb cordoba, argentina
+t:16374080
+m:contacto@alidadelab.com
+k:miriam masin centro de recuperacion estetica|bilbao 2278, x5014 cordoba, argentina
+t:13064040
+k:yanina ramirez- estetica profesional avanzada|cacheuta 4229, x5016 cordoba, argentina
+t:16216125
+k:belleza mediterranea.tpa, masajes y estetica integral|obispo trejo 179, x5000 cordoba, argentina
+t:16698256
+k:pizzeria a&j|av. los platanos 1446, x5010 cordoba, argentina
+t:16226290
+k:roma fabrica de sandwichs|maestro vidal 1100, x5000 cordoba, argentina
+t:17526818
+k:polleria sabrina|olegario correa 1360, x5010 cordoba, argentina
+t:17649057
+k:tejeda especialidades|carlos lopez buchardo 3552, x5000 cordoba, argentina
+t:16377465
+k:tio elvio helados - mayorista villa libertador|gobernacion 1069, x5017 cordoba, argentina
+t:14593825
+k:punto mayorista glup s villa libertador|av. armada argentina 1665, x5000 cordoba, argentina
+t:18908257
+k:zoom fitness center ( sede nueva cordoba)|parana 561, x5000hxk cordoba, argentina
+t:17527660
+m:administracion@espaciozoom.com
+k:form gym|av. castro barros 365, x5000htd cordoba, argentina
+t:18502181
+k:invictus|duarte quiros 2022, x5002aoc cordoba, argentina
+t:18034225
+k:ergo club|blvd. pres. dr. arturo u. illia 156, x5000aso cordoba, argentina
+t:13878193
+k:veterinaria 27 vet|27 de abril 632, x5000aen cordoba, argentina
+t:18628961
+k:petit veterinaria|miguel calixto del corro 56, x5000 cordoba, argentina
+t:18120335
+k:anima centro veterinario|chubut 190, x5000 cordoba, argentina
+t:17872333
+k:agma veterinaria|av. j. m. de pueyrredon 1680, x5000 cordoba, argentina
+t:17561841
+k:ferreteria fragueiro|mariano fragueiro 3927, x5000 cordoba, argentina
+t:13880530
+k:ferreteria armonia|mariano fragueiro 3131, x5000 cordoba, argentina
+t:17018726
+k:ferreteria martin y pia|mariano fragueiro 2576, x5000gcr cordoba, argentina
+t:17655651
+k:ferreteria don alberto|mariano fragueiro 3513, x5001 cordoba, argentina
+t:16188725
+k:sano biomarket dietetica|angelo de peredo 85, x5000 cordoba, argentina
+t:17600622
+k:dietetica amarillis|sta fe 1170 loc 1, x5000 cordoba, argentina
+t:12273947
+k:dietetica super sano|mariano fragueiro 2999, x5000 cordoba, argentina
+t:16207537
+k:rio del medio! almacen natural|
+t:84182413
+k:los cubanitos|octavio pinto 3106, x5009 cordoba, argentina
+t:16753713
+m:sasbuenasmigas@gmail.com
+k:cardamomo panaderia y cafe|mariano larra 3559 loc 1, x5000 cordoba, argentina
+t:15162845
+k:las recetas de larin|nazaret 3176 loc 3, x5009 cordoba, argentina
+t:18630339
+k:panaderia alonso, el maestro panadero|av. sagrada familia 1286, x5000 cordoba, argentina
+t:18607054
+k:car show lava autos|carlos paz 2808, x5000 cordoba, argentina
+t:16334855
+k:grand pix|agustin garzon 1252, x5006fud cordoba, argentina
+t:18009879
+k:under car wash|corrientes 161 segundo subsuelo, x5000 cordoba, argentina
+t:16458107
+k:asociacion de medicos patologos y citopatologos|domingo f. sarmiento 1771, x5000 cordoba, argentina
+t:13800133
+m:asociacionpatologoscba@gmail.com
+k:acapef – asociacion cordobesa de ayuda a la persona portadora de esquizofrenia y su familia (a.c.a.p.e.f.)|jose m. chaves 48, x5000 cordoba, argentina
+t:18977070
+m:info@acapef.org.ar
+k:asociacion mutualista de empleados del banco de la provincia de cordoba|27 de abril 275 piso 1 centro, x5000 aee, cordoba, argentina
+t:16644000
+m:administracion@mutualbpc.com.ar
+k:asociacion mutual hercules|av. gral. ortiz de ocampo 450, 5000 cordoba, argentina
+t:13412671
+m:hercules@mutualhercules.com
+k:suvico|faustino allende 189, x5000 x5000gsc, cordoba, argentina
+t:16015206
