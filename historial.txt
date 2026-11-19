@@ -1241,3 +1241,118 @@ t:13412671
 m:hercules@mutualhercules.com
 k:suvico|faustino allende 189, x5000 x5000gsc, cordoba, argentina
 t:16015206
+k:libreria artistica y cotillon trazos y tracitos|av. recta martinolli 8221, x5021hzf cordoba, argentina
+t:16747231
+m:info@panagea.com
+k:miamar shop|av. recta martinolli 7850 loc 11, x5003 cordoba, argentina
+t:18743459
+m:miamarshopp@gmail.com
+k:clix libreria|av. ricardo rojas 7305, x5147 cordoba, argentina
+t:12890054
+k:libreria yuly|mz 7 lt 11, arguello, x5147 cordoba, argentina
+t:16124040
+k:mercado centro carniceria|justo jose de urquiza 78, x5000kpb cordoba, argentina
+t:15123270
+k:lider en carnes [suc. 2 (alberdi)]|av. colon 2040, x5003dcr cordoba, argentina
+t:18610560
+k:carnes argentinas|av. duarte quiros 841, x5000 cordoba, argentina
+t:12282232
+k:carnes cordoba|duarte quiros 3259, esquina, cjal. penaloza, x5002 apd, cordoba, argentina
+t:17545954
+k:carnes san francisco - carniceria|entre rios 2110, x5000 cordoba, argentina
+t:15518466
+k:la feria de la carne|ismael galindez 1385, x5006krk cordoba, argentina
+t:17490337
+k:frigorifico la granja de la carne|entre rios 2000, x5006 cordoba, argentina
+t:18604733
+k:chroma estilistas|parana 716, x5000 cordoba, argentina
+t:13925430
+k:sharp – peluqueria y estetica|obispo trejo 617, x5000iym cordoba, argentina
+t:17684828
+k:manchester - barber & saloon|x5000iut, independencia 916, x5000iut cordoba, argentina
+t:16881772
+k:salon manhattan|x5000avg, rondeau 373, x5000avg cordoba, argentina
+t:18664528
+k:mecanica bario|27 de abril 2150, x5002aal cordoba, argentina
+t:17658369
+k:mecanica leon|x5002aat, 27 de abril 2500, x5002aat cordoba, argentina
+t:16772641
+k:mecanica avellaneda|nicolas avellaneda 416, x5000 cordoba, argentina
+t:17357541
+k:ag taller mecanico / mecanica general|jose miguel urrutia 808, x5000 cordoba, argentina
+t:16169977
+k:club sportivo empalme|mallin 4373, x5006 cordoba, argentina
+t:13108066
+m:club.sportivo.empalme@gmail.com
+k:maderitas|esquina menendez pidal, pedro nolasco rodriguez 1211 primer piso local 2, x5009 cordoba, argentina
+t:15127379
+m:ventas@maderitas.com
+k:sole|5012, cordoba, argentina
+t:17688775
+k:juguetes sobre ruedas|9 de julio 53, x5000 cordoba, argentina
+t:16416197
+k:ferreteria america|guanahani 1389, x5012bho cordoba, argentina
+t:15113364
+k:ferreteria y pintureria 24|av. 24 de septiembre 1465, x5000fto cordoba, argentina
+t:15639964
+m:sistemas@ferre24.com.ar
+k:viva! pinturerias|gral. alvear 297, x5000 cordoba, argentina
+t:13375115
+m:vivapinturerias@gmail.com
+k:pintureria en cordoba - pintecord|av. patria 595, x5004 cordoba, argentina
+t:12495026
+k:pintureria deccopint av.patria tersuave|esq. rincon, av. patria 799, x5004cea cordoba, argentina
+t:17048886
+k:underkote|palermo bajo, octavio pinto 3121, x5009 aag, cordoba, argentina
+t:17634817
+m:info@underkote.com
+k:pintureria 7 colores|bernardo o'higgins 3151, x5000 cordoba, argentina
+t:13915487
+m:pintsietecolores@gmail.com
+k:pintureria bujedo|av. sagrada familia 1055, x5009 cordoba, argentina
+t:16503153
+k:pintureria en cordoba - pintecord|av. duarte quiros 2964, x5000 cordoba, argentina
+t:12195590
+k:nuova estetica & spa|av. pablo ricchieri 3296, x5000 cordoba, argentina
+t:43580182
+m:nuova.estetica1@gmail.com
+k:cuarzo estetica premium|david luque 511, x5000 cordoba, argentina
+t:18354367
+k:agara facial | cosmetologia & skin care|jacinto rios 1434, x5012 cordoba, argentina
+t:17074591
+k:rosi estetica|juan del campillo 413, x5000gti cordoba, argentina
+t:12137108
+k:pinar del valle muebles|carlos a. becu 3607, x5001 cordoba, argentina
+t:12914023
+m:pinardelvallemuebless@gmail.com
+k:trama deco|bv elias yofre 1023, x5016 cordoba, argentina
+t:75729557
+m:info.tramadeco@gmail.com
+k:vila muebles|x5005 cordoba, argentina
+t:18793619
+k:mercado de muebles|boulevard castro barros 691, providencia, x5000htg cordoba, argentina
+t:18193962
+k:pasteleria dulcemente luci capel dean funes|juan bautista alberdi 127, x5200 dean funes, cordoba, argentina
+t:16173144
+k:briskbox [villa warcalde]|av. jose maria eguia zanon 9630, x5000 cordoba, argentina
+t:12457407
+m:info@briskbox.fit
+k:brisas pilates|av. jose maria eguia zanon 9552, x5021 cordoba, argentina
+t:13020272
+k:lavadero la esquina detail wash|cochabamba 1310, x5004 cordoba, argentina
+t:18591993
+k:lucidato di macchine|los tintines 90, x5001 cordoba, argentina
+t:17348405
+k:consejo de medicos de la provincia de cordoba | cmpc|mendoza 251, x5000 cordoba, argentina
+m:informes@cmpc.org.ar
+k:circulo medico de cordoba|av. ambrosio olmos 820, x5000jgq cordoba, argentina
+m:seccmc@gmail.com
+k:federacion cordobesa de tenis|av. concepcion arenal 299, x5000eme cordoba, argentina
+t:18071545
+m:contacto@ejemplo.com
+k:federacion patronal seguros - agencia cordoba|mariano fragueiro 357, x5000 krg, cordoba, argentina
+t:14290200
+m:canalseguro@fedpat.com.ar
+k:centro de formacion profesional asociacion de personal aeronautico|estados unidos 2840, x5006fgt cordoba, argentina
+t:22600538
+m:info@apaeronauticos.org.ar
