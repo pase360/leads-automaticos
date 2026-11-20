@@ -1356,3 +1356,112 @@ m:canalseguro@fedpat.com.ar
 k:centro de formacion profesional asociacion de personal aeronautico|estados unidos 2840, x5006fgt cordoba, argentina
 t:22600538
 m:info@apaeronauticos.org.ar
+k:libryco® – libros y compania|david luque 15, x5004 akc, cordoba, argentina
+t:18807959
+m:info@libryco.com
+k:libreria studenta|lima 1277, x5004fqofqo cordoba, argentina
+t:16062493
+k:artemisa libreria|av. 24 de septiembre 783, x5000 cordoba, argentina
+t:16591978
+k:libreria sarmiento correo argentino up|domingo f. sarmiento 1393, x5004fja cordoba, argentina
+t:17058651
+k:lavadero de autos|av. cornelio saavedra 3193, x5008 cordoba, argentina
+t:16690629
+k:car wash "nano"|zumaran, agustin zarate 2009, x5008 cordoba, argentina
+t:17694891
+k:bello dettaglio|manuel cardenosa 2557, x5021 cordoba, argentina
+t:17195920
+k:grandpa s garage car detail|av. vives 3348, x5008 cordoba, argentina
+t:16880944
+k:prama alimentos vivos|sarmiento 242, x5885 villa de las rosas, cordoba, argentina
+t:44537165
+m:tienda@prama.com.ar
+k:rs metales|rp14, x5885 villa de las rosas, cordoba, argentina
+t:44404057
+k:veta serrana|sarmiento s/n, x5885 villa de las rosas, cordoba, argentina
+t:44582919
+k:famiglia | casa de helados en urca|emilio lamarca 4221, x5009 cordoba, argentina
+t:18106015
+k:grido helado|cnel. juan beverina 1958, x5009 cordoba, argentina
+t:17881055
+k:chicha style resto-cafe|av. emilio caraffa 2858, x5008 cordoba, argentina
+t:12098823
+k:felicity x standard 69 – ᴄᴀꜰᴇ|jose antonio de goyechea 2851, x5000 cordoba, argentina
+t:18115312
+k:la pasteleria de renata|av. emilio caraffa 2508, x5009 cordoba, argentina
+t:16329116
+k:fernandez panaderia y cafe|av. emilio caraffa 2568, x5008 cordoba, argentina
+t:17340898
+k:de verde somos|bernardo o'higgins 5450, x5014 cordoba, argentina
+t:18730999
+k:verduleria martita & co|mendoza 685 loc 1, x5000 cordoba, argentina
+t:13829519
+k:la docta verduleria|juan del campillo 987, x5000 cordoba, argentina
+t:17682138
+k:cafeteria la quinta paseo del jockey|bv elias yofre 876, x5016bvo cordoba, argentina
+t:41356092
+m:administracion@alfajoreslaquinta.com
+k:honesto|independencia 180, x5000iud cordoba, argentina
+t:16016091
+m:hola@honesto.com.ar
+k:buen gusto|x5013cge, x5013 cordoba, argentina
+t:16185397
+k:buen gusto|nicolas de villacorta y ocana 2565, x5012 cordoba, argentina
+t:17036753
+k:kiosco de diarios inaudi|tte. mario h. nivoli 79, x5016 cordoba, argentina
+t:17668416
+k:shop paint fadepa|av. fuerza aerea argentina 1993, x5010 cordoba, argentina
+t:18012103
+m:shoppaintienda@gmail.com
+k:pintureria en cordoba - pintecord|av. fuerza aerea argentina 2651, x5000 cordoba, argentina
+t:12195607
+k:viviendas sion cordoba|av. fuerza aerea argentina 2842, x5010 cordoba, argentina
+t:35043811
+k:pintureria puntocolor|av. colon 2497, x5003 cordoba, argentina
+t:17293748
+k:maxi kiosco 7 1/2|av. recta martinolli 5469, x5105 cordoba, argentina
+t:17020836
+k:kiosco la base|av. recta martinolli 7495, x5147 cordoba, argentina
+t:13514868
+k:alto tejeda ii|av. rafael nunez 6107, x5147 cordoba, argentina
+t:15993775
+k:tienda de mascotas cofico|juan del campillo 450, x5000 cordoba, argentina
+t:18113529
+k:entresano – sᴜᴘᴇʀᴍᴇʀᴄᴀᴅᴏ sᴀʟᴜᴅᴀʙʟᴇ [sucursal estrada]|juan, jose manuel estrada 174, x5000bqd cordoba, argentina
+t:12896897
+m:info@entresano.com
+k:tadicor sa|colectora norte, salida 1b, avenida circunvalacion, cordoba, argentina
+t:18654553
+k:yaguar supermercado mayorista|av. rancagua, x5012 cordoba, argentina
+t:16117625
+k:supemercado central cordoba|la plata 655, x5000 cordoba, argentina
+t:17010732
+k:artec artistica mayorista|av. monsenor pablo cabrera 4254, x5008 cordoba, argentina
+t:12029760
+m:artecmayorista@gmail.com
+k:del cielo pinturerias|fray luis beltran 3044, x5008 cordoba, argentina
+t:12096499
+k:pintureria en cordoba - pintecord|rodriguez del busto 4086, x5008 cordoba, argentina
+t:16740589
+k:shop paint - fadepa|damian garat 2610, x5008 cordoba, argentina
+t:18553305
+k:cafe de barrio - cafe de especialidad|buenos aires 601 loc 4, x5000 cordoba, argentina
+t:13767584
+m:tiendacafedebarrio@gmail.com
+k:club de cafe - cafe de especialidad|
+t:17543589
+k:la granja de santi y juani|igualdad 6355, x5003 cordoba, argentina
+t:16101663
+k:caravana carnes|av. recta martinolli 6419, x5021hya cordoba, argentina
+t:16068462
+k:suoem|9 de julio 642, x5000emn x5000kfb, cordoba, argentina
+t:18087642
+k:ammar cordoba|x5000ibn, san martin 723, x5000 x5000ibn, cordoba, argentina
+t:16524335
+k:asociacion de jubilados y pensionados profesionales de la salud (ajpps)|sta fe 30, x5000 cordoba, argentina
+t:17616514
+k:asociacion de enfermeria de cordoba|san martin 235, x5000 cordoba, argentina
+t:12554351
+k:asociacion de empleados del jockey club cordoba|francisco de paula saubidet 3381, x5000azc cordoba, argentina
+t:18131118
+m:info@gremioaejcc.com.ar
