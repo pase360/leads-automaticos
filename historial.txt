@@ -1465,3 +1465,110 @@ t:12554351
 k:asociacion de empleados del jockey club cordoba|francisco de paula saubidet 3381, x5000azc cordoba, argentina
 t:18131118
 m:info@gremioaejcc.com.ar
+k:farmacia pueyrredon|av. j. m. de pueyrredon 256, x5000 cordoba, argentina
+t:12542840
+k:tulipan flores|99,, obispo trejo 49, cordoba, argentina
+t:16575730
+k:carus panaderia y pasteleria|av. castro barros 788, x5012hzn cordoba, argentina
+t:16065662
+k:pasteleria melody|av. castro barros 189, x5000 cordoba, argentina
+t:16257377
+k:fernandez panaderia y cafe|sta fe 944, x5000 cordoba, argentina
+t:18816170
+k:heladeria providencia|sta fe 845, x5000 cordoba, argentina
+t:17624059
+k:optica campo visual cordoba|esquina a.m.bass, dean funes 595, x5000 aak, cordoba, argentina
+t:15058679
+m:infoopticacampovisual@gmail.com
+k:optica clarylent|av. colon 47, x5000 cordoba, argentina
+t:13478699
+m:info@clarylent.com.ar
+k:visualizar optica vzr - centro|gral. alvear 41 1°piso, x5000 cordoba, argentina
+t:15192517
+m:info@visualizar.net
+k:santacara optica|la rioja 289, x5000 cordoba, argentina
+t:15385135
+m:atencionalcliente@santacaraoptica.com.ar
+k:wezone gym|av. velez sarsfield 1600, x5000 cordoba, argentina
+t:16570586
+k:gimnasio - fm entrenamiento - deporte & salud -|gral. simon bolivar 475, x5000 cordoba, argentina
+t:18094471
+k:punto fit|9 de julio 424, x5000 cordoba, argentina
+t:16411673
+k:matchday gym & bienestar tpa yoga|montevideo 378, x5000 cordoba, argentina
+t:17736826
+k:dodici pasteleria|juan del campillo 172, x5001 cordoba, argentina
+t:17075332
+k:lo postigli alta cordoba|justo jose de urquiza 1952, x5001 ftf, cordoba, argentina
+t:12190504
+k:flora bakery|gral. paz 2957, x5001 cordoba, argentina
+t:16792030
+k:la geno|luis de gongora 997, x5001 cordoba, argentina
+t:16343334
+k:optica lumier|sta. ana 3087, x5003 cordoba, argentina
+t:13562057
+k:mundo vision opticas|av. fuerza aerea argentina 2714, x5010 cordoba, argentina
+t:18552632
+k:optica v&v cordoba|maestro vidal 1152 loc 2, x5008 cordoba, argentina
+t:18730455
+k:optica rudi|av. fuerza aerea argentina 2504, x5010 cordoba, argentina
+t:17517003
+k:estetica prisma cordoba|dean funes 196, x5000 cordoba, argentina
+t:16816696
+k:koa estetica & spa|santiago derqui 33, x5000gxa cordoba, argentina
+t:18916207
+k:ginevra estetica y spa|parana 618, x5000 cordoba, argentina
+t:13981858
+k:abasser clinica estetica masculina|gral. simon bolivar 348 primer piso, x5000lhf cordoba, argentina
+t:16754393
+k:portho [villa allende]|local b1 roque, av. saenz pena 238, x5105 villa allende, cordoba, argentina
+t:44680979
+m:administracion@porthogelatto.com
+k:heladeria la merced|buenos aires &, santiago derqui 5000, cordoba, argentina
+t:18641290
+k:tio elvio helados - fabrica|francfort 2000, x5012ifl cordoba, argentina
+t:12843752
+k:ferreteria "la gringa"|x5006ghf, agustin garzon 3906, x5006 ghf, cordoba, argentina
+t:16539660
+k:ferreteria los primos|av. amadeo sabattini 2850, x5000 cordoba, argentina
+t:16341035
+k:ferreteria y cerrajeria 24|av. 24 de septiembre 1713, x5000ftu cordoba, argentina
+t:17286168
+k:ferreteria toro|x5006ipm, blas parera 3889, x5006 ipm, cordoba, argentina
+t:17590859
+k:socios del cafe|mariano fragueiro 1936, x5001gcf cordoba, argentina
+t:18928775
+k:cafe cafe cordoba|mariano fragueiro 2211, x5000 cordoba, argentina
+t:18720656
+k:hub! bar & coffee|mariano fragueiro 2151, x5000 cordoba, argentina
+t:18667670
+k:wollen cofico|mariano fragueiro 1632, x5000 cordoba, argentina
+t:46272482
+k:angels beauty salon.|yofre n, chachapoyas 1891, x5012knc cordoba, argentina
+t:17557738
+k:estetica aurora /unas|jacinto de altolaguirre 1390, x5013cgb cordoba, argentina
+t:17735244
+k:consentidas estetica|nicolas de villacorta y ocana 3085, x5012 cordoba, argentina
+t:17573298
+k:paulanair.lash|3956, x5000 cordoba, argentina
+t:17043173
+k:kalon .. . multiespacio estetico|isabel la catolica 887, x5001 cordoba, argentina
+t:13975114
+k:always beauty|armenia 2047, x5004 cordoba, argentina
+t:16765669
+k:estetica integral_ab|dean funes 1625, x5000 cordoba, argentina
+t:16001489
+k:nua estetica y nutricion|m. alvarez de las casas 388, x5001 cordoba, argentina
+t:18187536
+k:colegio profesional de inmobiliarios cordoba - cpi|9 de julio 228 230- piso 3, x5000 cordoba, argentina
+t:12071571
+k:colegio profesional de higiene y seguridad de la provincia de cordoba (cophisec) — ley n° 10.666|felix olmedo 2139, x5000 cordoba, argentina
+t:18611069
+k:fecac - federacion de expendedores de combustibles y afines del centro de la republica|buenos aires 840, x5000imr cordoba, argentina
+t:16660919
+m:info@fecac.org.ar
+k:federacion de basquetbol de la provincia de cordoba (f.b.p.c.)|bv. gral. las heras 342, x5000 cordoba, argentina
+t:13569812
+k:asociacion mutual trabajadores municipales 3 de abril|rosario de sta. fe 231 piso 13, x5000 cordoba, argentina
+t:17171330
+m:contacto@mutual3deabril.org
