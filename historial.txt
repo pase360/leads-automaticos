@@ -1572,3 +1572,114 @@ t:13569812
 k:asociacion mutual trabajadores municipales 3 de abril|rosario de sta. fe 231 piso 13, x5000 cordoba, argentina
 t:17171330
 m:contacto@mutual3deabril.org
+k:3 & punto drugstore|crisol 152 loc 5, x5000 cordoba, argentina
+t:18197398
+k:farmacity|san lorenzo 298, x5000 cordoba, argentina
+t:14110927
+k:farmacia farmacetto|centro, ferroviarios 1421, x5000eyc cordoba, argentina
+t:17026398
+k:farmacias lider [sucursal lider oncativo] | farmacias lider s.a.|oncativo 1366, x5000fhr cordoba, argentina
+t:18565656
+k:bos unas|damian garat 2716 planta alta, x5008 cordoba, argentina
+t:13561404
+m:silchu47@gmail.com
+k:espacio flor romero|manuel carles 3657, x5008 cordoba, argentina
+t:18639172
+k:la paqueta|roberto cayol 3985, x5008 cordoba, argentina
+t:13057175
+k:dolphin nails studio💅🏼|joaquin camano y bazan 4650, x5008 cordoba, argentina
+t:17573801
+k:verduleria alem|av. leandro n. alem 1981, x5012 cordoba, argentina
+t:18069155
+k:verduleria america|fuencarral 310, x5000juh cordoba, argentina
+t:16771051
+k:aguacate verduleria|av. las malvinas 1695, x5012aai cordoba, argentina
+t:12772999
+k:verduleria y polleria cristal|juan capistrano tissera 663, x5001dbm cordoba, argentina
+t:16601633
+k:wan nails studio|jachal 4535, x5006gbm cordoba, argentina
+t:16504583
+k:bardeminas|guandacol 2461, x5008 cordoba, argentina
+t:17592983
+k:estetica gabriela varas|doroteo robles, antonio machado 3892 esquina, cordoba, argentina
+t:17378188
+k:caliope estetica y salud|san jeronimo 2852, x5003 cordoba, argentina
+t:15394554
+k:loft tienda / estudio|belgrano 745, x5000 cordoba, argentina
+t:13769582
+m:loftmarketing90@gmail.com
+k:bisant mobiliario|galeria muy guemes, fructuoso rivera 260 loc 9 y 10, x5000 cordoba, argentina
+t:16580145
+k:muy guemes|fructuoso rivera 260, x5000 cordoba, argentina
+t:13512460
+k:cosas para llevar s.a.s|belgrano 719, x5000 cordoba, argentina
+t:12486114
+k:takones|obispo trejo 160, x5000aac cordoba, argentina
+t:17175507
+m:takonesshoes@hotmail.com
+k:charles bottier | zapatos hombre y mujer - venta de zapatos online|rivadavia 15, x5000 cordoba, argentina
+t:13001900
+m:charlesbottier01@gmail.com
+k:minici calzados|9 de julio 185, x5000 cordoba, argentina
+t:12289209
+m:hola@solecalzado.com
+k:strawberry trejo|obispo trejo 468, x5000iyj cordoba, argentina
+t:12455724
+m:strawberrytrejoo@gmail.com
+k:ferreteria nico|av. pablo ricchieri 3296, x5000 cordoba, argentina
+t:12376906
+k:ferreteria yoni|coronel jose javier diaz 683, ipona, x5016bhg cordoba, argentina
+t:16337019
+k:ferreteria del hogar|tandil 1312, x5000 cordoba, argentina
+t:15574678
+k:fm ferreteria mayo|av. revolucion de mayo 1901, x5000 cordoba, argentina
+t:16602300
+k:roticeria|felipe ii 2015, x5012irs x5012irs, cordoba, argentina
+t:16787797
+k:rotiseria la familia|colomprea 1333, x5012 cordoba, argentina
+t:16578767
+k:pollos lo de omar|dr. arturo capdevila 1130, x5012cjs cordoba, argentina
+t:17649502
+k:viggo's rotiseria|calle sta lucia 10, x5012 cordoba, argentina
+t:17365467
+k:el hornito santiagueno ruta 20|av. julio a. roca 1671, parque capital, x5000crc cordoba, x5000 cordoba, argentina
+t:36734292
+m:soporte@elhornito.com.ar
+k:rotiseria 420|aviador bradley 4712, x5010hyl cordoba, argentina
+t:16516558
+k:brutal pizzeria|juan h. vieytes 2329, x5010 cordoba, argentina
+t:15303247
+k:lo de villalpando 22 anos|av. fuerza aerea argentina 2450, x5010 cordoba, argentina
+m:lodevillalpando@gmail.com
+k:pinturerias del plata|colectora este ramal escobar km 46.300, b1625 belen de escobar, provincia de buenos aires, argentina
+t:36953472
+m:info@pintureriasdelplata.com.ar
+k:kromacolor pinturerias|colectora este ramal escobar 825, b1623abg belen de escobar, provincia de buenos aires, argentina
+t:26421421
+k:pintureria mapache el cazador|av. gral. san martin 3039, b1625 belen de escobar, provincia de buenos aires, argentina
+t:23136270
+k:pintureria j&l|av. cjal. felipe belardinelli 3730, x5000 cordoba, argentina
+t:17044401
+k:pintureria imperio del color|blvd. pres. dr. arturo u. illia 542, x5000 ass, cordoba, argentina
+t:17304289
+m:imperiodelcolor.22@gmail.com
+k:centro pinturerias (ex pintureria balcarce)|av. juan kelly 780, b7620 balcarce, provincia de buenos aires, argentina
+t:66480389
+k:pintores en cordoba | chamtac|
+t:16358249
+k:pinturerias del centro manantiales - alba|miradores de manantiales, x5000 cordoba, argentina
+t:13677130
+k:merillia ex mi pasteleria|av. piamonte, ramon carcano esq, x5000 cordoba, argentina
+t:13872920
+k:sindicato argentino de trabajadores de la industria fideera|david luque 376, x5004akj cordoba, argentina
+m:central@satif.com.ar
+k:sindicato de luz y fuerza de cordoba|dean funes 672, x5000aan cordoba, argentina
+m:prensaluzyfuerza.cba@gmail.com
+k:a.m.v.o.s. asociacion mutual voluntad objetiva de seguros|tucuman 300, centro norte, x5000jsf cordoba, argentina
+t:18758015
+m:gerencia@amvos.com.ar
+k:federacion provincial de mutualidades de cordoba|independencia 387, x5000 iug, cordoba, argentina
+m:info@femucor.org
+k:instituto de obra social del empleado provincial|obispo salguero 745, x5000 cordoba, argentina
+t:53001623
+m:secretaria.administrativa@iosep.gob.ar
