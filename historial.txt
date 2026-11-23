@@ -1683,3 +1683,116 @@ m:info@femucor.org
 k:instituto de obra social del empleado provincial|obispo salguero 745, x5000 cordoba, argentina
 t:53001623
 m:secretaria.administrativa@iosep.gob.ar
+k:sibλris ʀᴇꜱᴛᴀᴜʀᴀɴᴛᴇ|buenos aires 214, x5022aaf cordoba, argentina
+t:16863188
+m:info@sibarisrestaurante.com.ar
+k:el gran vidrio|humberto 1o 497 centro norte, x5000fai cordoba, argentina
+t:15959350
+m:info@elgranvidrio.com
+k:bros. – ᴄᴏᴍᴇᴅᴏʀ|27 de abril 568 piso 2, x5000ael x5000ael, cordoba, argentina
+t:18029418
+k:la perla|centro, av. emilio olmos 265, x5000eoc cordoba, argentina
+t:16232514
+k:supermercados almacor|diego diaz 701, x5000 cordoba, argentina
+m:info@almacor.com.ar
+k:exitos perfumes|av. velez sarsfield 1188, x5003 cordoba, argentina
+t:18048215
+k:5 avenida|9 de julio 566, x5000eml cordoba, argentina
+t:18998614
+k:bertoldi perfumeria profesional|corrientes 180, x5000apa cordoba, argentina
+t:16871394
+k:millanel cosmetica (venta al menor)|av. patria 375, x5000 cordoba, argentina
+m:info@millanelcba.com.ar
+k:gm style cordoba|dr. arturo capdevila 1139, x5012 cordoba, argentina
+t:16618532
+m:gmstyle2017@gmail.com
+k:la pyme local|candido galvan 709, x5012 cordoba, argentina
+t:12921359
+k:siria sur - ropa por kilo|dr. arturo capdevila 1914, x5000 cordoba, argentina
+t:16429996
+k:tienda nani's|dr. arturo capdevila 1008, x5012cjr cordoba, argentina
+t:12014044
+k:garage uno - servicio mecanico integral - taller|primero de mayo 465, x5008 cordoba, argentina
+t:15103047
+m:garageuno@hotmail.com
+k:taller mecanico ariel camacho|av. gdor. eufrasio loza 845, x5000xxx cordoba, argentina
+t:72405634
+m:ariel.camacho1334@gmail.com
+k:taller peredo srl|angelo de peredo 467, x5000 cordoba, argentina
+t:18000624
+k:taller mecanico flatlands|peru 328, x5000 cordoba, argentina
+t:17576024
+k:optiser|obispo trejo 187, x5000iyc cordoba, argentina
+t:17050346
+k:optica nueva vision|libertad 381, x5850 rio tercero, cordoba, argentina
+t:71623028
+k:centro optico general paz|felix frias 365 b, x5000 cordoba, argentina
+t:17604605
+k:optica santa isabel|2° seccion, cajamarca 2094, x5017kzr cordoba, argentina
+t:16643113
+k:mecanica santos adets|joaquin montana 869, x5012 cordoba, argentina
+t:16188988
+k:car - mec|puerto rico 1631, x5012 cordoba, argentina
+t:16198654
+k:gas musky (taller mecanico)|juan de santiso y moscoso 1421 - 1423, x5001cth cordoba, argentina
+t:16958208
+k:t-r mecanica y gnc|diag. ica 1381, x5000guj cordoba, argentina
+t:17580619
+k:opticas alta vista|av. emilio caraffa 2541, x5009 cordoba, argentina
+t:12427241
+m:optaltavistasanvicente@gmail.com
+k:optica laura barrera|av. de mayo 1411, x5017 cordoba, argentina
+t:17452604
+k:optica vision infinita|jacinto de altolaguirre 2112, x5000 cordoba, argentina
+t:16278782
+k:optica vision con estilo|av. armada argentina 147, x5017 cordoba, argentina
+t:18644142
+k:ranhill|chacabuco 146, centro, x5000iio cordoba, argentina
+t:13431992
+m:ventas@ranhill.com
+k:moss|moss, san lorenzo 137, 5000 cordoba, argentina
+t:12087164
+m:mossindumentaria.nvacba@gmail.com
+k:presagio|centro, dean funes 784 loc 1, x5000aap cordoba, argentina
+t:13483249
+m:indumentaria@hotmail.con
+k:old es cool(centro)|x5000aaf x5000aaf cordoba ar, dean funes 250, x5000 aaf, argentina
+t:17618148
+m:oldescool.centro@gmail.com
+k:cesar winschel pasteleria artesanal|9 de julio 711, x5000 cordoba, argentina
+t:18602868
+k:perdu|av. duarte quiros 1790, x5002aoo cordoba, argentina
+t:18593560
+k:la casona|la rioja 2291, x5003bwk x5003bwk, cordoba, argentina
+t:17393267
+k:andrea franceschini® [alto alberdi]|sta. ana 3264, x5002dbq cordoba, argentina
+t:12475799
+k:lavadero de autos mati|del cielito 8010, cordoba, argentina
+t:17872059
+k:gd estetica vehicular|av. armada argentina 141, x5016 cordoba, argentina
+t:16545168
+k:farmacias sanchez antoniolli 29|ramon j. carcano 1291, cordoba, argentina
+t:18141387
+k:hc farma valle escondido|av. mahatma gandhi 651, x5003 cordoba, argentina
+t:17517088
+k:farmacia los boticarios - gama|c. publica 150, x5003 cordoba, argentina
+t:17444454
+k:farmacia treu|av. don bosco 5756, x5002blv cordoba, argentina
+t:18166177
+k:sabia naturaleza|colegio san buenaventura, cirilo correa 395 casi, av. don bosco y, cordoba, argentina
+t:16503312
+k:dietetica herbal|chubut 371, x5000 cordoba, argentina
+t:16868451
+k:club atletico racing (c.a.r.)|herman huberman 1750, x5012 cordoba, argentina
+t:13525777
+m:adm.racingcba@gmail.com
+k:instituto atletico central cordoba (i.a.c.c.)|jujuy 2602, x5001 cordoba, argentina
+t:12209813
+k:jerarquicos del transporte | obra social - ospjtap|justo jose de urquiza 241, x5000kpe cordoba, argentina
+t:18197530
+m:contacto@jerarquicosdeltransporte.com
+k:prepaga y obra social|27 de abril, av. velez sarsfield y, 5000 cordoba, argentina
+t:16376907
+k:sindicato de musicos de la provincia de cordoba|pasaje groppo 1137, alberdi, x5000edc cordoba, argentina
+t:16592203
+m:sindicatomusicos.cba@gmail.com
