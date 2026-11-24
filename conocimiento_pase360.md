@@ -107,7 +107,7 @@ Sitio web: https://www.pase360.online
 - Portal "Mi Panel Pase 360" con historial de QR generados, facturas y datos.
 
 ## Costo y pago
-- **No hay abono mensual fijo.** Se paga solo por los QR generados: cantidad de QR x tarifa vigente de su canal (más impuestos).
+- **No hay abono mensual fijo.** Se paga solo por los QR generados: cantidad de QR x tarifa vigente de su canal (más impuestos), para el caso en que el total de Qr generados no alcancen el monto minimo de $ 5000, se emitira en la factura una linia con el detalle de ajuste para llegar al minimo de $ 5000.
 - Se registra una tarjeta de débito o crédito para el cobro automático. El período cierra a fin de mes y el cobro se hace en el día que el generador elige: 1, 10, 20 o 25 del mes siguiente.
 - Pase 360 no guarda directamente los datos de la tarjeta.
 - Tarifa por QR de cada canal: PENDIENTE (ver sección "Precios de los planes").
@@ -128,7 +128,7 @@ Naranjita, Taxi, Remis, Sindicatos, Profesionales, Instituciones, Empresa y Semm
 2. **Datos del generador**: nombre y apellido o razón social, dirección, ciudad, código postal (opcional), correo, teléfono/WhatsApp.
 3. **Clasificación**: canal, subcanal y a qué organización pertenece (por ejemplo el colegio profesional, sindicato, empresa o institución).
 4. **Datos fiscales**: condición ante AFIP y CUIT/CUIL sin guiones.
-5. **Medio de pago**: elegir el día de débito mensual (1, 10, 20 o 25) y tildar la aceptación para registrar una tarjeta y autorizar el cobro automático. El alta queda sujeta a la validación del medio de pago.
+5. **Medio de pago**: elegir el día de débito mensual (1, 10, 20 o 25) y tildar la aceptación para registrar una tarjeta y autorizar el cobro automático. El alta queda sujeta a la validación del medio de pago, para esto se procederá a hacer un debito de $ 5000 de validación, el cual sera automáticamente reembolsado mediante el mismo medio de pago informado por el generador.
 6. **Contrato**: leerlo dentro del formulario.
 7. **Firma**: tildar la aceptación, escribir nombre y DNI del firmante, y dibujar la firma (o escribir el nombre). Tocar "Finalizar adhesión".
 8. **Activación**: llega un correo con "Activar cuenta" para crear la contraseña. Después se ingresa con "Iniciar sesión".
