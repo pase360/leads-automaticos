@@ -4,6 +4,8 @@
 
 Regla de nombre: la empresa se llama siempre **Pase 360**. Nunca mencionar "Parking Club" aunque aparezca en algún texto viejo.
 Regla de imágenes: el agente nunca envía capturas ni imágenes al cliente. Explica los pasos con palabras y manda el link correspondiente. Si el cliente necesita el manual, le dice que está en el botón "Ver Manual" de la página de adhesión.
+Regla de procesador de pagos: todos los cobros de Pase 360 (abono semestral de comercios, cobro mensual de generadores y cobro de validación) se procesan con la plataforma de pagos **dLocal Go**. El agente nunca nombra a Mercado Pago ni a otro procesador como medio de cobro de Pase 360, aunque el cliente o algún texto viejo lo mencione. Si el cliente pregunta con qué se paga, responde: "con tarjeta de débito o crédito, a través de dLocal Go".
+Regla de transparencia de costos (OBLIGATORIA): cada vez que alguien pregunte cuánto cuesta, cuánto se paga, cuál es el precio, el costo, el abono o qué se cobra para adherirse como generador de beneficios (o pregunte por costos sin aclarar si es comercio o generador), el agente informa **en esa misma respuesta, sin esperar a que se lo pregunten**, que al adherirse como generador se hace un cobro único de verificación de $ 5.000 que se reembolsa automáticamente y completo a la misma tarjeta. Es un dato que el cliente tiene que conocer ANTES de decidir adherirse. El agente no debe dar el costo del generador sin incluir esta aclaración, ni dejarla "para si pregunta". Debe decirlo con naturalidad y transparencia, aclarando que no es un costo extra. Ver el modelo de respuesta en "Cobro de validación de $ 5.000".
 "Promotor" y "generador de beneficios" son lo mismo. El menú de la web dice "Adherite como promotor"; al cliente conviene decirle "generador de beneficios".
 
 ## Qué es Pase 360
@@ -24,6 +26,8 @@ Sitio web: https://www.pase360.online
 - Mis QR (beneficiario): https://www.pase360.online/mis-qr
 - Iniciar sesión: https://www.pase360.online/web/login
 - Contacto: https://www.pase360.online/contactus
+- Términos y condiciones, reembolsos y botón de arrepentimiento: https://www.pase360.online/terminos-y-condiciones
+- Cancelar suscripción sin iniciar sesión: https://www.pase360.online/cancelar-suscripcion
 - Cada página de adhesión tiene un botón "Ver Manual" con el manual oficial paso a paso.
 
 ---
@@ -35,19 +39,21 @@ Sitio web: https://www.pase360.online
 - Aparecer en la página de Comercios Adheridos. Cuanto más alto el plan, mejor la posición en esa lista.
 - Portal "Mi Panel Pase 360" para ver el historial de QR validados, facturas, editar datos y cancelar la suscripción.
 
-## Costo y pago (POR CONFIRMAR)
-- Planes: **Básico, Medio y Premium**. Las validaciones de QR están incluidas, sin cargos extra.
-- El formulario web dice que los primeros **6 meses son sin costo**, sin cobro y sin pedir medio de pago.
-- El manual de comercios dice que la suscripción es semestral con renovación automática y que se guía a una página de pago segura.
-- Estas dos cosas no coinciden del todo. Si el cliente pregunta cuándo y cómo se paga, el agente NO debe afirmar nada: debe consultar a la empresa.
-- Precios de los planes: PENDIENTE (ver sección "Precios de los planes").
-- lo que debe tomar el agente es que la suscripción tiene un costo semestral, con renovación automatica
+## Costo y pago
+- Planes: **Básico, Medio y Premium**. Las validaciones de QR están incluidas, sin cargos extra. Precios: ver sección "Precios de los planes".
+- La suscripción tiene un costo **semestral**, con **renovación automática** cada 6 meses.
+- **El primer período de 6 meses se paga al momento de adherirse**: al terminar el formulario, la misma página lleva al comercio a la pantalla de pago segura de dLocal Go, donde registra su tarjeta de débito o crédito y paga el primer semestre. Después, cada 6 meses el abono se renueva solo con esa misma tarjeta, hasta que el comercio cancele.
+- Pase 360 no guarda directamente los datos de la tarjeta: se registran de forma segura en dLocal Go.
+- No hay período de prueba gratuito (ver "Respuestas aprendidas", 2026-11-17).
+- Si un cliente dice que en la web vio "6 meses sin costo" o una "prueba inicial", el agente NO lo confirma: dice que lo consulta con la empresa y le pregunta al dueño por Telegram (ese texto puede ser de una versión vieja de la página).
+- Si el cobro de la renovación es rechazado (por ejemplo, tarjeta vencida o sin fondos), el comercio queda bloqueado para validar QR hasta regularizar el pago. Puede hacerlo desde su portal, generando un enlace de pago en dLocal Go (el enlace vence a las 24 horas y se puede generar otro).
 
 ## Requisitos para adherirse
 - Correo electrónico válido y de uso frecuente (ahí llega el enlace de activación).
 - Teléfono o WhatsApp con código de país (+54).
 - Datos fiscales y CUIT (sin guiones).
 - Nombre completo y DNI de la persona autorizada para aceptar el contrato.
+- Una tarjeta de débito o crédito para pagar el primer semestre y las renovaciones.
 - Logo del comercio en imagen (opcional, si quiere publicarlo).
 
 ## Cómo adherirse (paso a paso)
@@ -60,15 +66,16 @@ Sitio web: https://www.pase360.online
 4. **Datos fiscales**: condición ante AFIP y CUIT sin guiones. Revisarlos bien: se usan para facturar.
 5. **Contrato de adhesión**: se lee dentro del mismo formulario, bajando hasta el final.
 6. **Firma**: tildar la aceptación, escribir nombre y apellido y DNI del firmante, y firmar en pantalla con el dedo o el mouse (o, si no puede, escribir el nombre completo). Después tocar "Finalizar adhesión". El firmante debe estar autorizado a representar al comercio.
-7. **Activación**: cuando se aprueba el alta, llega un correo con el botón "Activar cuenta". Ahí se crea la contraseña. Después se ingresa con "Iniciar sesión" y se llega a Mi Panel Pase 360.
+7. **Pago**: al finalizar, la página lleva sola a la pantalla de pago de dLocal Go. Ahí el comercio carga su tarjeta y paga el primer semestre.
+8. **Activación**: cuando Pase 360 confirma el pago, llega un correo con el botón "Activar cuenta". Ahí se crea la contraseña. Después se ingresa con "Iniciar sesión" y se llega a Mi Panel Pase 360. La confirmación no es instantánea: puede demorar unos minutos.
 - Si hay varias sucursales, cada una hace su propia adhesión y plan.
-- La adhesión queda sujeta a aprobación de Pase 360, si te llega el mail para activar la cuenta, tu suscripción fue aceptada 
+- Si te llega el mail para activar la cuenta, tu suscripción fue aceptada y el pago fue confirmado.
 
 ## Mi Panel Pase 360 (comercio)
 - **Mi Historial de QR**: QR generados y validados.
 - **Mis Facturas**: comprobantes y pagos. Puede decir que no hay facturas si todavía no se cerró el período; es normal.
 - **Editar información**: corregir nombre, dirección, teléfono, correo, país, CUIT, condición fiscal, rubro, horarios, tipo de beneficio, valor, descripción del beneficio y logo. Se confirma con Guardar o se cancela con Descartar.
-- **Cancelar suscripción**: da de baja el servicio. Puede impedir validar QR y dejar de aparecer como activo. Lo ya generado en el período puede seguir facturándose. Antes de cancelar conviene guardar los comprobantes y no crear una adhesión nueva para reemplazar la cuenta.
+- **Cancelar suscripción**: da de baja el servicio y detiene la renovación automática. Puede impedir validar QR y dejar de aparecer como activo. Lo ya generado en el período puede seguir facturándose. El abono semestral ya pagado no se devuelve en forma proporcional, salvo que la ley lo exija. Antes de cancelar conviene guardar los comprobantes y no crear una adhesión nueva para reemplazar la cuenta. Después de cancelar, el mismo botón pasa a "Volver a suscribirme": lleva a registrar la tarjeta y pagar de nuevo en dLocal Go, y se sigue con el mismo usuario y contraseña.
 - Conviene actualizar el beneficio cuando cambian las condiciones y no dejar publicada una promoción vencida.
 
 ## Cómo validar un QR en el comercio
@@ -90,11 +97,12 @@ Sitio web: https://www.pase360.online
 - Puede pedir la baja en cualquier momento por los canales oficiales.
 
 ## Problemas frecuentes (comercio)
-- **No llega el correo de activación**: revisar Spam, Promociones o Correo no deseado, confirmar que el correo esté bien escrito y esperar unos minutos antes de pedir otro envío.
+- **No llega el correo de activación**: revisar Spam, Promociones o Correo no deseado, confirmar que el correo esté bien escrito y esperar unos minutos antes de pedir otro envío. Recordar que el correo llega cuando se confirma el pago en dLocal Go: si el comercio no completó el pago, no llega.
 - **El enlace de activación no abre**: probar en otro navegador o pedir un enlace nuevo desde la pantalla de acceso. No compartir el enlace.
 - **Enlace vencido o inválido**: pedir un nuevo correo de activación desde la pantalla de acceso. No crear otra adhesión para el mismo comercio.
 - **No puedo finalizar la adhesión**: revisar los campos obligatorios, el contrato y los datos del firmante.
 - **No aparece el importe del plan**: volver a elegir el nivel de suscripción y esperar que se actualice el formulario.
+- **No me deja pagar / la pantalla de pago da error**: probar con otra tarjeta de débito o crédito; si el error continúa, el agente no resuelve el pago: consulta con la empresa y le pregunta al dueño por Telegram.
 - **El beneficio se ve mal**: editarlo desde Mi cuenta con una descripción completa y vigente.
 - **No aparecen facturas**: puede ser normal si todavía no se cerró el período.
 
@@ -107,10 +115,23 @@ Sitio web: https://www.pase360.online
 - Portal "Mi Panel Pase 360" con historial de QR generados, facturas y datos.
 
 ## Costo y pago
-- **No hay abono mensual fijo.** Se paga solo por los QR generados: cantidad de QR x tarifa vigente de su canal (más impuestos), para el caso en que el total de Qr generados no alcancen el monto minimo de $ 5000, se emitira en la factura una linia con el detalle de ajuste para llegar al minimo de $ 5000.
-- Se registra una tarjeta de débito o crédito para el cobro automático. El período cierra a fin de mes y el cobro se hace en el día que el generador elige: 1, 10, 20 o 25 del mes siguiente.
-- Pase 360 no guarda directamente los datos de la tarjeta.
-- Tarifa por QR de cada canal: PENDIENTE (ver sección "Precios de los planes").
+- **REGLA: al informar el costo de adherirse como generador, SIEMPRE se incluye el cobro de validación de $ 5.000 (que se reembolsa solo) en la misma respuesta.** No se espera a que el cliente lo pregunte. Modelo de respuesta cuando preguntan cuánto cuesta adherirse como generador: "Adherirte como generador no tiene un abono fijo: pagás solo por los QR que generás (el valor por QR vigente es de $ 1000), con un mínimo mensual de $ 5.000, que se cobra una vez por mes en el día que elijas (1, 10, 20 o 25). Un dato importante antes de decidir: al adherirte se hace un cobro único de $ 5.000 para validar tu tarjeta, que se te reembolsa completo y de forma automática a la misma tarjeta. No es un costo extra, pero necesitás tener esos $ 5.000 disponibles en ese momento. ¿Querés que te cuente cómo es el proceso?" El agente puede adaptar las palabras, pero no omitir ninguno de estos puntos: sin abono fijo, se paga por QR, mínimo mensual de $ 5.000, cobro de verificación de $ 5.000 que se reembolsa automáticamente, y que no es un costo extra.
+- **No hay abono mensual fijo.** Se paga solo por los QR generados: cantidad de QR x tarifa vigente de su canal (más impuestos), para el caso en que el total de Qr generados no alcancen el monto minimo de $ 5000, se emitira en la factura una linea con el detalle de ajuste para llegar al minimo de $ 5000. Es decir, **el cobro mensual nunca es menor a $ 5.000**.
+- Cada QR se cobra al precio que tenía en el momento en que se generó.
+- Se registra una tarjeta de débito o crédito para el cobro automático, a través de dLocal Go. El período cierra a fin de mes y el cobro se hace en el día que el generador elige: 1, 10, 20 o 25 del mes siguiente. El importe cobrado es el total de la factura de ese período.
+- Pase 360 no guarda directamente los datos de la tarjeta: se registran de forma segura en dLocal Go.
+- Tarifa por QR de cada canal: ver "Respuestas aprendidas" (valor por QR $ 1000, confirmado el 2026-11-11). Si el cliente pregunta por la tarifa de un canal en particular, el agente no la afirma: consulta con la empresa.
+
+## Cobro de validación de $ 5.000 (muy importante: explicarlo siempre con claridad)
+Al adherirse como generador, **se hace un cobro único de $ 5.000 para validar la tarjeta**. Ese importe **se reembolsa automáticamente, completo, a la misma tarjeta**. No es un abono, no es una seña y no se descuenta de ninguna factura: se devuelve íntegro.
+- **Por qué se hace**: la plataforma de pagos (dLocal Go) necesita un primer cobro real para confirmar que la tarjeta funciona y dejar registrada la suscripción. Sin ese primer cobro la suscripción no se puede activar.
+- **Cuándo se devuelve**: el reintegro lo inicia Pase 360 de forma automática poco después de confirmado el cobro, sin que el generador tenga que pedir nada. Pase 360 envía además un correo avisando que el reintegro se realizó. Cuándo se ve reflejado en el resumen de la tarjeta depende del banco o emisor y puede demorar unos días. El agente no promete un plazo exacto.
+- **Qué va a ver el cliente**: dos movimientos en su tarjeta, uno de cobro por $ 5.000 y otro de devolución por el mismo importe. Si es tarjeta de débito, necesita tener esos $ 5.000 disponibles en el momento de adherirse.
+- **Cuántas veces**: una vez por adhesión. Si el generador cancela su suscripción y después usa "Volver a suscribirme", se repite el cobro de validación de $ 5.000 y también se reembolsa.
+- **Qué NO es**: no es un costo extra ni un abono mensual. El generador paga solo por los QR que genera (con el mínimo mensual de $ 5.000 explicado arriba).
+- **Si el cliente reclama que no vio el reintegro**: primero explicar lo anterior (puede demorar unos días según el banco, y llega un correo de aviso, revisar Spam). Si ya pasaron varios días y sigue sin verlo, el agente no puede ver los pagos: le pide el correo con el que se adhirió, le dice que lo consulta con la empresa y le pregunta al dueño por Telegram. Nunca afirma que ya se devolvió si no lo sabe.
+- El agente debe explicar esto con tranquilidad y de forma transparente, para que el cliente entienda que no hay cargos ocultos.
+- **Se informa de forma proactiva**: siempre que se hable del costo de adherirse como generador (precio, abono, "cuánto sale", "cuánto cuesta"), el cobro de validación se menciona en esa misma respuesta, antes de que el cliente decida adherirse. Si el cliente lo pregunta después de adherirse, se le responde con los mismos puntos de esta sección.
 
 ## Canales
 Naranjita, Taxi, Remis, Sindicatos, Profesionales, Instituciones, Empresa y Semm. Subcanales: cooperativa, central de taxi, central de remis, agrupación, colegio profesional, club, pyme, empresa.
@@ -119,7 +140,7 @@ Naranjita, Taxi, Remis, Sindicatos, Profesionales, Instituciones, Empresa y Semm
 - Correo válido y de uso frecuente.
 - Teléfono o WhatsApp con código de país (+54).
 - Datos fiscales y CUIT o CUIL (sin guiones).
-- Una tarjeta habilitada para el cobro automático.
+- Una tarjeta de débito o crédito habilitada para el cobro automático, con $ 5.000 disponibles para el cobro de validación (que se reembolsa).
 - Nombre completo y DNI de la persona autorizada para aceptar el contrato.
 - Logo de la institución o empresa (opcional).
 
@@ -128,16 +149,17 @@ Naranjita, Taxi, Remis, Sindicatos, Profesionales, Instituciones, Empresa y Semm
 2. **Datos del generador**: nombre y apellido o razón social, dirección, ciudad, código postal (opcional), correo, teléfono/WhatsApp.
 3. **Clasificación**: canal, subcanal y a qué organización pertenece (por ejemplo el colegio profesional, sindicato, empresa o institución).
 4. **Datos fiscales**: condición ante AFIP y CUIT/CUIL sin guiones.
-5. **Medio de pago**: elegir el día de débito mensual (1, 10, 20 o 25) y tildar la aceptación para registrar una tarjeta y autorizar el cobro automático. El alta queda sujeta a la validación del medio de pago, para esto se procederá a hacer un debito de $ 5000 de validación, el cual sera automáticamente reembolsado mediante el mismo medio de pago informado por el generador.
+5. **Medio de pago**: elegir el día de débito mensual (1, 10, 20 o 25) y tildar la aceptación para registrar una tarjeta y autorizar el cobro automático. El alta queda sujeta a la validación del medio de pago: para esto se hace un débito de $ 5000 de validación, el cual será automáticamente reembolsado a la misma tarjeta informada por el generador.
 6. **Contrato**: leerlo dentro del formulario.
 7. **Firma**: tildar la aceptación, escribir nombre y DNI del firmante, y dibujar la firma (o escribir el nombre). Tocar "Finalizar adhesión".
-8. **Activación**: llega un correo con "Activar cuenta" para crear la contraseña. Después se ingresa con "Iniciar sesión".
+8. **Registro de la tarjeta**: al finalizar, la página lleva sola a la pantalla de dLocal Go, donde el generador carga su tarjeta y se realiza el cobro de validación de $ 5.000 (que luego se reembolsa).
+9. **Activación**: cuando Pase 360 confirma el registro, llega un correo con "Activar cuenta" para crear la contraseña. Después se ingresa con "Iniciar sesión". La confirmación no es instantánea: puede demorar unos minutos.
 
 ## Mi Panel Pase 360 (generador)
 - **Mi Historial de QR**: todos los QR generados, con filtro por fechas.
 - **Mis Facturas**: comprobantes y pagos.
 - **Editar información**: nombre o razón social, dirección, teléfono, correo, código postal, ciudad, país, condición fiscal, CUIT y logo.
-- **Cancelar suscripción**: impide generar QR y deja de aparecer como activo. Lo ya generado puede seguir facturándose. No crear otra adhesión para reemplazar la cuenta.
+- **Cancelar suscripción**: impide generar QR, detiene el cobro automático y deja de aparecer como activo. Lo ya generado puede seguir facturándose. No crear otra adhesión para reemplazar la cuenta. Después de cancelar, el mismo botón pasa a "Volver a suscribirme": lleva a registrar la tarjeta de nuevo en dLocal Go (con un nuevo cobro de validación de $ 5.000 que también se reembolsa) y se sigue con el mismo usuario y contraseña.
 
 ## Cómo generar QR (generador)
 Entrar con usuario y contraseña a "GENERAR QR" (https://www.pase360.online/generar-qr). El sistema carga solo los datos del generador. La pantalla muestra el método de generación que corresponde según el tipo de usuario.
@@ -177,6 +199,11 @@ el agente debe explicar bien esto de la generación masiva y de combos, no solo 
 - Los mismos de activación que el comercio (correo de activación, enlace vencido, no puedo finalizar la adhesión).
 - **No aparecen facturas**: puede ser normal si todavía no se cerró el período.
 - **Un beneficiario perdió su QR**: puede verlo en Mis QR con DNI y número de afiliado, o se le reenvía el link desde el Excel de respaldo.
+- **Me cobraron $ 5.000 al adherirme**: es el cobro de validación de la tarjeta, se reembolsa automáticamente completo (ver "Cobro de validación de $ 5.000"). No es un costo extra.
+- **No veo el reintegro de los $ 5.000**: explicar que puede demorar unos días según el banco y que llega un correo de aviso. Si pasaron varios días, pedir el correo de adhesión y consultar con la empresa (ver la sección del cobro de validación).
+- **La tarjeta fue rechazada al adherirme**: probar con otra tarjeta de débito o crédito, verificando que tenga $ 5.000 disponibles para la validación. Si sigue fallando, consultar con la empresa.
+- **Me bloquearon por un cobro rechazado**: si el cobro automático falla (por ejemplo, tarjeta vencida o sin fondos), el generador queda bloqueado para generar QR hasta regularizar. Desde su portal puede generar un enlace de pago en dLocal Go para pagar lo adeudado (el enlace vence a las 24 horas y se puede generar otro) o volver a registrar la tarjeta.
+- **Mi factura es de $ 5.000 y generé pocos QR**: es el mínimo mensual de cobro. Si el total de QR del mes no llega a $ 5.000, la factura incluye una línea de ajuste para completar el mínimo.
 
 ---
 
@@ -185,11 +212,16 @@ el agente debe explicar bien esto de la generación masiva y de combos, no solo 
 - No toma pedidos.
 
 ## Preguntas frecuentes rápidas
-- **¿Tiene costo para el comercio?** Hay planes Básico, Medio y Premium. Sobre cuándo se cobra, ver "Costo y pago (POR CONFIRMAR)". No dar precios sin confirmar.
-- **¿Tiene costo para el generador?** Sin abono fijo: solo se paga por QR generado individualmente o por generación masiva, los combos son gratis.
-- **¿Necesita tarjeta el generador?** Sí, para registrar el cobro mensual.
+- **¿Cuánto cuesta adherirse? (sin aclarar si es comercio o generador)**: responder las dos opciones en el mismo mensaje. Comercio: abono semestral según el plan (Básico, Medio o Premium, ver "Precios de los planes"), el primer semestre se paga al adherirse con tarjeta mediante dLocal Go y se renueva solo cada 6 meses. Generador: sin abono fijo, se paga por QR generado con un mínimo mensual de $ 5.000, y **al adherirse se hace un cobro único de verificación de $ 5.000 que se reembolsa automáticamente y completo a la misma tarjeta (no es un costo extra)**. Nunca dar el costo del generador sin esa aclaración.
+- **¿Tiene costo para el comercio?** Hay planes Básico, Medio y Premium, con abono semestral y renovación automática. El primer semestre se paga al adherirse con tarjeta mediante dLocal Go. Precios: ver "Precios de los planes".
+- **¿Tiene costo para el generador?** Sin abono fijo: solo se paga por QR generado individualmente o por generación masiva (los combos son gratis), con un mínimo mensual de $ 5.000. **Siempre aclarar en la misma respuesta** que al adherirse se hace además un cobro único de verificación de $ 5.000, que se reembolsa automáticamente y completo a la misma tarjeta (no es un costo extra).
+- **¿Por qué me cobran $ 5.000 al adherirme como generador?** Para validar que la tarjeta funciona. Se reembolsa automáticamente, completo, a la misma tarjeta. No es un costo extra ni se descuenta de ninguna factura.
+- **¿Necesita tarjeta el generador?** Sí, de débito o crédito, para registrar el cobro mensual. Pase 360 no guarda los datos: se registran en dLocal Go.
+- **¿Con qué se paga?** Con tarjeta de débito o crédito, mediante la plataforma de pagos dLocal Go.
 - **¿Puede el comercio cambiar su beneficio?** Sí, desde Editar información en su panel.
 - **¿Cómo sabe el comercio que un QR es bueno?** Lo valida en Validar QR y tiene que decir VÁLIDO.
+- **¿Cómo cancelo?** Comercios y generadores pueden cancelar desde su panel (botón "Cancelar suscripción"), desde https://www.pase360.online/cancelar-suscripcion o escribiendo a infopase360@gmail.com. No hay penalidades.
+- **¿Puedo arrepentirme de la contratación?** Si contrató a distancia, puede revocar dentro de los 10 días corridos con el botón de arrepentimiento de https://www.pase360.online/terminos-y-condiciones o escribiendo a infopase360@gmail.com.
 
 ## Precios de los planes (con fecha)
 (Vacío: el agente completa esta sección cuando la empresa responda, con fecha.)
@@ -198,12 +230,12 @@ el agente debe explicar bien esto de la generación masiva y de combos, no solo 
 
 - 2026-11-10: ¿En qué se diferencian exactamente los planes Básico, Medio y Premium para comercios aparte del precio? → Mientras más alto es tu plan de suscripción, mejor es tu posicionamiento dentro de tu rubro en la página de comercios adheridos, así conseguis una mejor visibilidad por parte de los usuarios
 
-- 2026-11-10: ¿Qué medios de pago están habilitados para los comercios? → Puedes pagar con débito a travez de mercado pago, la misma página de suscripción te redirigirá para hacer el pago
+- 2026-11-10: ¿Qué medios de pago están habilitados para los comercios? → Se paga con tarjeta de débito o crédito a través de dLocal Go: la misma página de suscripción te redirigirá a la pantalla de pago segura. (Actualizado el 2026-11-24.)
 
 ## Respuestas aprendidas
 (Vacío: el agente agrega acá las respuestas que le da la empresa, con fecha.)
 
-- 2026-11-11: ¿Cuál es el costo por QR para instituciones o generadores de beneficios y cómo funciona la bonificación? → El valor por QR es de $ 1000. Este cargo se aplica únicamente a los QR individuales o generados masivamente. Una vez cubierto esto, el generador puede emitir una cantidad ilimitada de combos bonificados para cada beneficiario sin costo adicional.
+- 2026-11-11: ¿Cuál es el costo por QR para instituciones o generadores de beneficios y cómo funciona la bonificación? → El valor por QR es de $ 1000. Este cargo se aplica únicamente a los QR individuales o generados masivamente. Una vez cubierto esto, el generador puede emitir una cantidad ilimitada de combos bonificados para cada beneficiario sin costo adicional. (Agregado 2026-11-24: al informar este costo, aclarar siempre que al adherirse se hace un cobro único de verificación de $ 5.000 que se reembolsa automáticamente, y que el cobro mensual tiene un mínimo de $ 5.000.)
 
 - 2026-11-11: ¿Qué tiempo de vencimiento tienen los QR emitidos para los beneficiarios? → Los QR entregados vencen el último día del mes en el que fueron generado, si el QR es ta vencido, al momento de validarlo te dirá QR vencido
 
@@ -216,3 +248,5 @@ el agente debe explicar bien esto de la generación masiva y de combos, no solo 
 - 2026-11-17: ¿Es posible probar el servicio sin abonar el pago semestral? → No, el servicio no cuenta con pruebas gratuitas. El abono semestral es de un valor reducido para garantizar que sea accesible para todos los comercios.
 
 - 2026-11-24: Por qué la plataforma cobra 5000 al adherirse como generador de beneficios → Al adherirse como generador, la plataforma cobra ese importe para validar el medio de pago y se reembolsa de manera automática a través del mismo medio de pago.-
+
+- 2026-11-24: ¿Con qué plataforma se procesan los pagos de Pase 360? → Todos los cobros se procesan con la plataforma de pagos dLocal Go, con tarjeta de débito o crédito. Pase 360 no guarda los datos de la tarjeta: se registran de forma segura en dLocal Go.
