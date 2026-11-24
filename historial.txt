@@ -1796,3 +1796,112 @@ t:16376907
 k:sindicato de musicos de la provincia de cordoba|pasaje groppo 1137, alberdi, x5000edc cordoba, argentina
 t:16592203
 m:sindicatomusicos.cba@gmail.com
+k:genesis ɢʏᴍ [sede urban]|av. dr. ricardo luti 1216, x5014 cordoba, argentina
+t:18610940
+k:start fit®|av. pablo ricchieri 2889, x5016 cordoba, argentina
+t:18058513
+k:effort gym|ituzaingo 441, x5000 cordoba, argentina
+t:16537948
+k:centro de acondicimieto fisico bienestar|tolosa 2380, x5000 cordoba, argentina
+t:16242659
+k:optica glow|av. monsenor pablo cabrera 3264, x5008 cordoba, argentina
+t:12043859
+m:opticaglow.cba@gmail.com
+k:mas vision cordoba shopping|cordoba shopping, jose antonio de goyechea 2851, x5009 cordoba, argentina
+t:32591113
+m:ecommerce@masvision.com.ar
+k:optica lutz ferrando - cordoba shopping|jose antonio de goyechea 2851, x5000 cordoba, argentina
+t:16457840
+k:valeria bordese espacio optico - zona norte|virgen de la merced 2345, x5009noe cordoba, argentina
+t:16815502
+k:verduleria y dietetica mari y marcelo|homero 2036, x5012 kdj, cordoba, argentina
+t:12016516
+k:la verdu & menu diario|c. publica a 3178, x5012 cordoba, argentina
+t:17406546
+k:verduleria abacaxi|adolfo alsina 2602, x5012 cordoba, argentina
+t:16837978
+k:las 4 estaciones|jacinto de altolaguirre 2491 esquina leon pinelo local 2 yofre norte 5012, x5012kkq, cordoba, argentina
+t:16138708
+k:ferreteria tronador|av. tronador 2407, x5011 cordoba, argentina
+t:18519867
+m:ferreteria.tronador@gmail.com
+k:buloneria carlini|av. duarte quiros 3021, x5002 cordoba, argentina
+t:17268399
+k:ferre teros – todo para tu casa [don bosco]|av. mahatma gandhi 436, x5000 cordoba, argentina
+t:16867721
+k:ferreteria mifer|av. colon 3333, x5003dde cordoba, argentina
+t:18935262
+k:zurgena|av. velez sarsfield 3196, x5016 cordoba, argentina
+t:17066284
+m:zurgenatienda@gmail.com
+k:sr. che|aba, av. eugenia tapia de cruz 885, b1625 belen de escobar, provincia de buenos aires, argentina
+t:65486942
+m:sr.che@hotmail.com
+k:la tienda escobar perfumeria|sarmiento 455, b1625 belen de escobar, provincia de buenos aires, argentina
+t:30269912
+m:latienda.escobar@gmail.com
+k:estancias chiripa - portal escobar|ruta prov. n°25 y, colectora oeste ramal escobar, b1625 belen de escobar, provincia de buenos aires, argentina
+t:38435005
+k:supermercados rufino|emilio lamarca 3939, x5009 cordoba, argentina
+t:17065626
+k:puesto urca|mariano larra 3340, x5000 cordoba, argentina
+t:17399486
+k:tienda serrana urca|menendez pidal 3909, x5009 cordoba, argentina
+t:18094109
+k:independencia® [urca]|emilio lamarca 3949 loc 1, x5000iuh cordoba, argentina
+t:13243354
+k:kiosco sol de mesa|x5004 cordoba, argentina
+t:13151914
+k:kiosco tercer tiempo- agencia 2252|urca, mariano larra 3613 depto 5, x5009 cordoba, argentina
+t:16813890
+k:1918 market|avenida ramon menendez pidal 4009, x5009 cordoba, argentina
+t:18143159
+k:maxikiosco krusty|mariano larra 3995, x5009 cordoba, argentina
+t:16808936
+k:olimpus training box|coronel jose acevey 1253, x5000 cordoba, argentina
+t:18744382
+k:vector - centro de entrenamiento especializado|jeronimo cortes 101, x5001 cordoba, argentina
+t:17891148
+k:magnitud fitness|rivera indarte 2198, x5000 cordoba, argentina
+t:16070669
+k:pilates - entrenamiento integral|jose baigorri 421, x5001aji cordoba, argentina
+t:18631035
+k:carnes premium|clpn blas de peralta 4094, x5008cgd cordoba, argentina
+t:16019596
+k:carniceria la entranita|av. ambrosio olmos 1036, x5000 cordoba, argentina
+t:17555740
+k:brosas frescas de ternera|oncativo 50, x5000 cordoba, argentina
+t:12476125
+k:casita rodante|bv elias yofre 1250 loc 5, x5016 cordoba, argentina
+t:17501953
+m:casitarodantejugueteria@gmail.com
+k:gift shop|elias yofre 1260 1er piso local 11, 5016 cordoba, argentina
+t:16759508
+k:merceria pato|jardin espinosa, bernardo o'higgins 3248, x5014 ign, cordoba, argentina
+t:16165337
+k:buena vibra barberia|b°, maracaibo 655, ayacucho, cordoba, argentina
+t:16570662
+k:guapa estetica|ayacucho, los tintines 209, x5001die cordoba, argentina
+t:16135449
+k:sumenza|dr. arturo capdevila 176, x5001 cordoba, argentina
+t:18043861
+k:mauricio peluqueria & barberia|jose franco 525, x5012 cordoba, argentina
+t:17517819
+k:sanatorio de la canada|av. j. m. de pueyrredon 652, x5000 bsq, cordoba, argentina
+t:13189466
+m:info@sanatoriodelacanada.com.ar
+k:consultorio bo gral. paz (dr. remonda | oftalmologia veterinaria)|gral. roman deheza 164, x5900 cordoba, argentina
+t:16000050
+m:info@oftalmologiaveterinaria.com.ar
+k:hospital veterinario herriot 24hs|av. emilio olmos 480, x5000 cordoba, argentina
+t:18357070
+k:a.g.e.p.j. centro de salud|san jose de calasanz 279, x5000lhe cordoba, argentina
+t:17656464
+k:adaarc asociacion de anestesiologia, analgesia y reanimacion de cordoba|montevideo 1039 observatorio, x5000axo cordoba, argentina
+m:tucorreo@gmail.com
+k:federacion medico gremial de la provincia de cordoba|mariano moreno 475, x5000mri cordoba, argentina
+t:17605515
+k:federacion cordobesa de voleibol|comechingones 554, x5000 cordoba, argentina
+m:fcv@fcvoley.org.ar
+k:el club|c. publica, manantiales, cordoba, argentina
+t:15557999
