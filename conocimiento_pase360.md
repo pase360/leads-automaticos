@@ -215,4 +215,4 @@ el agente debe explicar bien esto de la generación masiva y de combos, no solo 
 
 - 2026-11-17: ¿Es posible probar el servicio sin abonar el pago semestral? → No, el servicio no cuenta con pruebas gratuitas. El abono semestral es de un valor reducido para garantizar que sea accesible para todos los comercios.
 
-- 2026-11-24: Por qué la plataforma cobra 5000 al adherirse como generador de beneficios → Al adherirse como generador, la plataforma le cobra ese importe para validar el medio de pago y se reembolsa de manera automática a través del mismo medio de pago, esto es solo para los generadores, porque no se admite en dlocalgo suscripciones a precio 0 en el caso de los comercios no sucede porque la suscripción es de 30000 semestral 6 al momento de adherirse ya cobra ese monto
+- 2026-11-24: Por qué la plataforma cobra 5000 al adherirse como generador de beneficios → Al adherirse como generador, la plataforma cobra ese importe para validar el medio de pago y se reembolsa de manera automática a través del mismo medio de pago.-
