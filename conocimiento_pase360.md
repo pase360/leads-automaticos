@@ -250,3 +250,5 @@ el agente debe explicar bien esto de la generación masiva y de combos, no solo 
 - 2026-11-24: Por qué la plataforma cobra 5000 al adherirse como generador de beneficios → Al adherirse como generador, la plataforma cobra ese importe para validar el medio de pago y se reembolsa de manera automática a través del mismo medio de pago.-
 
 - 2026-11-24: ¿Con qué plataforma se procesan los pagos de Pase 360? → Todos los cobros se procesan con la plataforma de pagos dLocal Go, con tarjeta de débito o crédito. Pase 360 no guarda los datos de la tarjeta: se registran de forma segura en dLocal Go.
+
+- 2026-11-24: ¿Cuántos combos se pueden generar por cada beneficiario en el mes? → Si el beneficiario ya tiene un QR generado por generación masiva, puedes generar la cantidad de combos que quieras para ese beneficiario, recordá que todos los QR si no se usan a fin de mes vencen
