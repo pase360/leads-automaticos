@@ -1905,3 +1905,107 @@ k:federacion cordobesa de voleibol|comechingones 554, x5000 cordoba, argentina
 m:fcv@fcvoley.org.ar
 k:el club|c. publica, manantiales, cordoba, argentina
 t:15557999
+k:positano restobar|ramon carcano 1199-1113, x1113 cordoba, argentina
+t:16505433
+k:gallo de mar — fish & chicken market.|ramon carcano 1291, x5003ivg cordoba, argentina
+t:17022266
+k:garin pinturerias|rivadavia 421, x5000 ipi, cordoba, argentina
+t:16615593
+k:garin pinturerias|fray mamerto esquiu 1100, x5004afd cordoba, argentina
+t:16615552
+k:pintureria en cordoba - pintecord|rivadavia 492, x5000 kej, cordoba, argentina
+t:17625105
+k:pintureria szumik|domingo f. sarmiento 1046, x5000 cordoba, argentina
+m:info@szumik.com.ar
+k:el almazen|esquina francisco de, copina 1354, arganaras y murguia 3251, cordoba, argentina
+t:17510003
+k:centro vecinal barrio matienzo|los pinos 3747, x5011 cordoba, argentina
+t:16564114
+k:panaderia tronador|av. tronador 2339, x5010 cordoba, argentina
+t:16225565
+k:panaderia panes i mas|av. sagrada familia 447 loc. 19, x5000 cordoba, argentina
+t:16173032
+k:la casa del kioskero|republica de israel 79, x5000 cordoba, argentina
+t:16855899
+m:ventas@lacasadelkioskero.com.ar
+k:hiper kiosco pablo & franco|av. ambrosio olmos 799 nueva, x5000 cordoba, argentina
+t:16635302
+k:kiosco chacabuco|blvr. chacabuco 412, x5000 iie, cordoba, argentina
+t:13918925
+k:kiosco mamatesta 24hs|x5000jfn, av. roque saenz pena 1500-1598, x5000jfn cordoba, argentina
+t:18091713
+k:cafe del alba|9 de julio 482, x5000emj cordoba, argentina
+t:16081791
+k:pink cafe|belgrano 867, x5000 cordoba, argentina
+t:13539322
+k:ferreteria zumaran|av. vives 3173, x5008 cordoba, argentina
+t:18067435
+k:bertoldi perfumeria profesional|av. gral. paz 85, x5000 cordoba, argentina
+t:18500559
+k:fiorani libertad general paz|libertad 1100, x5004akr cordoba, argentina
+t:15070281
+k:templo de perfumes|san lorenzo 298, x5000aze cordoba, argentina
+t:17866871
+k:palacio beauty|av. rancagua 2352, x5000 cordoba, argentina
+t:16560718
+k:franceschini|av. fuerza aerea argentina 2721, x5010 cordoba, argentina
+t:16430907
+k:torta express di|av. fuerza aerea argentina 3014, x5010 cordoba, argentina
+t:18155328
+k:coconut pasteleria|juan h. vieytes 1528, x5000 cordoba, argentina
+t:12933519
+k:sabor hogar|hipolito vieytes 1527, x5010aos cordoba, argentina
+t:18052671
+k:andrea franceschini – helados|punilla 2053, x5006bkk x5006bkk, cordoba, argentina
+t:16842327
+k:heladeria y kiosco via bana minorista|guandacol 1853, x5006 cordoba, argentina
+t:13845690
+k:patio olmos shopping|av. velez sarsfield 361, x5000jjd cordoba, argentina
+t:17608343
+m:informes@polmos.com.ar
+k:uvarox|bv bonciolini, manzana 64 lote 2 oficina 4, x5000 cordoba, argentina
+t:15602511
+m:info@uvarox.com
+k:invisible moda|av. velez sarsfield 214, x5000jjp cordoba, argentina
+t:16074999
+k:nina mayorista|corrientes 161, x5000 cordoba, argentina
+t:12534082
+k:cabritos don lucas|x5200 dean funes, cordoba, argentina
+t:21411138
+k:trigatti bakery|rondeau 601, x5000avm cordoba, argentina
+t:18147043
+k:la pasteleria oficial | cafe de especialidad|ituzaingo 1046, x5000 cordoba, argentina
+t:16060870
+k:la sintaqueria sin tacc|crisol 14, x5000bvb cordoba, argentina
+t:18648995
+k:ferrero herrajes|san jeronimo 2190, x5006ijr cordoba, argentina
+t:16811998
+m:presupuestos@ferreroherrajes.com.ar
+k:ferreteria inducons|ikl, san jeronimo 3198, x5006 x5006ikl, cordoba, argentina
+t:17525555
+k:ferreteria anita|agustin garzon 3109, x5000 cordoba, argentina
+t:13954104
+k:distribuidora blunno|bv. los granaderos 2368, x5000 cordoba, argentina
+t:17030149
+k:autoservicio comestibles|la rioja 1207 loc 1, x5000 cordoba, argentina
+t:17473264
+k:mercado de abasto – cordoba|av. de la semilleria s/n, x5000 cordoba, argentina
+m:administracion@coopmercoop.com.ar
+k:lavadero estacion 22 alberdi|la rioja 1282, x5121 cordoba, argentina
+t:17512247
+k:ch pro detail®|c. publica 150, x5003 cordoba, argentina
+t:18012869
+k:lavadero full wash hiper lugones|joaquin camano y bazan 4494, x5008 x5008bbb, cordoba, argentina
+t:17609894
+k:para ti regalos|av. j. m. de pueyrredon 1361, x5000 cordoba, argentina
+t:18048197
+k:asociacion civil accion participativa san roque|aviador richardson 1745, x5010 cordoba, argentina
+t:15647204
+k:acic (asociacion cultural israelita de cordoba)|villanueva 3040, x5000 cordoba, argentina
+t:17671583
+k:sindicato petrolero de cordoba|ayacucho 575, x5000juk cordoba, argentina
+m:afiliados@sinpecor.com.ar
+k:sindicato de amas de casa cordoba|santiago del estero 333, x5022fog cordoba, argentina
+m:sacra@sacracordoba.com.ar
+k:club empleados banco nacion cordoba|av. ricardo rojas 9849, x5149 cordoba, argentina
+t:18022996
