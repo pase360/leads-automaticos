@@ -2009,3 +2009,115 @@ k:sindicato de amas de casa cordoba|santiago del estero 333, x5022fog cordoba, a
 m:sacra@sacracordoba.com.ar
 k:club empleados banco nacion cordoba|av. ricardo rojas 9849, x5149 cordoba, argentina
 t:18022996
+k:style store by vartanian group - nuevo centro shopping|av. duarte quiros 1400 gondola central, x5000amb cordoba, argentina
+t:18011558
+m:peregrinajoyas@gmail.com
+k:compro oro|galeria de las americas, san martin 180 loc 72, x5000 cordoba, argentina
+t:16565574
+m:compraventajoyeriacleopatra@gmail.com
+k:pacora - nuevocentro shopping|av. duarte quiros 1400, x5000 cordoba, argentina
+t:12021174
+k:el orfebre joyas|dinosaurio mall - alto verde, rodriguez del busto 4086 loc 86, x5009jsa cordoba, argentina
+t:17962122
+k:pintureria en cordoba - pintecord|bernardo o'higgins 3240, x5000 cordoba, argentina
+t:12491934
+k:garin pinturerias|san jeronimo 2902, x5006 ikh, cordoba, argentina
+t:16615094
+k:optica valencia - nueva cordoba|rondeau 188, x5000avd cordoba, argentina
+t:16858757
+m:opticavalenciacba@gmail.com
+k:optica optisima|dr. t. achaval rodriguez 94, x5000 cordoba, argentina
+t:13332515
+k:optica almiron|san lorenzo 284, x5000 cordoba, argentina
+t:18056096
+k:mecanica manavella|x5014 cordoba, argentina
+t:16841234
+m:mecanicamanavella@outlook.com.ar
+k:taller tito|jose javier diaz 1815, x5014 cordoba, argentina
+t:17912773
+k:mecanica sm|rafael garcia 3031, x5016eqa cordoba, argentina
+t:16534217
+k:mecanica automotriz|emilio civit 1054, x5016 cordoba, argentina
+t:17049617
+k:natural force gym & life|julio a. roca 1659, x5010gmj cordoba, argentina
+t:18068097
+k:genesis ɢʏᴍ [sede patria]|av. patria 484, x5022cps x5022cps, cordoba, argentina
+t:18094535
+k:jisa fit|av. fuerza aerea argentina 3951, x5000 cordoba, argentina
+t:13171471
+k:manantial – ꜰɪᴛɴᴇss ᴄᴇɴᴛᴇʀ [chacabuco]|blvr. chacabuco 1068, x5000 cordoba, argentina
+t:12677323
+k:maxi gentili pasteleria|dr. manuel lucero 20, x5001 cordoba, argentina
+t:18154755
+k:santo stefano|mauricio yadarola 343, x5001cxg cordoba, argentina
+t:17072718
+k:chalapo|el chaco 920, x5000 x5000fyf, cordoba, argentina
+t:16967470
+k:sabores del peru (sabores del peru) [alta cordoba]|jeronimo luis de cabrera 1041, x5000gvu cordoba, argentina
+t:16376388
+k:restaurante la tia cucha|chubut 747, x5000lyo cordoba, argentina
+t:16073330
+k:mia pizza providencia|x5008 cordoba, argentina
+t:18513095
+k:marassa joyas|av rafael nunez 3868, galeria precedo, x5000 cordoba, argentina
+t:12700022
+m:e-marassajoyas@marassajoyas.com.ar
+k:dulce maria joyeria|av. belgrano 287, x5186 alta gracia, cordoba, argentina
+t:47635071
+m:dulcemariajoyeriaag@gmail.com
+k:perfect silver joyas|corrientes 60, x5000anb cordoba, argentina
+t:16360194
+k:dp service|francisco nunez 250, x5200 dean funes, cordoba, argentina
+t:16133778
+k:gps taller - taller moldovani|bombero medina (ruta 60), dean funes 5200, x5200 dean funes, cordoba, argentina
+t:21440073
+k:rectificaciones ugolino|chacabuco, x5200 dean funes, cordoba, argentina
+t:25537863
+k:taller murray, axulio mecanico de camiones|teresa de calcuta 60, x5200 dean funes, cordoba, argentina
+t:21401651
+k:las rosas restaurante|luis tessandori 753 ex ruta 14, x5885 villa de las rosas, cordoba, argentina
+t:44413773
+k:la churreria de villa de las rosas|esquina las breas, ruta 14, x5885 villa de las rosas, cordoba, argentina
+t:44413625
+k:cordoba, villa las rosas|unnamed road, cordoba, argentina
+t:12558396
+k:la casa del policia|alberdi, sta rosa 1276, x5000esz cordoba, argentina
+t:18666050
+m:info@lacasadelpolicia.shop
+k:bambino bb cba|rodriguez pena 38, x5003 cordoba, argentina
+t:16870485
+m:bambinobb04@gmail.com
+k:la argentina - nuevocentro shopping|av. duarte quiros 1400, x5000amb cordoba, argentina
+t:16167461
+k:marula's|tucuman 63, cordoba centro, x5000 jsa, cordoba, argentina
+t:18525458
+k:black chair [alta cordoba]|miguel de cervantes 775, x5001aro cordoba, argentina
+t:18003545
+m:contacto@blackchairsalon.com
+k:filo dulce – ʙᴀʀʙᴇʀɪᴀ & ᴘᴇʟᴜϙᴜᴇʀɪᴀ [sucursal: bo las palmas]|duarte quiros 3891, x5003 cordoba, argentina
+t:12358242
+k:malba – ᴇsᴛɪʟɪsᴛᴀs [alta cordoba]|antonio del viso 694, x5000 cordoba, argentina
+t:13972552
+k:las morales peluqueria|obispo oro 321 loc 11, x5000 cordoba, argentina
+t:12671191
+k:belloni hogar|blvd. eduardo bulnes 2336, x5013apn cordoba, argentina
+t:18180438
+m:bellonihogar@hotmail.com
+k:muebleria nico|av. fuerza aerea argentina 4017, x5011 cordoba, argentina
+t:17534629
+k:anticuaria muebles|av. juan b justo 3273, x5000 cordoba, argentina
+t:17688197
+k:la morada muebles|juan b justo 2935, castro barros 302, x5000 cordoba, argentina
+t:15065899
+k:cedac camara empresarial del autotransporte de cargas de cordoba|tillard 1330, cofico, x5000jdd cordoba, argentina
+t:13097727
+m:rdobaruta1@cedac.com.arlunes
+k:mpm - camara argentina de la micro, pequena y mediana empresa|
+t:17433888
+m:camarampm@mpm.org.ar
+k:amefup asociacion mutual de empleados de la funcion publica de la provincia de cordoba|general paz 354, centro, x5000jlq cordoba, argentina
+t:16498547
+k:club atletico defensores central cordoba|cordoba, argentina
+t:16132113
+k:colegio profesional de geologos de la pcia. de cordoba|pje. comercio 489 piso 3 dpto. b, x5000 cordoba, argentina
+t:18648115
