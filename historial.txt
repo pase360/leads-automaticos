@@ -2121,3 +2121,120 @@ k:club atletico defensores central cordoba|cordoba, argentina
 t:16132113
 k:colegio profesional de geologos de la pcia. de cordoba|pje. comercio 489 piso 3 dpto. b, x5000 cordoba, argentina
 t:18648115
+k:pinturas cordoba | pintacril|av. leandro n. alem 1353, x5012 cordoba, argentina
+t:13716000
+m:pinturaspintacril@gmail.com
+k:torres del marquez|fray miguel de mojica 1255, x5008 cordoba, argentina
+t:18089467
+k:plaza kiosco|blvar, blvd. l. suarez de figueroa 451, x5008 cordoba, argentina
+t:16162342
+k:kiosco libreria charo|tomas de irobi 526, x5008 cordoba, argentina
+t:17726871
+k:kiosco don domingo|ezequiel paz 4149, x5000 cordoba, argentina
+t:16571554
+k:pieco editorial y libreria en cordoba|gdor. jose esteban bustos 2039, x5000 cordoba, argentina
+t:12122193
+m:piecolibros@gmail.com
+k:tienda peperina|gdor. jose esteban bustos 1814, x5009 jnv, cordoba, argentina
+t:16339829
+k:urbana|av. rafael nunez 4845 loc 2, x5009cgc cordoba, argentina
+t:17508114
+k:crayola libreria papeleria|tristan malbran 4109, x5009 cordoba, argentina
+t:16899767
+k:avellius - fragancias y cosmeticos de malena paladini|9 de julio 70, x5152 villa carlos paz, cordoba, argentina
+t:41686383
+m:avelliusperfumeriavcp@gmail.com
+k:la casa de los perfumes vcp|alberdi 145, x5152 villa carlos paz, cordoba, argentina
+t:41279436
+k:perfumes nueva cordoba|
+t:16221607
+k:frutas y verduras "alberto"|av. colon 3596, x5000 cordoba, argentina
+t:16431090
+k:mi maria|independencia 222, x5000 iuf, cordoba, argentina
+t:13053030
+m:ventaonlinemimaria@gmail.com
+k:la teresita tienda|av. colon 192, x5000epo cordoba, argentina
+t:17599454
+m:lateresita.tienda@gmail.com
+k:galeria mitre|galeria mitre, dean funes 154 loc q, x5000aad centro, cordoba, argentina
+t:17563030
+k:eztilo!|calle jose, san martin 466, x5022 cordoba, argentina
+t:16509416
+k:manolita & co. – pasteleria|25 de mayo 961, x5004 cordoba, argentina
+t:15310629
+m:ventas.manolita@gmail.com
+k:la patisserie|catamarca 1078, x5900 cordoba, argentina
+t:17013319
+k:zlatna tienda de vestidos|gral. roman deheza 63, x5000 cordoba, argentina
+t:17640604
+m:zlatnatienda@gmail.com
+k:pipa indumentaria femenina|gral. roman deheza 106, x5004 cordoba, argentina
+t:13911727
+m:pipaindu@gmail.com
+k:enanofactory|av. 24 de septiembre 1229, x5000 cordoba, argentina
+t:13080307
+m:ventas@enanofactory.com.ar
+k:ac tienda|gral. roman deheza 148, x5004aoa cordoba, argentina
+t:12062630
+m:ac-tienda@ac-tienda.com
+k:el vergel [urca]|emilio lamarca 4150, x5009dvo cordoba, argentina
+t:16666824
+k:tentacion iberica|emilio lamarca 4135 loc 17, x5009 cordoba, argentina
+t:18047675
+k:godere|tristan malbran 4258, x5009 cordoba, argentina
+t:16226289
+k:en carne propia|av. revolucion de mayo 1741, x5006 cordoba, argentina
+t:13861920
+k:"la aldea" carniceria y verduleria|aaron castellanos 3179-3251, x5011 cordoba, argentina
+t:15599467
+k:el mercado de la carne | carniceria|av. velez sarsfield 3426, x5016 cordoba, argentina
+t:17692341
+k:tienda de carnes eligio|felix paz 426, x5000 cordoba, argentina
+t:16630459
+k:chia® – good food! [cerro de las rosas]|av. rafael nunez 3912, x5009cer cordoba, argentina
+t:18019336
+m:info@chiagoodfood.com
+k:hasta el cielo® (ida y vuelta) [cerro de las rosas]|luis jose de tejeda 4354, x5009 cordoba, argentina
+t:16865149
+m:contacto@hastaelcielo.com.ar
+k:cec electronica showroom cerro de las rosas|felipe de albornoz 2240, x5009heb cordoba, argentina
+t:12021422
+m:su@email.com
+k:de a deveras – ᴍᴇʀᴄᴀᴅᴏ & ᴄᴀꜰᴇ [sucursal: mercado de las rosas]|av. rafael nunez 4580, x5000 cordoba, argentina
+t:15060069
+k:delisema (distribuidora de dieteticas y productos saludables)|domingo zipoli 2187, x5008 cordoba, argentina
+t:62881941
+m:nombre@ejemplo.com
+k:rapsodia|villa cabrera, x5008 cordoba, argentina
+m:contacto@rapsodiastore.com.ar
+k:carnes lalo|monsenor miguel de andrea 1128, x5003 cordoba, argentina
+t:17519434
+k:carniceria mucho gusto|av. monsenor pablo cabrera 1904, x5008 cordoba, argentina
+t:13921896
+k:lo de paez [marcelo t. de alvear]|av. marcelo t. de alvear 1017, x5000 x5000kha, cordoba, argentina
+t:17698023
+k:la boucherie carnes premium|blvd. san juan 598, x5000 cordoba, argentina
+t:16249910
+k:la docta bulones|candido galvan 609 b° residencial centro america, 5012 cordoba, argentina
+t:17071546
+m:ventas@ladoctacba.com.ar
+k:cerro club original|trafalgar 736, x5001avp cordoba, argentina
+t:18134344
+k:senor zapatos | zapatos grande para hombres en cordoba | zapatos de 45 a 53 de talla|penaranda de bracamonte 2551, x5012 cordoba, argentina
+t:16646190
+k:science gym|thomas edison 1595, x5012 cordoba, argentina
+t:12468783
+k:benefit gym|pablo de mesa y castro 1490, x5012 cordoba, argentina
+t:18067414
+k:camara de la madera, mueble y equipamiento de cordoba (cammec)|av. colon 350 piso 2 oficina 8, x5022 cordoba, argentina
+t:15112530
+m:administracion@cammec.org.ar
+k:camara de turismo de la provincia de cordoba|ramon carcano, cordoba, argentina
+t:15326554
+m:camtucor@gmail.com
+k:osceara obra social cordoba|lima 1023, x5000fhk cordoba, argentina
+t:15760170
+k:osmedica obra social de los medicos|gral. simon bolivar 362, x5000jzh cordoba, argentina
+t:53323333
+k:espacios para crecer - asociacion civil|madre sacramento 1850, x5014 cordoba, argentina
+t:17536322
